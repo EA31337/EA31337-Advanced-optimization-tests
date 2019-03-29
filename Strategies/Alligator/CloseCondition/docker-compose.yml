@@ -1,0 +1,73 @@
+version: '3.4'
+services:
+  Alligator1_CloseCondition:
+    command: run_backtest -v
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator1_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Alligator1_CloseCondition
+      SET_PARAMS: Alligator1_CloseCondition
+      RUN_ON_SUCCESS: input_copy Alligator1_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+      BT_DEST: /opt/_results/EURUSD
+  Alligator5_CloseCondition:
+    command: run_backtest -v
+    image: ea31337:advanced-eurusd-2018
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator5_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Alligator5_CloseCondition
+      SET_PARAMS: Alligator5_CloseCondition
+      RUN_ON_SUCCESS: input_copy Alligator5_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+      BT_DEST: /opt/_results/EURUSD
+  Alligator15_CloseCondition:
+    command: run_backtest -v
+    image: ea31337:advanced-eurusd-2018
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator15_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Alligator15_CloseCondition
+      SET_PARAMS: Alligator15_CloseCondition
+      RUN_ON_SUCCESS: input_copy Alligator15_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+      BT_DEST: /opt/_results/EURUSD
+  Alligator30_CloseCondition:
+    command: run_backtest -v
+    image: ea31337:advanced-eurusd-2018
+    build:
+      context: ../../..
+      target: eurusd-2018
+    image: ea31337:eurusd-2018
+    volumes:
+    - ./sets:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1
+      SETFILE: /opt/sets/EURUSD/EA31337-Alligator30_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Alligator30_CloseCondition
+      SET_PARAMS: Alligator30_CloseCondition
+      RUN_ON_SUCCESS: input_copy Alligator30_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+      BT_DEST: /opt/_results/EURUSD
