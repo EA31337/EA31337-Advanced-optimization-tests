@@ -10,8 +10,6 @@ ValidateSettings=0
 PrintLogOnChart=0
 WriteReport=0
 RecordTicksToCSV=0
-VerboseInfo=0
-VerboseErrors=0
 # Strategy params.
 AC_Active_Tf=0
 AD_Active_Tf=0
@@ -36,5 +34,5 @@ ADX5_OpenCondition2=0
 ADX5_OpenCondition1=971
 ADX5_OpenCondition1,F=1
 ADX5_OpenCondition1,1=1
-ADX5_OpenCondition1,2=97
+ADX5_OpenCondition1,2=55
 ADX5_OpenCondition1,3=1023

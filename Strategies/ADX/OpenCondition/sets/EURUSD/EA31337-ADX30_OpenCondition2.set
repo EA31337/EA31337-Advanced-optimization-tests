@@ -10,8 +10,6 @@ ValidateSettings=0
 PrintLogOnChart=0
 WriteReport=0
 RecordTicksToCSV=0
-VerboseInfo=0
-VerboseErrors=0
 # Strategy params.
 AC_Active_Tf=0
 AD_Active_Tf=0
@@ -33,8 +31,8 @@ WPR_Active_Tf=0
 ADX30_SignalMethod=0
 ADX30_OpenCondition1=0
 # Optimization params.
-ADX30_OpenCondition2=1
+ADX30_OpenCondition2=777
 ADX30_OpenCondition2,F=1
 ADX30_OpenCondition2,1=1
-ADX30_OpenCondition2,2=97
+ADX30_OpenCondition2,2=55
 ADX30_OpenCondition2,3=1023

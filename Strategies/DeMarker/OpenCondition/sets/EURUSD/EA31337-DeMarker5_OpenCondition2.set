@@ -2,7 +2,7 @@
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
-CloseOrderAfterXHours=24
+CloseOrderAfterXHours=2
 MinPipGap=0
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
@@ -10,8 +10,6 @@ ValidateSettings=0
 PrintLogOnChart=0
 WriteReport=0
 RecordTicksToCSV=0
-VerboseInfo=0
-VerboseErrors=0
 # Strategy params.
 AC_Active_Tf=0
 AD_Active_Tf=0
@@ -19,7 +17,7 @@ ADX_Active_Tf=0
 Alligator_Active_Tf=0
 Bands_Active_Tf=0
 CCI_Active_Tf=0
-DeMarker_Active_Tf=0
+DeMarker_Active_Tf=2
 Envelopes_Active_Tf=0
 Force_Active_Tf=0
 Fractals_Active_Tf=0
@@ -33,7 +31,7 @@ WPR_Active_Tf=0
 DeMarker5_SignalMethod=0
 DeMarker5_OpenCondition1=0
 # Optimization params.
-DeMarker5_OpenCondition2=874
+DeMarker5_OpenCondition2=777
 DeMarker5_OpenCondition2,F=1
 DeMarker5_OpenCondition2,1=1
 DeMarker5_OpenCondition2,2=97

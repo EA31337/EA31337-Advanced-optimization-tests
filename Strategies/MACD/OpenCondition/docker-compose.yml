@@ -2,129 +2,89 @@ version: '3.4'
 services:
   MACD1_OpenCondition1:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD1_OpenCondition1.set
+      SETFILE: /opt/sets/EA31337-MACD1_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MACD1_OpenCondition1
       SET_PARAMS: MACD1_OpenCondition1
-      RUN_ON_SUCCESS: input_copy MACD1_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD5_OpenCondition1:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD5_OpenCondition1.set
+      SETFILE: /opt/sets/EA31337-MACD5_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MACD5_OpenCondition1
       SET_PARAMS: MACD5_OpenCondition1
-      RUN_ON_SUCCESS: input_copy MACD5_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD15_OpenCondition1:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD15_OpenCondition1.set
+      SETFILE: /opt/sets/EA31337-MACD15_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MACD15_OpenCondition1
       SET_PARAMS: MACD15_OpenCondition1
-      RUN_ON_SUCCESS: input_copy MACD15_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD30_OpenCondition1:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD30_OpenCondition1.set
+      SETFILE: /opt/sets/EA31337-MACD30_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MACD30_OpenCondition1
       SET_PARAMS: MACD30_OpenCondition1
-      RUN_ON_SUCCESS: input_copy MACD30_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD1_OpenCondition2:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD1_OpenCondition2.set
+      SETFILE: /opt/sets/EA31337-MACD1_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MACD1_OpenCondition2
       SET_PARAMS: MACD1_OpenCondition2
-      RUN_ON_SUCCESS: input_copy MACD1_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD5_OpenCondition2:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD5_OpenCondition2.set
+      SETFILE: /opt/sets/EA31337-MACD5_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MACD5_OpenCondition2
       SET_PARAMS: MACD5_OpenCondition2
-      RUN_ON_SUCCESS: input_copy MACD5_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD15_OpenCondition2:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD15_OpenCondition2.set
+      SETFILE: /opt/sets/EA31337-MACD15_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MACD15_OpenCondition2
       SET_PARAMS: MACD15_OpenCondition2
-      RUN_ON_SUCCESS: input_copy MACD15_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   MACD30_OpenCondition2:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-MACD30_OpenCondition2.set
+      SETFILE: /opt/sets/EA31337-MACD30_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MACD30_OpenCondition2
       SET_PARAMS: MACD30_OpenCondition2
-      RUN_ON_SUCCESS: input_copy MACD30_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD

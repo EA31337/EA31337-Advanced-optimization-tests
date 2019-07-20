@@ -10,8 +10,6 @@ ValidateSettings=0
 PrintLogOnChart=0
 WriteReport=0
 RecordTicksToCSV=0
-VerboseInfo=0
-VerboseErrors=0
 # Strategy params.
 AC_Active_Tf=0
 AD_Active_Tf=8
@@ -36,5 +34,5 @@ AD30_OpenCondition2=0
 AD30_OpenCondition1=292
 AD30_OpenCondition1,F=1
 AD30_OpenCondition1,1=1
-AD30_OpenCondition1,2=97
+AD30_OpenCondition1,2=55
 AD30_OpenCondition1,3=1023

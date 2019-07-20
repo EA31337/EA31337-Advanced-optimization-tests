@@ -11,7 +11,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR1_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-ATR1_OpenCondition1
       SET_PARAMS: ATR1_OpenCondition1
-      RUN_ON_SUCCESS: input_copy ATR1_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR5_OpenCondition1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -23,7 +22,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR5_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-ATR5_OpenCondition1
       SET_PARAMS: ATR5_OpenCondition1
-      RUN_ON_SUCCESS: input_copy ATR5_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR15_OpenCondition1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -35,7 +33,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR15_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-ATR15_OpenCondition1
       SET_PARAMS: ATR15_OpenCondition1
-      RUN_ON_SUCCESS: input_copy ATR15_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR30_OpenCondition1:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -47,7 +44,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR30_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-ATR30_OpenCondition1
       SET_PARAMS: ATR30_OpenCondition1
-      RUN_ON_SUCCESS: input_copy ATR30_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR1_OpenCondition2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -59,7 +55,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR1_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-ATR1_OpenCondition2
       SET_PARAMS: ATR1_OpenCondition2
-      RUN_ON_SUCCESS: input_copy ATR1_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR5_OpenCondition2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -71,7 +66,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR5_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-ATR5_OpenCondition2
       SET_PARAMS: ATR5_OpenCondition2
-      RUN_ON_SUCCESS: input_copy ATR5_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR15_OpenCondition2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -83,7 +77,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR15_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-ATR15_OpenCondition2
       SET_PARAMS: ATR15_OpenCondition2
-      RUN_ON_SUCCESS: input_copy ATR15_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR30_OpenCondition2:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -95,4 +88,3 @@ services:
       SETFILE: /opt/sets/EA31337-ATR30_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-ATR30_OpenCondition2
       SET_PARAMS: ATR30_OpenCondition2
-      RUN_ON_SUCCESS: input_copy ATR30_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh

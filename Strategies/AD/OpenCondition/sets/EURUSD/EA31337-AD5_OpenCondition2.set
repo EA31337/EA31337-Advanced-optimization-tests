@@ -10,8 +10,6 @@ ValidateSettings=0
 PrintLogOnChart=0
 WriteReport=0
 RecordTicksToCSV=0
-VerboseInfo=0
-VerboseErrors=0
 # Strategy params.
 AC_Active_Tf=0
 AD_Active_Tf=2
@@ -33,8 +31,8 @@ WPR_Active_Tf=0
 AD5_SignalMethod=0
 AD5_OpenCondition1=0
 # Optimization params.
-AD5_OpenCondition2=680
+AD5_OpenCondition2=486
 AD5_OpenCondition2,F=1
 AD5_OpenCondition2,1=1
-AD5_OpenCondition2,2=97
+AD5_OpenCondition2,2=55
 AD5_OpenCondition2,3=1023

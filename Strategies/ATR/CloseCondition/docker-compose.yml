@@ -12,7 +12,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR1_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR1_CloseCondition
       SET_PARAMS: ATR1_CloseCondition
-      RUN_ON_SUCCESS: input_copy ATR1_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR5_CloseCondition:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -25,7 +24,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR5_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR5_CloseCondition
       SET_PARAMS: ATR5_CloseCondition
-      RUN_ON_SUCCESS: input_copy ATR5_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR15_CloseCondition:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -38,7 +36,6 @@ services:
       SETFILE: /opt/sets/EA31337-ATR15_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR15_CloseCondition
       SET_PARAMS: ATR15_CloseCondition
-      RUN_ON_SUCCESS: input_copy ATR15_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
   ATR30_CloseCondition:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -51,4 +48,3 @@ services:
       SETFILE: /opt/sets/EA31337-ATR30_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR30_CloseCondition
       SET_PARAMS: ATR30_CloseCondition
-      RUN_ON_SUCCESS: input_copy ATR30_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
