@@ -1,0 +1,24 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Lite-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Control points (a very crude method, the results must not be considered)
+                            Initial deposit 10000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1     0.00            0          0.00            0.00       0.00       0.00  AC_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+              2  -205.37          194          0.78           -1.06     251.87       2.51  AC_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+              8 -1605.77         1176          0.61           -1.37    1706.47      16.89  AC_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+              7 -2241.70          690          0.70           -3.25    2380.12      23.54  AC_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+              6 -2300.84         2766          0.73           -0.83    2460.34      24.22  AC_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+              5 -2435.36         1920          0.79           -1.27    2812.18      27.10  AC_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+              9 -3396.65         2586          0.81           -1.31    4153.70      38.61 AC_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             10 -3584.75         3721          0.70           -0.96    3879.60      37.68 AC_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+              4 -4701.31         2405          0.63           -1.95    4760.51      47.32  AC_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+              3 -4863.27         2164          0.59           -2.25    5033.24      49.49  AC_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;

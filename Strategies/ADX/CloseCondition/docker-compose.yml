@@ -1,0 +1,54 @@
+version: '3.4'
+services:
+  ADX1_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1-2
+      SETFILE: /opt/sets/EA31337-ADX1_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-ADX1_CloseCondition
+      SET_PARAMS: ADX1_CloseCondition
+      RUN_ON_SUCCESS: input_copy ADX1_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+  ADX5_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1-2
+      SETFILE: /opt/sets/EA31337-ADX5_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-ADX5_CloseCondition
+      SET_PARAMS: ADX5_CloseCondition
+      RUN_ON_SUCCESS: input_copy ADX5_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+  ADX15_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1-2
+      SETFILE: /opt/sets/EA31337-ADX15_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-ADX15_CloseCondition
+      SET_PARAMS: ADX15_CloseCondition
+      RUN_ON_SUCCESS: input_copy ADX15_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
+  ADX30_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1-2
+      SETFILE: /opt/sets/EA31337-ADX30_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-ADX30_CloseCondition
+      SET_PARAMS: ADX30_CloseCondition
+      RUN_ON_SUCCESS: input_copy ADX30_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh

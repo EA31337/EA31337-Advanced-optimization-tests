@@ -1,11 +1,19 @@
-# Overridden params.
+# Base params.
 LotSize=0.01
 Boosting_Enabled=0
 Account_Conditions_Active=0
+CloseOrderAfterXHours=1
+MinPipGap=0
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
+ValidateSettings=0
+PrintLogOnChart=0
+WriteReport=0
+RecordTicksToCSV=0
+VerboseInfo=0
+VerboseErrors=0
 # Strategy params.
-AC_Active_Tf=14
+AC_Active_Tf=0
 AD_Active_Tf=0
 ADX_Active_Tf=0
 Alligator_Active_Tf=0
@@ -13,7 +21,7 @@ Bands_Active_Tf=0
 CCI_Active_Tf=0
 DeMarker_Active_Tf=0
 Envelopes_Active_Tf=0
-Force_Active_Tf=0
+Force_Active_Tf=1
 Fractals_Active_Tf=0
 MA_Active_Tf=0
 MACD_Active_Tf=0
@@ -21,8 +29,12 @@ MFI_Active_Tf=0
 RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
+# Required params.
+Force1_SignalMethod=0
+Force1_OpenCondition1=0
 # Optimization params.
-AC_Active_Tf,F=1
-AC_Active_Tf,1=0
-AC_Active_Tf,2=1
-AC_Active_Tf,3=15
+Force1_OpenCondition2=1
+Force1_OpenCondition2,F=1
+Force1_OpenCondition2,1=1
+Force1_OpenCondition2,2=97
+Force1_OpenCondition2,3=1023

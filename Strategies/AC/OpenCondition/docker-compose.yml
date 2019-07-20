@@ -1,0 +1,99 @@
+version: '3.4'
+services:
+  AC1_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      BT_MONTHS: 1-2
+      SETFILE: /opt/sets/EA31337-AC1_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-AC1_OpenCondition1
+      SET_PARAMS: AC1_OpenCondition1
+      RUN_ON_SUCCESS: input_copy AC1_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC5_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC5_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-AC5_OpenCondition1
+      SET_PARAMS: AC5_OpenCondition1
+      RUN_ON_SUCCESS: input_copy AC5_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC15_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC15_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-AC15_OpenCondition1
+      SET_PARAMS: AC15_OpenCondition1
+      RUN_ON_SUCCESS: input_copy AC15_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC30_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC30_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-AC30_OpenCondition1
+      SET_PARAMS: AC30_OpenCondition1
+      RUN_ON_SUCCESS: input_copy AC30_OpenCondition1 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC1_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC1_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-AC1_OpenCondition2
+      SET_PARAMS: AC1_OpenCondition2
+      RUN_ON_SUCCESS: input_copy AC1_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC5_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC5_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-AC5_OpenCondition2
+      SET_PARAMS: AC5_OpenCondition2
+      RUN_ON_SUCCESS: input_copy AC5_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC15_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC15_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-AC15_OpenCondition2
+      SET_PARAMS: AC15_OpenCondition2
+      RUN_ON_SUCCESS: input_copy AC15_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
+  AC30_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-AC30_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-AC30_OpenCondition2
+      SET_PARAMS: AC30_OpenCondition2
+      RUN_ON_SUCCESS: input_copy AC30_OpenCondition2 "$${SETFILE}" /opt/advanced/ea-input.mqh
