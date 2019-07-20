@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 Force30_SignalMethod=0
 Force30_OpenCondition1=0
 # Optimization params.
-Force30_OpenCondition2=1
+Force30_OpenCondition2=195
 Force30_OpenCondition2,F=1
 Force30_OpenCondition2,1=1
 Force30_OpenCondition2,2=97

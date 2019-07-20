@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 MFI1_SignalMethod=0
 MFI1_OpenCondition2=0
 # Optimization params.
-MFI1_OpenCondition1=971
+MFI1_OpenCondition1=874
 MFI1_OpenCondition1,F=1
 MFI1_OpenCondition1,1=1
 MFI1_OpenCondition1,2=97

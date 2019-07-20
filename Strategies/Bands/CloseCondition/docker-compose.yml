@@ -8,7 +8,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-Bands1_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Bands1_CloseCondition
       SET_PARAMS: Bands1_CloseCondition
@@ -20,7 +19,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-Bands5_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Bands5_CloseCondition
       SET_PARAMS: Bands5_CloseCondition
@@ -32,7 +30,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-Bands15_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Bands15_CloseCondition
       SET_PARAMS: Bands15_CloseCondition
@@ -44,7 +41,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-Bands30_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Bands30_CloseCondition
       SET_PARAMS: Bands30_CloseCondition

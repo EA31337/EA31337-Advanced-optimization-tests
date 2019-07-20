@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 MACD5_SignalMethod=0
 MACD5_OpenCondition2=0
 # Optimization params.
-MACD5_OpenCondition1=583
+MACD5_OpenCondition1=680
 MACD5_OpenCondition1,F=1
 MACD5_OpenCondition1,1=1
 MACD5_OpenCondition1,2=97

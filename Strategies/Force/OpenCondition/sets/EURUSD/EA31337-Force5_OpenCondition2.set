@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 Force5_SignalMethod=0
 Force5_OpenCondition1=0
 # Optimization params.
-Force5_OpenCondition2=680
+Force5_OpenCondition2=971
 Force5_OpenCondition2,F=1
 Force5_OpenCondition2,1=1
 Force5_OpenCondition2,2=97

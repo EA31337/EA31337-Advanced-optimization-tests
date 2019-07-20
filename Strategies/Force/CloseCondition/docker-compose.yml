@@ -1,0 +1,46 @@
+version: '3.4'
+services:
+  Force1_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force1_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Force1_CloseCondition
+      SET_PARAMS: Force1_CloseCondition
+  Force5_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force5_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Force5_CloseCondition
+      SET_PARAMS: Force5_CloseCondition
+  Force15_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force15_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Force15_CloseCondition
+      SET_PARAMS: Force15_CloseCondition
+  Force30_CloseCondition:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force30_CloseCondition.set
+      TEST_REPORT_NAME: EA31337-Force30_CloseCondition
+      SET_PARAMS: Force30_CloseCondition

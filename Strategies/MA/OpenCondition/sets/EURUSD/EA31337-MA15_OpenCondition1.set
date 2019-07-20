@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 MA15_SignalMethod=0
 MA15_OpenCondition2=0
 # Optimization params.
-MA15_OpenCondition1=98
+MA15_OpenCondition1=583
 MA15_OpenCondition1,F=1
 MA15_OpenCondition1,1=1
 MA15_OpenCondition1,2=97

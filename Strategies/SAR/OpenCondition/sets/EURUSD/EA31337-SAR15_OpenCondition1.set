@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 SAR15_SignalMethod=0
 SAR15_OpenCondition2=0
 # Optimization params.
-SAR15_OpenCondition1=98
+SAR15_OpenCondition1=389
 SAR15_OpenCondition1,F=1
 SAR15_OpenCondition1,1=1
 SAR15_OpenCondition1,2=97

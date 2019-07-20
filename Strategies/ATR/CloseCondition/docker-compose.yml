@@ -8,7 +8,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-ATR1_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR1_CloseCondition
       SET_PARAMS: ATR1_CloseCondition
@@ -20,7 +19,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-ATR5_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR5_CloseCondition
       SET_PARAMS: ATR5_CloseCondition
@@ -32,7 +30,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-ATR15_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR15_CloseCondition
       SET_PARAMS: ATR15_CloseCondition
@@ -44,7 +41,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-ATR30_CloseCondition.set
       TEST_REPORT_NAME: EA31337-ATR30_CloseCondition
       SET_PARAMS: ATR30_CloseCondition

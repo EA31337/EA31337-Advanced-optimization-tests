@@ -31,7 +31,7 @@ WPR_Active_Tf=0
 RSI5_SignalMethod=0
 RSI5_OpenCondition2=0
 # Optimization params.
-RSI5_OpenCondition1=1
+RSI5_OpenCondition1=389
 RSI5_OpenCondition1,F=1
 RSI5_OpenCondition1,1=1
 RSI5_OpenCondition1,2=97
