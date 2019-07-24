@@ -6,9 +6,6 @@ CloseOrderAfterXHours=8
 MinPipGap=0
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
-ValidateSettings=0
-PrintLogOnChart=0
-WriteReport=0
 RecordTicksToCSV=0
 # Strategy params.
 AC_Active_Tf=0
@@ -30,6 +27,7 @@ WPR_Active_Tf=0
 # Required params.
 Alligator30_SignalMethod=0
 Alligator30_OpenCondition2=0
+Alligator30_CloseCondition=0
 # Optimization params.
 Alligator30_OpenCondition1=1
 Alligator30_OpenCondition1,F=1

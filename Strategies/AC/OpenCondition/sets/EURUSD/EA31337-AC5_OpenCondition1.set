@@ -6,9 +6,6 @@ CloseOrderAfterXHours=2
 MinPipGap=0
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
-ValidateSettings=0
-PrintLogOnChart=0
-WriteReport=0
 RecordTicksToCSV=0
 # Strategy params.
 AC_Active_Tf=2
@@ -30,6 +27,7 @@ WPR_Active_Tf=0
 # Required params.
 AC5_SignalMethod=0
 AC5_OpenCondition2=0
+AC5_CloseCondition=0
 # Optimization params.
 AC5_OpenCondition1=971
 AC5_OpenCondition1,F=1

@@ -1,0 +1,12 @@
+# Overridden params.
+LotSize=0.01
+Boosting_Enabled=0
+Account_Conditions_Active=0
+ProfitFactorMinToTrade=0
+ProfitFactorMaxToTrade=0
+# Optimization params.
+TrendMethod=0
+TrendMethod,F=1
+TrendMethod,1=1
+TrendMethod,2=1
+TrendMethod,3=255

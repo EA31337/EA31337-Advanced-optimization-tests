@@ -6,9 +6,6 @@ CloseOrderAfterXHours=8
 MinPipGap=0
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
-ValidateSettings=0
-PrintLogOnChart=0
-WriteReport=0
 RecordTicksToCSV=0
 # Strategy params.
 AC_Active_Tf=0
@@ -30,6 +27,7 @@ WPR_Active_Tf=8
 # Required params.
 WPR30_SignalMethod=0
 WPR30_OpenCondition1=0
+WPR30_CloseCondition=0
 # Optimization params.
 WPR30_OpenCondition2=1
 WPR30_OpenCondition2,F=1

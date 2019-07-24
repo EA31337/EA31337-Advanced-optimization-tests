@@ -8,7 +8,6 @@ services:
     - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      BT_MONTHS: 1-2
       SETFILE: /opt/sets/EA31337-AC1_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-AC1_OpenCondition1
       SET_PARAMS: AC1_OpenCondition1
