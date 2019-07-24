@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                           EA31337-Advanced-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        8    217.65          500          1.11            0.44     260.50       0.26 Force5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+       10   -164.54           72          0.60           -2.29     191.14       0.19 Force5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+       11   -345.15          120          0.33           -2.88     393.15       0.39 Force5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+        6   -534.53          876          0.88           -0.61     882.32       0.88 Force5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+        9   -671.90          590          0.66           -1.14     712.23       0.71 Force5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+        7  -1326.59          570          0.55           -2.33    1490.31       1.49 Force5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+        2  -1400.42         1443          0.82           -0.97    1828.31       1.83  Force5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+        3  -3083.60         2417          0.72           -1.28    3358.08       3.35 Force5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+        5  -9192.19        10261          0.81           -0.90   10382.15      10.34 Force5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+        4 -17504.44        24445          0.85           -0.72   19706.62      19.70 Force5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+        1 -18462.91        21195          0.81           -0.87   20005.59      19.86   Force5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;

@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                           EA31337-Advanced-Optimize-v1.078
+                                                                     (Build 1010)
+
+                            Symbol          EURUSD (Euro vs US Dollar)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Model           Every tick (the most precise method based on all available least timeframes)
+                            Initial deposit 100000.00
+                            Spread          10
+                                                                 [Optimization Graph]
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         8    333.97          522          1.16            0.64     243.78       0.24 MFI5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+        11   -243.06          247          0.76           -0.98     440.70       0.44 MFI5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+        10   -333.46          177          0.69           -1.88     398.92       0.40 MFI5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+         9   -400.82         1181          0.91           -0.34     726.56       0.73 MFI5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+         6   -551.27          806          0.87           -0.68     825.76       0.83 MFI5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+         7  -1202.41          658          0.64           -1.83    1273.21       1.27 MFI5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+         2  -2245.62         2012          0.80           -1.12    2512.08       2.51  MFI5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+         3  -2911.07         2742          0.77           -1.06    3232.12       3.23 MFI5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+         5  -6647.93         8893          0.84           -0.75    8429.83       8.34 MFI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+         4 -15223.98        21755          0.86           -0.70   17211.85      17.18 MFI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+         1 -18341.16        21543          0.82           -0.85   19235.82      19.23   MFI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;

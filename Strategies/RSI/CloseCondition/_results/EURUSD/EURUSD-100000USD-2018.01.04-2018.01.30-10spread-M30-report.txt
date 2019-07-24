@@ -1,0 +1,45 @@
+Currency pair symbol:                       EURUSD
+Initial deposit:                            100000.00 USD
+Total net profit:                           -3691.48 USD
+Gross profit:                               1940.22 USD
+Gross loss:                                 5631.70 USD
+Absolute drawdown:                          4213.87 USD
+Maximal drawdown:                           4606.8 USD (4.6%)
+Relative drawdown:                          (4.6%) 4606.8 USD
+Profit factor:                              0.34
+Expected payoff:                            -13.37
+Trades total                                276
+Short positions (won %):                    270 (20.4%)
+Long positions (won %):                     6 (16.7%)
+Profit trades (% of total):                 56 (20.3%)
+Loss trades (% of total):                   220 (79.7%)
+Largest profit trade:                       127.59
+Largest loss trade:                         -40.31
+Average profit trade:                       34.65
+Average loss trade:                         -25.60
+Average consecutive wins:                   4.00
+Average consecutive losses:                 16.00
+Maximum consecutive wins (profit in money): 10 (628.43)
+Maximum consecutive losses (loss in money): 75 (-2063.94)
+Maximal consecutive profit (count of wins): 628.43 (10)
+Maximal consecutive loss (count of losses): 2063.94 (75)
+Modelling quality:                          89.96%
+Strategy stats:
+Profit factor: 0.33, Total net profit: -3759.82USD [+1846.08/-5605.90] (1846.08pips), Total orders: 270 (Won: 18.5% [50] / Loss: 81.5% [220]) - RSI15
+Report log:
+2018.01.04 03:00:00: EA31337 Advanced v1.078 by kenorb (https://github.com/EA31337)
+TERMINAL: Allow DLL: true; Allow Libraries: true; CPUs: 36; Community account: false; Community balance: 0.00; Community connection: false; Disk space: 8194877; Enabled FTP: false; Enabled e-mail: false; Enabled notifications: false; IsOptimization: false; IsRealtime: false; IsTesting: true; IsVisual: false; MQ ID: false; Memory (free): 4095; Memory (physical): 128603; Memory (total): 4095; Memory (used): 0; Path (Common): C:\users\ubuntu\Application Data\MetaQuotes\Terminal\Common; Path (Data): C:\Program Files\MetaTrader 4; Path (Expert): C:\Program Files\MetaTrader 4\MQL4\Experts; Path (Terminal): C:\Program Files\MetaTrader 4; Program name: EA31337-Advanced-Optimize-v1.078; Screen DPI: 96; Terminal build: 1010; Terminal code page: 0; Terminal company: MetaQuotes Software Corp.; Terminal connected: false; Terminal language: English; Terminal name: MetaTrader 4; Termnal max bars: 65000; Trade allowed: true; Trade context busy: false; Trade perm: true; Trade ping (last): 10000000
+ACCOUNT: Type: Off-line, Server/Company/Name: //, Currency: USD, Balance: 100000, Credit: 0, Equity: 100000, Orders limit: 999: Leverage: 1:100, StopOut Level: 0 (Mode: 0)
+SYMBOL: Symbol: EURUSD, Ask/Bid: 1.20186/1.20176, Price/Session Volume: 0/0, Point size: 1e-05, Pip size: 0.0001, Tick size: 1e-05 (1e-05 pts), Tick value: 1 (0/0), Digits: 5, Spread: 10 pts, Trade stops level: 8, Trade contract size: 100000, Min lot: 0.1, Max lot: 100, Lot step: 0.1, Freeze level: 0, Margin init: 0
+MARKET: Pip digits: 4, Spread: 10 pts (1 pips; 0.0083%), Pts/pip: 10, Trade distance: 8 pts (0.0000 pips), Volume digits: 1, Margin required: 1201.81/lot, Delta: 100000
+CHART: OHLC (M15): 1.20176/1.20176/1.20176/1.20176
+CHART: OHLC (M30): 1.20176/1.20176/1.20176/1.20176
+Swap specification for EURUSD: Mode: 0, Long/buy order value: 0.33, Short/sell order value: -1.04
+Calculated variables: Pip size: 0.0001, EA lot size: 0.1, Points per pip: 10, Pip digits: 4, Volume digits: 1, Spread in pips: 1.0 (10 pts), Stop Out Level: 0.3, Market gap: 8 pts (0 pips)
+EA params: Risk ratio: 1, Risk margin per order: 1%, Risk margin in total: 10%
+Strategies: Active strategies: 1 of 125, Max orders: 421 (per type: 421)
+
+Timeframes: M1; M2; M3; M4; M5; M6; M10; M12; M15; M20; M30; H1; H2; H3; H4; H6; H8; H12; D1; W1; MN1; 
+Datetime: Hour of day: 3, Day of week: 4, Day of month: 4, Day of year: 4, Month: 1, Year: 2018
+ACCOUNT: Time: 2018.01.04 03:00:00; Balance: $100000.00; Equity: $100000.00; Credit: $0.00; Margin Used/Free: $0.00/$100000.00; Risk: 1.0;
+

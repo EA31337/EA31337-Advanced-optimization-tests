@@ -6,13 +6,14 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.01.30 23:30 (2018.01.01 - 2018.01.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          5   -0.10           79          1.00           -0.00      98.70       0.10 RSI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+          1  158.80           43          1.38            3.69     339.50       0.34   RSI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+          5  140.40           23          1.61            6.10     263.00       0.26 RSI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
           2    0.00            0          0.00            0.00       0.00       0.00  RSI5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
           3    0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
           6    0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
@@ -21,5 +22,4 @@
           9    0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
          10    0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
          11    0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-          1  -13.70           88          0.91           -0.16     108.70       0.11   RSI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-          4 -163.30          273          0.67           -0.60     240.30       0.24 RSI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+          4 -261.90          121          0.81           -2.16    1071.70       1.07 RSI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;

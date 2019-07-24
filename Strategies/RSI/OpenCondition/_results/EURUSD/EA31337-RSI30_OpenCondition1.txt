@@ -6,7 +6,7 @@
                                                                      (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.01.30 23:30 (2018.01.01 - 2018.01.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
@@ -15,11 +15,11 @@
          3     0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
          7     0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
         11     0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-         9    -5.40           10          0.62           -0.54      14.10       0.01 RSI30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-        10    -7.20            4          0.00           -1.80      11.20       0.01 RSI30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         6   -29.40           18          0.04           -1.63      29.40       0.03 RSI30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-         8   -59.20           46          0.20           -1.29      65.20       0.07 RSI30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-         2   -67.00           46          0.20           -1.46      67.00       0.07  RSI30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-         5  -295.27          497          0.69           -0.59     394.96       0.39 RSI30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-         1  -558.27          768          0.61           -0.73     648.16       0.65   RSI30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-         4 -1246.35         1580          0.59           -0.79    1278.05       1.28 RSI30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+        10  -219.93           20          0.35          -11.00     343.72       0.34 RSI30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+         6  -259.26           26          0.37           -9.97     400.84       0.40 RSI30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+         9  -346.31           16          0.08          -21.64     358.80       0.36 RSI30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+         2  -382.58           44          0.39           -8.70     603.78       0.60  RSI30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+         8  -523.86           46          0.36          -11.39     796.92       0.80 RSI30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+         5  -926.51           99          0.48           -9.36    1028.31       1.03 RSI30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+         1 -1048.63          113          0.47           -9.28    1174.53       1.17   RSI30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+         4 -2837.63          337          0.52           -8.42    3683.60       3.66 RSI30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
