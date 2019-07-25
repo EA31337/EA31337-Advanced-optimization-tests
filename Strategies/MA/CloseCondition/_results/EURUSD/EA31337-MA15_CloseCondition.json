@@ -1,0 +1,18 @@
+{
+  "Time": "58",
+  "Title": "Optimization Report",
+  "EA Name": "EA31337-Advanced-Optimize-v1.078",
+  "Build": "1010",
+  "Symbol": "EURUSD (Euro vs US Dollar)",
+  "Period": "30 Minutes (M30)  2018.01.04 03:00 - 2018.06.29 20:30    (2018.01.01 - 2018.06.30)",
+  "Model": "Every tick ",
+  "Initial deposit": "100000.00",
+  "Spread": "10",
+  "Pass": "Pass",
+  "Profit": "Profit",
+  "Total trades": "Total trades",
+  "Profit factor": "Profit factor",
+  "Expected Payoff": "Expected Payoff",
+  "Drawdown $": "Drawdown $",
+  "Drawdown %": "Drawdown %"
+}

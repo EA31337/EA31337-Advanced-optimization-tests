@@ -1,0 +1,16 @@
+version: '3.4'
+services:
+  Alligator_Active_Tf:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SET_PARAMS: Alligator_Active_Tf
+      SETFILE: /opt/sets/EA31337-Alligator_Active_Tf.set
+      TEST_REPORT_NAME: EA31337-Alligator_Active_Tf
+    deploy:
+      restart_policy:
+        condition: none

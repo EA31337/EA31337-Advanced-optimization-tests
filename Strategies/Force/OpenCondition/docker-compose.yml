@@ -1,0 +1,90 @@
+version: '3.4'
+services:
+  Force1_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force1_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-Force1_OpenCondition1
+      SET_PARAMS: Force1_OpenCondition1
+  Force5_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force5_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-Force5_OpenCondition1
+      SET_PARAMS: Force5_OpenCondition1
+  Force15_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force15_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-Force15_OpenCondition1
+      SET_PARAMS: Force15_OpenCondition1
+  Force30_OpenCondition1:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force30_OpenCondition1.set
+      TEST_REPORT_NAME: EA31337-Force30_OpenCondition1
+      SET_PARAMS: Force30_OpenCondition1
+  Force1_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force1_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-Force1_OpenCondition2
+      SET_PARAMS: Force1_OpenCondition2
+  Force5_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force5_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-Force5_OpenCondition2
+      SET_PARAMS: Force5_OpenCondition2
+  Force15_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force15_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-Force15_OpenCondition2
+      SET_PARAMS: Force15_OpenCondition2
+  Force30_OpenCondition2:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2018-DS
+    volumes:
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../../../EA-Tester.ini
+    environment:
+      SETFILE: /opt/sets/EA31337-Force30_OpenCondition2.set
+      TEST_REPORT_NAME: EA31337-Force30_OpenCondition2
+      SET_PARAMS: Force30_OpenCondition2

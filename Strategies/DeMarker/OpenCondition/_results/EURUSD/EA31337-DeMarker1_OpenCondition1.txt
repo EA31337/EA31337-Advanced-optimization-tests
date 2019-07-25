@@ -2,22 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                           EA31337-Advanced-Optimize-v1.078
+                                                                     (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       9   -20.26          556          0.91           -0.04     109.84       1.09 DeMarker1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-       8  -209.77         1350          0.72           -0.16     311.16       3.09 DeMarker1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-       5  -297.03         3184          0.80           -0.09     502.89       4.96 DeMarker1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-       4  -652.85         4723          0.76           -0.14     748.61       7.46 DeMarker1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-       2  -754.02         6880          0.73           -0.11    1021.89       9.95 DeMarker1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-       7 -1215.84         7981          0.73           -0.15    1848.52      17.40 DeMarker1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-       1 -1219.94         9132          0.78           -0.13    1576.29      15.30  DeMarker1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-       3 -1359.05        12339          0.78           -0.11    1881.85      18.55 DeMarker1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-       6 -2379.59        11941          0.68           -0.20    3184.33      29.49 DeMarker1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+    Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       8    -52.30          211          0.91           -0.25     129.90       0.13 DeMarker1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+      10   -150.92          127          0.64           -1.19     172.62       0.17 DeMarker1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+      11   -164.58          286          0.73           -0.58     244.57       0.24 DeMarker1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+       7   -568.24          604          0.62           -0.94     618.64       0.62 DeMarker1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+       6  -1078.04          960          0.66           -1.12    1109.84       1.11 DeMarker1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+       9  -1245.22         1192          0.59           -1.04    1319.51       1.32 DeMarker1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+       2  -1521.83         1322          0.64           -1.15    1554.43       1.55  DeMarker1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+       3  -1722.92         1791          0.61           -0.96    1906.41       1.91 DeMarker1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+       5  -5165.00         5516          0.66           -0.94    5659.65       5.65 DeMarker1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+       1 -14726.71        14487          0.67           -1.02   15171.50      15.16   DeMarker1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+       4 -31956.81        35188          0.72           -0.91   32480.41      32.47 DeMarker1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;

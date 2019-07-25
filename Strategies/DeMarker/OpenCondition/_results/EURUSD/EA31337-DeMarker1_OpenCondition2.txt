@@ -2,20 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                           EA31337-Advanced-Optimize-v1.078
+                                                                     (Build 1010)
 
                             Symbol          EURUSD (Euro vs US Dollar)
                             Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       6   125.74         1136          1.44            0.11     151.48       1.49 DeMarker1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-       7   -19.41          118          0.19           -0.16      23.40       0.23 DeMarker1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-       4  -123.91         2506          0.82           -0.05     374.22       3.67 DeMarker1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-       5  -274.48         5120          0.83           -0.05     396.58       3.92 DeMarker1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-       3 -1236.04         4599          0.37           -0.27    1315.65      13.06 DeMarker1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-       2 -1915.24        18859          0.75           -0.10    3483.73      30.11 DeMarker1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-       1 -4147.10        16518          0.53           -0.25    5075.07      46.44 DeMarker1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+    Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      11      0.00            0          0.00            0.00       0.00       0.00 DeMarker1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+      10    -35.30           46          0.45           -0.77      38.80       0.04 DeMarker1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+       6    -40.30           54          0.45           -0.75      54.60       0.05 DeMarker1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+       7    -45.60            8          0.12           -5.70      47.70       0.05 DeMarker1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+       8    -96.23           59          0.27           -1.63     105.43       0.11 DeMarker1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+       5   -210.42          848          0.89           -0.25     517.92       0.52 DeMarker1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+       9   -260.08          224          0.53           -1.16     353.26       0.35 DeMarker1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+       3  -1180.05         1369          0.75           -0.86    1527.50       1.53 DeMarker1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+       4  -1219.91         1033          0.37           -1.18    1281.51       1.28 DeMarker1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+       2  -1563.30         1611          0.41           -0.97    1568.20       1.57  DeMarker1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+       1 -16226.57        16936          0.70           -0.96   16587.17      16.56   DeMarker1_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;

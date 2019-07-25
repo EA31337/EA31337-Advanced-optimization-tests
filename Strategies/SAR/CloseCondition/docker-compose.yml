@@ -2,65 +2,45 @@ version: '3.4'
 services:
   SAR1_CloseCondition:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-SAR1_CloseCondition.set
+      SETFILE: /opt/sets/EA31337-SAR1_CloseCondition.set
       TEST_REPORT_NAME: EA31337-SAR1_CloseCondition
       SET_PARAMS: SAR1_CloseCondition
-      RUN_ON_SUCCESS: input_copy SAR1_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   SAR5_CloseCondition:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-SAR5_CloseCondition.set
+      SETFILE: /opt/sets/EA31337-SAR5_CloseCondition.set
       TEST_REPORT_NAME: EA31337-SAR5_CloseCondition
       SET_PARAMS: SAR5_CloseCondition
-      RUN_ON_SUCCESS: input_copy SAR5_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   SAR15_CloseCondition:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-SAR15_CloseCondition.set
+      SETFILE: /opt/sets/EA31337-SAR15_CloseCondition.set
       TEST_REPORT_NAME: EA31337-SAR15_CloseCondition
       SET_PARAMS: SAR15_CloseCondition
-      RUN_ON_SUCCESS: input_copy SAR15_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
   SAR30_CloseCondition:
     command: run_backtest -v
-    build:
-      context: ../../..
-      target: eurusd-2018
-    image: ea31337:eurusd-2018
+    image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results/EURUSD:rw
+    - ./sets/EURUSD:/opt/sets:rw
+    - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      SETFILE: /opt/sets/EURUSD/EA31337-SAR30_CloseCondition.set
+      SETFILE: /opt/sets/EA31337-SAR30_CloseCondition.set
       TEST_REPORT_NAME: EA31337-SAR30_CloseCondition
       SET_PARAMS: SAR30_CloseCondition
-      RUN_ON_SUCCESS: input_copy SAR30_CloseCondition "$${SETFILE}" /opt/advanced/ea-input.mqh
-      BT_DEST: /opt/_results/EURUSD
