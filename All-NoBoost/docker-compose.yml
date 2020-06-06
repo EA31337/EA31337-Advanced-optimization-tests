@@ -5,8 +5,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
@@ -18,8 +18,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: StopLossMax
@@ -30,8 +30,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: TakeProfitMax
@@ -42,8 +42,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: TrailingProfit
@@ -54,8 +54,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       SET_PARAMS: TrailingStop
@@ -66,8 +66,8 @@ services:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
     volumes:
-    - ./sets/EURUSD:/opt/sets:rw
-    - ./_results/EURUSD:/opt/_results:rw
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
