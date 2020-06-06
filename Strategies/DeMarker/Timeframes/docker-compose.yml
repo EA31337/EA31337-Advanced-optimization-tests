@@ -11,6 +11,3 @@ services:
       SET_PARAMS: DeMarker_Active_Tf
       SETFILE: /opt/sets/EA31337-DeMarker_Active_Tf.set
       TEST_REPORT_NAME: EA31337-DeMarker_Active_Tf
-    deploy:
-      restart_policy:
-        condition: none

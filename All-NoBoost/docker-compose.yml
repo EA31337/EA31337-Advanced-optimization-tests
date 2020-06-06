@@ -13,9 +13,6 @@ services:
       RUN_ON_SET: set_opt_params ProfitFactorMinToTrade $$(bc <<< "$$(input_get ProfitFactorMinToTrade) - 0.1 * 4") $$(bc <<< "$$(input_get ProfitFactorMinToTrade) + 0.1 * 4") 0.1
       SETFILE: /opt/sets/EA31337-ProfitFactorMinToTrade.set
       TEST_REPORT_NAME: EA31337-ProfitFactorMinToTrade
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_StopLossMax:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -28,9 +25,6 @@ services:
       RUN_ON_SET: set_opt_params StopLossMax $$(bc <<< "$$(input_get StopLossMax) - 20 * 2") $$(bc <<< "$$(input_get StopLossMax) + 20 * 2") 20
       SETFILE: /opt/sets/EA31337-StopLossMax.set
       TEST_REPORT_NAME: EA31337-StopLossMax
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_TakeProfitMax:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -43,9 +37,6 @@ services:
       RUN_ON_SET: set_opt_params TakeProfitMax $$(bc <<< "$$(input_get TakeProfitMax) - 20 * 2") $$(bc <<< "$$(input_get TakeProfitMax) + 20 * 2") 20
       SETFILE: /opt/sets/EA31337-TakeProfitMax.set
       TEST_REPORT_NAME: EA31337-TakeProfitMax
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_TrailingProfit:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -58,9 +49,6 @@ services:
       RUN_ON_SET: set_opt_params TrailingProfit $$(bc <<< "$$(input_get TrailingProfit) - 10 * 2") $$(bc <<< "$$(input_get TrailingProfit) + 10 * 2") 10
       SETFILE: /opt/sets/EA31337-TrailingProfit.set
       TEST_REPORT_NAME: EA31337-TrailingProfit
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_TrailingStop:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -73,9 +61,6 @@ services:
       RUN_ON_SET: set_opt_params TrailingStop $$(bc <<< "$$(input_get TrailingStop) - 10 * 2") $$(bc <<< "$$(input_get TrailingStop) + 10 * 2") 10
       SETFILE: /opt/sets/EA31337-TrailingStop.set
       TEST_REPORT_NAME: EA31337-TrailingStop
-    deploy:
-      restart_policy:
-        condition: none
   EURUSD_TrailingStopAddPerMinute:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2018-DS
@@ -89,9 +74,6 @@ services:
       RUN_ON_SET: set_opt_params TrailingStopAddPerMinute $$(bc <<< "$$(input_get TrailingStopAddPerMinute) - 0.1 * 2") $$(bc <<< "$$(input_get TrailingStopAddPerMinute) + 0.1 * 2") 0.1
       SETFILE: /opt/sets/EA31337-TrailingStopAddPerMinute.set
       TEST_REPORT_NAME: EA31337-TrailingStopAddPerMinute
-    deploy:
-      restart_policy:
-        condition: none
 # EURUSD_TrendPeriod:
 #   command: run_backtest -v
 #   image: ea31337/ea-tester:EURUSD-2018-DS
@@ -106,6 +88,3 @@ services:
 #     SETFILE: /opt/sets/EA31337-TrendPeriod.set
 #     TEST_REPORT_NAME: EA31337-TrendPeriod
 #     SET_PARAMS: TrendPeriod
-#   deploy:
-#     restart_policy:
-#       condition: none
