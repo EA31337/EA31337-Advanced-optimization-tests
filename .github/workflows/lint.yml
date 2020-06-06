@@ -7,10 +7,12 @@ on:
     paths:
       - '*.md'
       - '*.y?ml'
+      - '.github/workflows/lint.yml'
   push:
     paths:
       - '*.md'
       - '*.y?ml'
+      - '.github/workflows/lint.yml'
 
 jobs:
   Markdown:
