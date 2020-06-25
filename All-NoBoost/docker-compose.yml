@@ -1,7 +1,7 @@
 ---
 version: '3.4'
 services:
-  EURUSD_ProfitFactorMinToTrade:
+  ProfitFactorMinToTrade:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -9,12 +9,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
-      SET_PARAMS: ProfitFactorMinToTrade
-      RUN_ON_SET: set_opt_params ProfitFactorMinToTrade $$(bc <<< "$$(input_get ProfitFactorMinToTrade) - 0.1 * 4") $$(bc <<< "$$(input_get ProfitFactorMinToTrade) + 0.1 * 4") 0.1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 4"))
+        $$(get_min 1.0 $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 4"))
+        0.1
       SETFILE: /opt/sets/EA31337-ProfitFactorMinToTrade.set
+      SET_PARAMS: ProfitFactorMinToTrade
       TEST_REPORT_NAME: EA31337-ProfitFactorMinToTrade
-  EURUSD_StopLossMax:
+  StopLossMax:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -22,11 +26,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      SET_PARAMS: StopLossMax
-      RUN_ON_SET: set_opt_params StopLossMax $$(bc <<< "$$(input_get StopLossMax) - 20 * 2") $$(bc <<< "$$(input_get StopLossMax) + 20 * 2") 20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 20 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 20 * 2")
+        20
       SETFILE: /opt/sets/EA31337-StopLossMax.set
+      SET_PARAMS: StopLossMax
       TEST_REPORT_NAME: EA31337-StopLossMax
-  EURUSD_TakeProfitMax:
+  TakeProfitMax:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -34,11 +43,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      SET_PARAMS: TakeProfitMax
-      RUN_ON_SET: set_opt_params TakeProfitMax $$(bc <<< "$$(input_get TakeProfitMax) - 20 * 2") $$(bc <<< "$$(input_get TakeProfitMax) + 20 * 2") 20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 20 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 20 * 2")
+        20
       SETFILE: /opt/sets/EA31337-TakeProfitMax.set
+      SET_PARAMS: TakeProfitMax
       TEST_REPORT_NAME: EA31337-TakeProfitMax
-  EURUSD_TrailingProfit:
+  TrailingProfit:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -46,11 +60,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      SET_PARAMS: TrailingProfit
-      RUN_ON_SET: set_opt_params TrailingProfit $$(bc <<< "$$(input_get TrailingProfit) - 10 * 2") $$(bc <<< "$$(input_get TrailingProfit) + 10 * 2") 10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 10 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 10 * 2")
+        10
       SETFILE: /opt/sets/EA31337-TrailingProfit.set
+      SET_PARAMS: TrailingProfit
       TEST_REPORT_NAME: EA31337-TrailingProfit
-  EURUSD_TrailingStop:
+  TrailingStop:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -58,11 +77,16 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      SET_PARAMS: TrailingStop
-      RUN_ON_SET: set_opt_params TrailingStop $$(bc <<< "$$(input_get TrailingStop) - 10 * 2") $$(bc <<< "$$(input_get TrailingStop) + 10 * 2") 10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 10 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 10 * 2")
+        10
       SETFILE: /opt/sets/EA31337-TrailingStop.set
+      SET_PARAMS: TrailingStop
       TEST_REPORT_NAME: EA31337-TrailingStop
-  EURUSD_TrailingStopAddPerMinute:
+  TrailingStopAddPerMinute:
     command: run_backtest -v
     image: ea31337/ea-tester:EURUSD-2019-DS
     volumes:
@@ -70,22 +94,27 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=80
-      SET_PARAMS: TrailingStopAddPerMinute
-      RUN_ON_SET: set_opt_params TrailingStopAddPerMinute $$(bc <<< "$$(input_get TrailingStopAddPerMinute) - 0.1 * 2") $$(bc <<< "$$(input_get TrailingStopAddPerMinute) + 0.1 * 2") 0.1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 2"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 2")
+        0.1
       SETFILE: /opt/sets/EA31337-TrailingStopAddPerMinute.set
+      SET_PARAMS: TrailingStopAddPerMinute
       TEST_REPORT_NAME: EA31337-TrailingStopAddPerMinute
-# EURUSD_TrendPeriod:
-#   command: run_backtest -v
-#   image: ea31337/ea-tester:EURUSD-2019-DS
-#   volumes:
-#   - ./sets/EURUSD:/opt/sets:rw
-#   - ./_results/EURUSD:/opt/_results:rw
-#   env_file: ../EA-Tester.ini
-#   environment:
-#     EA_OPTS: maxdrawdown_enable=1,maxdrawdown=90
-#     SET_PARAMS: TrendPeriod
-#     RUN_ON_SET: set_opt_params TrendPeriod 5 1440 0
-#     SETFILE: /opt/sets/EA31337-TrendPeriod.set
-#     TEST_REPORT_NAME: EA31337-TrendPeriod
-#     SET_PARAMS: TrendPeriod
+  TrendPeriod:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: >
+        set_opt_params TrendPeriod
+        5 1440 0
+      SETFILE: /opt/sets/EA31337-TrendPeriod.set
+      SET_PARAMS: TrendPeriod
+      TEST_REPORT_NAME: EA31337-TrendPeriod
