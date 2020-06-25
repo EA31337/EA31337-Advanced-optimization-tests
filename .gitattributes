@@ -20,4 +20,4 @@
 *.ex?     binary
 *.json    text diff=c
 *.mq?     text diff=c
-*.txt     text diff=c whitespace=-trailing-space
+*.txt     diff=c whitespace=-trailing-space
