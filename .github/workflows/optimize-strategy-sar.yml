@@ -9,7 +9,7 @@ on:
       - 'optimize-strategy-sar-*'
 
 jobs:
-  Optimize-CloseCondition:
+  CloseCondition:
     defaults:
       run:
         shell: bash
@@ -43,12 +43,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-OpenCondition:
+  OpenCondition:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/SAR/OpenCondition
-    needs: Optimize-CloseCondition
+    needs: CloseCondition
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -82,12 +82,12 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Optimize-Timeframes:
+  Timeframes:
     defaults:
       run:
         shell: bash
         working-directory: Strategies/SAR/Timeframes
-    needs: Optimize-OpenCondition
+    needs: OpenCondition
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2

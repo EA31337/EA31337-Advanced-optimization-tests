@@ -9,7 +9,7 @@ on:
       - 'optimize-all-noboost-*'
 
 jobs:
-  Optimize-All-NoBoost:
+  All-NoBoost:
     defaults:
       run:
         shell: bash
