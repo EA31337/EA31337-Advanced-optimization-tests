@@ -31,8 +31,9 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git status
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
+          git add --renormalize .
+          git status
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -70,8 +71,9 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git status
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
+          git add --renormalize .
+          git status
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
@@ -102,8 +104,9 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git status
           git pull origin ${{ github.ref }} --autostash --rebase -Xours
+          git add --renormalize .
+          git status
           git commit -am "${{ github.workflow }}"
       - name: Git Diff
         run: NO_PAGER=1 git --no-pager diff HEAD^
