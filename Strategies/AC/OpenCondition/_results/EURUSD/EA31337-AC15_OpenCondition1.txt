@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.04 23:30 (2019.08.01 - 2019.12.05)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 -3835.13         3590          0.79           -1.07    4048.37       4.05   AC15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-          2 -3835.13         3590          0.79           -1.07    4048.37       4.05  AC15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          3 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-          4 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-          5 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-          6 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-          7 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-          8 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-          9 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-         10 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         11 -3835.13         3590          0.79           -1.07    4048.37       4.05 AC15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1 -11.20            2          0.28           -5.60      18.20       0.02   AC15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+           2 -11.20            2          0.28           -5.60      18.20       0.02  AC15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+           3 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+           4 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+           5 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+           6 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+           7 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+           8 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+           9 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+          10 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+          11 -11.20            2          0.28           -5.60      18.20       0.02 AC15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;

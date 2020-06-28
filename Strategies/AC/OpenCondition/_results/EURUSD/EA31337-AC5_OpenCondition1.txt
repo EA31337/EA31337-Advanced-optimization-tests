@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.04 23:30 (2019.08.01 - 2019.12.05)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         11   142.10           68          1.85            2.09      55.40       0.06 AC5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-          9    69.80          211          1.12            0.33     186.00       0.19 AC5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-         10    59.90           20          2.01            2.99      39.60       0.04 AC5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-          7    16.30           41          1.14            0.40      68.40       0.07 AC5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-          8    -0.60            5          0.96           -0.12      11.50       0.01 AC5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-          6   -31.40           22          0.60           -1.43      46.60       0.05 AC5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-          4   -46.30          206          0.93           -0.22     140.20       0.14 AC5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-          2   -72.20          155          0.87           -0.47     150.40       0.15  AC5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          5  -233.40          272          0.76           -0.86     432.00       0.43 AC5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-          3  -368.17          491          0.84           -0.75     666.00       0.66 AC5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-          1 -1495.07         1387          0.75           -1.08    1866.44       1.86   AC5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          10   17.40            5          2.35            3.48      15.50       0.02 AC5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+           7   16.60            3          2.64            5.53      13.60       0.01 AC5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+           6    0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+           8    0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+          11  -15.50            1          0.00          -15.50      16.90       0.02 AC5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+           9  -31.10           29          0.57           -1.07      40.30       0.04 AC5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+           2  -40.60           26          0.64           -1.56      96.40       0.10  AC5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+           4  -46.30           14          0.41           -3.31      81.20       0.08 AC5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+           5  -62.70           15          0.09           -4.18      86.20       0.09 AC5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+           3  -70.00           14          0.06           -5.00      73.20       0.07 AC5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+           1 -203.30          144          0.57           -1.41     218.90       0.22   AC5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
