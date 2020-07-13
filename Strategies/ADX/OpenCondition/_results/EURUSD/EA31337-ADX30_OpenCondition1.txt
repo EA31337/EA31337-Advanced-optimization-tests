@@ -2,24 +2,32 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
+                            Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         4 181.70         2502          1.04            0.07     493.42       4.91 Bands30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-         1 124.02         1934          1.05            0.06     218.72       2.15   Bands30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-         7   6.91          135          1.04            0.05      44.97       0.45 Bands30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-        11   0.00            0          0.00            0.00       0.00       0.00 Bands30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-        10   0.07            1          0.00            0.07       0.41       0.00 Bands30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         8  -7.84            4          0.02           -1.96      10.69       0.11 Bands30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-         9  -8.19            3          0.00           -2.73      11.04       0.11 Bands30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-         2 -28.57         1095          0.99           -0.03     265.27       2.62  Bands30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-         6 -34.28          686          0.97           -0.05     175.22       1.74 Bands30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-         3 -73.14          394          0.87           -0.19     118.44       1.18 Bands30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-         5 -89.90         1144          0.94           -0.08     186.30       1.86 Bands30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        19    -6.90            1          0.00           -6.90       6.90       0.01 ADX30_OpenCondition1=991; MaxOrders=0; MaxOrdersPerType=0;
+        18   -11.51            6          0.42           -1.92      23.71       0.02 ADX30_OpenCondition1=936; MaxOrders=0; MaxOrdersPerType=0;
+         9   -12.60            3          0.07           -4.20      14.10       0.01 ADX30_OpenCondition1=441; MaxOrders=0; MaxOrdersPerType=0;
+        15   -27.80           19          0.36           -1.46      38.20       0.04 ADX30_OpenCondition1=771; MaxOrders=0; MaxOrdersPerType=0;
+         5   -29.13           24          0.53           -1.21      48.42       0.05 ADX30_OpenCondition1=221; MaxOrders=0; MaxOrdersPerType=0;
+        17   -40.51            4          0.02          -10.13      41.51       0.04 ADX30_OpenCondition1=881; MaxOrders=0; MaxOrdersPerType=0;
+        12   -54.50           74          0.72           -0.74     103.58       0.10 ADX30_OpenCondition1=606; MaxOrders=0; MaxOrdersPerType=0;
+         8   -59.61           19          0.13           -3.14      63.11       0.06 ADX30_OpenCondition1=386; MaxOrders=0; MaxOrdersPerType=0;
+        11   -66.82           28          0.40           -2.39      71.52       0.07 ADX30_OpenCondition1=551; MaxOrders=0; MaxOrdersPerType=0;
+        16   -66.70           17          0.34           -3.92      91.60       0.09 ADX30_OpenCondition1=826; MaxOrders=0; MaxOrdersPerType=0;
+         3   -68.95           33          0.32           -2.09      90.25       0.09 ADX30_OpenCondition1=111; MaxOrders=0; MaxOrdersPerType=0;
+         7   -73.21           35          0.49           -2.09      94.71       0.09 ADX30_OpenCondition1=331; MaxOrders=0; MaxOrdersPerType=0;
+        10   -74.32           13          0.14           -5.72      75.82       0.08 ADX30_OpenCondition1=496; MaxOrders=0; MaxOrdersPerType=0;
+         6   -99.83           21          0.17           -4.75     108.13       0.11 ADX30_OpenCondition1=276; MaxOrders=0; MaxOrdersPerType=0;
+        13  -112.55           51          0.32           -2.21     129.25       0.13 ADX30_OpenCondition1=661; MaxOrders=0; MaxOrdersPerType=0;
+        14  -128.02           98          0.57           -1.31     131.32       0.13 ADX30_OpenCondition1=716; MaxOrders=0; MaxOrdersPerType=0;
+         4  -133.75          127          0.63           -1.05     195.94       0.20 ADX30_OpenCondition1=166; MaxOrders=0; MaxOrdersPerType=0;
+         2 -1186.41          575          0.55           -2.06    1426.60       1.42  ADX30_OpenCondition1=56; MaxOrders=0; MaxOrdersPerType=0;
+         1 -1687.63          649          0.49           -2.60    2054.80       2.05   ADX30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
