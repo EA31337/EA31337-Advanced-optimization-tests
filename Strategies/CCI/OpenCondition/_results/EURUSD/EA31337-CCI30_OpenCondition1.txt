@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          4 2525.10         1637          1.13            1.54    1832.20       1.78 CCI30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-          1 1160.09          769          1.13            1.51     953.98       0.95   CCI30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-          8   49.80            1          0.00           49.80      33.00       0.03 CCI30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-          9   49.80            1          0.00           49.80      33.00       0.03 CCI30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-          3    0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-          7    0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-         10    0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         11    0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-          2  -85.80           36          0.85           -2.38     211.10       0.21  CCI30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          5 -127.32          485          0.98           -0.26     986.58       0.98 CCI30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-          6 -254.90           21          0.40          -12.14     337.40       0.34 CCI30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          2  35.37           22          1.55            1.61      51.40       0.05  CCI30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+          6  31.00            3          0.00           10.33      35.20       0.04 CCI30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+          4  29.80           71          1.05            0.42     234.01       0.23 CCI30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+          1  27.95           44          1.09            0.64     144.11       0.14   CCI30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+          3  13.30            5          3.71            2.66      28.50       0.03 CCI30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+         10   3.30            1          0.00            3.30      10.70       0.01 CCI30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+          7   0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+          9   0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+         11   0.00            0          0.00            0.00       0.00       0.00 CCI30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+          8  -7.12           10          0.77           -0.71      51.41       0.05 CCI30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+          5 -15.73           20          0.91           -0.79     109.51       0.11 CCI30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
