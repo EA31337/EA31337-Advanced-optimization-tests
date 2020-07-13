@@ -29,7 +29,7 @@ DeMarker5_SignalMethod=0
 DeMarker5_OpenCondition2=0
 DeMarker5_CloseCondition=0
 # Optimization params.
-DeMarker5_OpenCondition1=971
+DeMarker5_OpenCondition1=874
 DeMarker5_OpenCondition1,F=1
 DeMarker5_OpenCondition1,1=1
 DeMarker5_OpenCondition1,2=97
