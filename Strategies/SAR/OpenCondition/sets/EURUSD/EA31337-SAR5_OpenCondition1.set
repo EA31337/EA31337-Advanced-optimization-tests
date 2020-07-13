@@ -29,7 +29,7 @@ SAR5_SignalMethod=0
 SAR5_OpenCondition2=0
 SAR5_CloseCondition=0
 # Optimization params.
-SAR5_OpenCondition1=680
+SAR5_OpenCondition1=583
 SAR5_OpenCondition1,F=1
 SAR5_OpenCondition1,1=1
 SAR5_OpenCondition1,2=97
