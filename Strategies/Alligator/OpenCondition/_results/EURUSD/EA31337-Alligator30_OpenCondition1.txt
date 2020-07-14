@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       2  -0.90            4          0.82           -0.23      49.00       0.05  Alligator30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-       3   0.00            0          0.00            0.00       0.00       0.00 Alligator30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-       5   0.00            0          0.00            0.00       0.00       0.00 Alligator30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-       7   0.00            0          0.00            0.00       0.00       0.00 Alligator30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-       9   0.00            0          0.00            0.00       0.00       0.00 Alligator30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-      11   0.00            0          0.00            0.00       0.00       0.00 Alligator30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-       8  -2.40            2          0.22           -1.20      24.60       0.02 Alligator30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-      10  -2.40            2          0.22           -1.20      24.60       0.02 Alligator30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-       6  -3.10            1          0.00           -3.10      17.10       0.02 Alligator30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-       1  -4.90            1          0.00           -4.90      38.20       0.04   Alligator30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-       4 -23.80            4          0.12           -5.95      90.10       0.09 Alligator30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      10   40.00            2          0.00           20.00      11.60       0.01 Alligator30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+      11   20.00            1          0.00           20.00       9.80       0.01 Alligator30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+       3  -18.90           10          0.58           -1.89      40.80       0.04 Alligator30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+       4  -19.55           20          0.85           -0.98      85.63       0.09 Alligator30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+       6  -20.00            1          0.00          -20.00      23.20       0.02 Alligator30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+       7  -20.00            1          0.00          -20.00      23.20       0.02 Alligator30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+       9  -34.18           20          0.54           -1.71      62.60       0.06 Alligator30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+       5  -62.12           11          0.01           -5.65      69.62       0.07 Alligator30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+       8 -337.24          134          0.63           -2.52     395.51       0.40 Alligator30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+       2 -892.50          210          0.45           -4.25    1014.80       1.01  Alligator30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+       1 -970.05          443          0.53           -2.19    1116.63       1.12   Alligator30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
