@@ -1,12 +1,15 @@
-# Ignores log files.
-*.log
+# Ignores compiled binary files.
+*.ex?
+
+# Ignores temporary files.
+*.swp
+*~
 
 # Ignores test results in HTML format.
 *.htm
 
-# Ignores binary files.
-*.gif
-*.ex?
+# Ignores test result logs.
+*.log
 
 # Ignores Finder metadata files on Mac
 .DS_Store

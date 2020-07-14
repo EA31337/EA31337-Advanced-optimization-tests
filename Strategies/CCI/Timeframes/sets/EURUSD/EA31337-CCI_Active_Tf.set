@@ -10,7 +10,6 @@ AD_Active_Tf=0
 ADX_Active_Tf=0
 Alligator_Active_Tf=0
 Bands_Active_Tf=0
-CCI_Active_Tf=0
 DeMarker_Active_Tf=0
 Envelopes_Active_Tf=0
 Force_Active_Tf=0
@@ -22,6 +21,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Optimization params.
+CCI_Active_Tf=0
 CCI_Active_Tf,F=1
 CCI_Active_Tf,1=0
 CCI_Active_Tf,2=1
