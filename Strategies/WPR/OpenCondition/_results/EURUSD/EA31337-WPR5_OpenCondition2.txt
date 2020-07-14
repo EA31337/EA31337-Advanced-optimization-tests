@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        10     68.36          129          1.31            0.53      83.70       0.08 WPR5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-        11    -47.62           33          0.60           -1.44     126.52       0.13 WPR5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-         6   -102.10          163          0.72           -0.63     121.90       0.12 WPR5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-         7   -270.86          274          0.68           -0.99     464.86       0.46 WPR5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-         8   -564.62          363          0.56           -1.56     628.82       0.63 WPR5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         3  -1033.81         1139          0.78           -0.91    1217.00       1.22 WPR5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-         2  -1168.17         1702          0.69           -0.69    1316.63       1.32  WPR5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-         9  -1261.34          663          0.62           -1.90    1426.12       1.43 WPR5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-         5  -2699.84         3430          0.81           -0.79    2885.69       2.88 WPR5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-         4  -4867.27         5496          0.74           -0.89    5263.03       5.26 WPR5_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-         1 -11185.27        15020          0.83           -0.74   12086.58      12.09   WPR5_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+         2     -1.80            1          0.00           -1.80       1.80       0.00  WPR5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         6     -1.80            1          0.00           -1.80       1.80       0.00 WPR5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         8     -1.80            1          0.00           -1.80       1.80       0.00 WPR5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+        10     -1.80            1          0.00           -1.80       1.80       0.00 WPR5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+         4     -8.60            2          0.00           -4.30       9.60       0.01 WPR5_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+        11   -153.76           71          0.44           -2.17     199.84       0.20 WPR5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+         7   -352.36          182          0.52           -1.94     388.36       0.39 WPR5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         9  -1029.96          792          0.66           -1.30    1227.38       1.23 WPR5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+         3  -1388.05         1605          0.76           -0.86    1510.82       1.51 WPR5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+         5  -3071.17         3182          0.74           -0.97    3651.68       3.63 WPR5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+         1 -13284.88        13099          0.73           -1.01   13421.75      13.42   WPR5_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;

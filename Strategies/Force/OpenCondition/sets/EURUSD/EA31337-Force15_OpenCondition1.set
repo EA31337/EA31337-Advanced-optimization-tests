@@ -29,7 +29,7 @@ Force15_SignalMethod=0
 Force15_OpenCondition2=0
 Force15_CloseCondition=0
 # Optimization params.
-Force15_OpenCondition1=292
+Force15_OpenCondition1=1
 Force15_OpenCondition1,F=1
 Force15_OpenCondition1,1=1
 Force15_OpenCondition1,2=97

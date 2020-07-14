@@ -2,46 +2,45 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.06.29 20:30 (2018.01.01 - 2018.06.30)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      29 -132.10           62          0.64           -2.13     330.50       0.33 Envelopes15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-       7 -150.40           62          0.48           -2.43     214.80       0.21  Envelopes15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-      26 -150.40           62          0.48           -2.43     214.80       0.21 Envelopes15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-       3 -154.12           62          0.68           -2.49     373.71       0.37  Envelopes15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-      31 -179.90           62          0.58           -2.90     363.50       0.36 Envelopes15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-      33 -179.90           62          0.58           -2.90     363.50       0.36 Envelopes15_CloseCondition=33; MaxOrders=0; MaxOrdersPerType=0;
-       2 -206.70           62          0.45           -3.33     324.70       0.32  Envelopes15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-      20 -213.30           62          0.56           -3.44     421.00       0.42 Envelopes15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-       1 -219.60           62          0.41           -3.54     284.00       0.28  Envelopes15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-      15 -235.90           62          0.53           -3.80     440.80       0.44 Envelopes15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-      14 -243.50           62          0.56           -3.93     421.50       0.42 Envelopes15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
-      19 -274.40           62          0.48           -4.43     347.90       0.35 Envelopes15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-      24 -357.01           62          0.54           -5.76     595.01       0.59 Envelopes15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-       4 -366.50           62          0.41           -5.91     508.80       0.51  Envelopes15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-       5 -427.63           62          0.47           -6.90     611.22       0.61  Envelopes15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-       6 -427.63           62          0.47           -6.90     611.22       0.61  Envelopes15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-       8 -427.63           62          0.47           -6.90     611.22       0.61  Envelopes15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-       9 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=40; MaxOrders=0; MaxOrdersPerType=0;
-      10 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-      11 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-      12 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
-      13 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-      16 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-      17 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-      18 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-      21 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-      22 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-      23 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-      25 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-      27 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-      28 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-      30 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-      32 -427.63           62          0.47           -6.90     611.22       0.61 Envelopes15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       1   426.62         1420          1.05            0.30    1346.06       1.32  Envelopes15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+      24   264.46         1450          1.03            0.18    1606.40       1.58 Envelopes15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+      19   179.76         1536          1.03            0.12     873.59       0.87 Envelopes15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+       7    -7.80         2648          1.00           -0.00    1966.08       1.93  Envelopes15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+       2  -116.41         2571          0.99           -0.05     921.67       0.92  Envelopes15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+      11  -125.57         1489          0.99           -0.08    2004.50       1.97 Envelopes15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+      18  -131.68         1450          0.99           -0.09    1947.13       1.91 Envelopes15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+      15  -158.36         1287          0.97           -0.12     990.91       0.98 Envelopes15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+      29  -166.76         1694          0.99           -0.10    2159.09       2.12 Envelopes15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+       5  -173.04         1420          0.98           -0.12    1893.12       1.86  Envelopes15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+      14  -173.04         1420          0.98           -0.12    1893.12       1.86 Envelopes15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+       6  -187.51         1287          0.98           -0.15    1913.74       1.88  Envelopes15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+       8  -187.51         1287          0.98           -0.15    1913.74       1.88  Envelopes15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+       9  -187.51         1287          0.98           -0.15    1913.74       1.88  Envelopes15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+      10  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+      16  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+      17  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+      21  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+      22  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+      23  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+      25  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+      27  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+      28  -187.51         1287          0.98           -0.15    1913.74       1.88 Envelopes15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+      12  -256.68         1445          0.94           -0.18     676.18       0.67 Envelopes15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+      31  -436.57         1287          0.91           -0.34     887.34       0.88 Envelopes15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+      30  -467.29         1287          0.88           -0.36     748.84       0.75 Envelopes15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+      32  -572.10         1287          0.84           -0.44     745.23       0.74 Envelopes15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+      13  -809.73         1287          0.67           -0.63     855.93       0.86 Envelopes15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+       4  -855.99         1567          0.88           -0.55    1561.58       1.55  Envelopes15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+      26  -957.07         1534          0.86           -0.62    1787.26       1.77 Envelopes15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+      20 -1430.33         3343          0.86           -0.43    1698.14       1.70 Envelopes15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
+       3 -2057.33         2179          0.80           -0.94    2464.24       2.46  Envelopes15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;

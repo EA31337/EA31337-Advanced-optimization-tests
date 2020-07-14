@@ -5,6 +5,9 @@
 *.swp
 *~
 
+# Ignores test result binary files.
+*.gif
+
 # Ignores test results in HTML format.
 *.htm
 
