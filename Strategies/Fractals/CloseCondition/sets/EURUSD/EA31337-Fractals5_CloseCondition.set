@@ -28,7 +28,7 @@ Fractals5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 Fractals5_OpenCondition2=0
 # Optimization params.
-Fractals5_CloseCondition=1
+Fractals5_CloseCondition=18
 Fractals5_CloseCondition,F=1
 Fractals5_CloseCondition,1=1
 Fractals5_CloseCondition,2=1
