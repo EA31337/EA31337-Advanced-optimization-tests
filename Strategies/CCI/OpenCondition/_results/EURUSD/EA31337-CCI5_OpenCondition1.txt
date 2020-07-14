@@ -12,14 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          6    12.40            6          1.88            2.07      14.50       0.01 CCI5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-          3     9.50            1          0.00            9.50       4.20       0.00 CCI5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-          7     9.50            1          0.00            9.50       4.20       0.00 CCI5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
           8     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
           9     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
          10     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
          11     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-          2    -2.60            9          0.91           -0.29      21.90       0.02  CCI5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          5  -473.43          469          0.73           -1.01     547.83       0.55 CCI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-          1  -832.49          820          0.72           -1.02     909.49       0.91   CCI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-          4 -2575.39         2225          0.67           -1.16    2792.79       2.79 CCI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+          3  -178.42          113          0.60           -1.58     207.12       0.21 CCI5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+          5  -337.20          469          0.81           -0.72     385.58       0.39 CCI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+          7  -406.76          232          0.56           -1.75     462.46       0.46 CCI5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+          6  -409.11          329          0.67           -1.24     435.91       0.44 CCI5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+          1  -682.94          820          0.76           -0.83     743.94       0.74   CCI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+          2 -1055.02          905          0.67           -1.17    1125.42       1.13  CCI5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+          4 -2659.05         2225          0.67           -1.20    2849.35       2.85 CCI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;

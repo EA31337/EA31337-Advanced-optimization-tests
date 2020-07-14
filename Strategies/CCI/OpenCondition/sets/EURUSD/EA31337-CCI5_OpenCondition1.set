@@ -29,7 +29,7 @@ CCI5_SignalMethod=0
 CCI5_OpenCondition2=0
 CCI5_CloseCondition=0
 # Optimization params.
-CCI5_OpenCondition1=486
+CCI5_OpenCondition1=680
 CCI5_OpenCondition1,F=1
 CCI5_OpenCondition1,1=1
 CCI5_OpenCondition1,2=97

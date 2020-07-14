@@ -12,7 +12,7 @@
                             Spread          10
                                                                  [Optimization Graph]
        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          9   54.39           15          2.75            3.63      23.00       0.02 CCI15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+          9   54.19           15          2.74            3.61      23.00       0.02 CCI15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
           2    0.00            0          0.00            0.00       0.00       0.00  CCI15_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
           4    0.00            0          0.00            0.00       0.00       0.00 CCI15_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
           6    0.00            0          0.00            0.00       0.00       0.00 CCI15_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
@@ -22,4 +22,4 @@
           7  -15.10            1          0.00          -15.10      16.10       0.02 CCI15_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
          11  -15.10            1          0.00          -15.10      16.10       0.02 CCI15_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
           5  -28.90            4          0.07           -7.23      32.50       0.03 CCI15_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-          1 -170.13          124          0.69           -1.37     187.43       0.19   CCI15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+          1 -205.03          124          0.65           -1.65     217.83       0.22   CCI15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
