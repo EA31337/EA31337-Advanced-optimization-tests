@@ -5,20 +5,20 @@
                                                              EA31337-Advanced-v1.079-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         5    175.10          140          1.66            1.25     320.40       0.32 WPR1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-         9    -38.50           56          0.72           -0.69     143.30       0.14 WPR1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-         6   -596.20          442          0.41           -1.35    1054.20       1.05 WPR1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-        10   -650.10          235          0.04           -2.77     699.70       0.70 WPR1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-         1   -863.08         1071          0.71           -0.81    1624.91       1.61  WPR1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-         2  -1721.49         1714          0.56           -1.00    2533.23       2.52 WPR1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-         7  -3077.40         3106          0.63           -0.99    4226.70       4.18 WPR1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         8  -5362.93         3583          0.44           -1.50    5604.77       5.60 WPR1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-         4 -11042.94         9452          0.58           -1.17   11844.14      11.80 WPR1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-         3 -15521.84        10687          0.54           -1.45   15911.04      15.86 WPR1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+         1      0.00            0          0.00            0.00       0.00       0.00  WPR1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         5      0.00            0          0.00            0.00       0.00       0.00 WPR1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         9      0.00            0          0.00            0.00       0.00       0.00 WPR1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+         7     -1.70            1          0.00           -1.70       3.50       0.00 WPR1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+         3     -3.50            1          0.00           -3.50       4.60       0.00 WPR1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+        10   -535.91          372          0.43           -1.44     589.79       0.59 WPR1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+         6  -2005.55          896          0.36           -2.24    2034.35       2.03 WPR1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         8  -2767.11         3849          0.74           -0.72    4044.01       3.99 WPR1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+         2  -9262.83         7666          0.55           -1.21    9407.43       9.41 WPR1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+         4 -17070.01        15728          0.62           -1.09   17182.81      17.17 WPR1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
