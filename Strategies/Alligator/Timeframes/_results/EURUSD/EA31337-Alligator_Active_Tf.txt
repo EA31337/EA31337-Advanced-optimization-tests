@@ -12,19 +12,19 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           9  165.55           10          3.48           16.56      58.21       0.06  Alligator_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-          11  115.37           10          4.34           11.54      45.80       0.05 Alligator_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-          10  106.57           10          3.78           10.66      42.90       0.04  Alligator_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-          12  106.57           10          3.78           10.66      42.90       0.04 Alligator_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-          14   64.69          119          1.10            0.54     227.24       0.23 Alligator_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-          16   64.69          119          1.10            0.54     227.24       0.23 Alligator_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-          15   64.71          119          1.09            0.54     297.52       0.30 Alligator_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
            1    0.00            0          0.00            0.00       0.00       0.00  Alligator_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
            2    0.00            0          0.00            0.00       0.00       0.00  Alligator_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
            3    0.00            0          0.00            0.00       0.00       0.00  Alligator_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
            4    0.00            0          0.00            0.00       0.00       0.00  Alligator_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-           6  -81.35          109          0.87           -0.75     272.44       0.27  Alligator_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-           8  -81.35          109          0.87           -0.75     272.44       0.27  Alligator_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-           7 -101.02          109          0.85           -0.93     327.21       0.33  Alligator_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-           5 -138.67          130          0.00           -1.07     141.27       0.14  Alligator_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-          13 -151.77          140          0.01           -1.08     154.07       0.15 Alligator_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+          11  -34.83            9          0.56           -3.87     148.93       0.15 Alligator_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+           9  -39.93            9          0.50           -4.44     151.03       0.15  Alligator_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+          10  -50.43            9          0.39           -5.60     157.93       0.16  Alligator_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+          12  -50.43            9          0.39           -5.60     157.93       0.16 Alligator_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+           6 -121.30          131          0.00           -0.93     121.30       0.12  Alligator_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+           8 -121.30          131          0.00           -0.93     121.30       0.12  Alligator_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+           7 -127.40          131          0.00           -0.97     129.50       0.13  Alligator_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+           5 -132.00          131          0.00           -1.01     134.10       0.13  Alligator_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+          15 -163.83          140          0.21           -1.17     245.73       0.25 Alligator_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+          14 -170.13          140          0.16           -1.22     246.13       0.25 Alligator_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+          16 -170.13          140          0.16           -1.22     246.13       0.25 Alligator_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+          13 -215.04          140          0.16           -1.54     293.93       0.29 Alligator_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
