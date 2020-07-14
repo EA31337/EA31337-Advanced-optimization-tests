@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - DeMarker1_CloseCondition
-        - DeMarker5_CloseCondition
-        - DeMarker15_CloseCondition
-        - DeMarker30_CloseCondition
+          - DeMarker1_CloseCondition
+          - DeMarker5_CloseCondition
+          - DeMarker15_CloseCondition
+          - DeMarker30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

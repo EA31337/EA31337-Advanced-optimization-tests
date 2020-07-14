@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - WPR1_CloseCondition
-        - WPR5_CloseCondition
-        - WPR15_CloseCondition
-        - WPR30_CloseCondition
+          - WPR1_CloseCondition
+          - WPR5_CloseCondition
+          - WPR15_CloseCondition
+          - WPR30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - ADX1_CloseCondition
-        - ADX5_CloseCondition
-        - ADX15_CloseCondition
-        - ADX30_CloseCondition
+          - ADX1_CloseCondition
+          - ADX5_CloseCondition
+          - ADX15_CloseCondition
+          - ADX30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

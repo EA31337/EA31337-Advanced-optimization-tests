@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - Envelopes1_CloseCondition
-        - Envelopes5_CloseCondition
-        - Envelopes15_CloseCondition
-        - Envelopes30_CloseCondition
+          - Envelopes1_CloseCondition
+          - Envelopes5_CloseCondition
+          - Envelopes15_CloseCondition
+          - Envelopes30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
