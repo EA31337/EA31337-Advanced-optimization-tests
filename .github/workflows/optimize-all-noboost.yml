@@ -23,7 +23,6 @@ jobs:
           - TakeProfitMax
           - TrailingProfit
           - TrailingStop
-          - TrailingStopAddPerMinute
           - TrendPeriod
     steps:
       - uses: actions/checkout@v2
