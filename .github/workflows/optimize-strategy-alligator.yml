@@ -19,10 +19,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - Alligator1_CloseCondition
-        - Alligator5_CloseCondition
-        - Alligator15_CloseCondition
-        - Alligator30_CloseCondition
+          - Alligator1_CloseCondition
+          - Alligator5_CloseCondition
+          - Alligator15_CloseCondition
+          - Alligator30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

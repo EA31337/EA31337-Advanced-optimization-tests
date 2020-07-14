@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - RSI1_CloseCondition
-        - RSI5_CloseCondition
-        - RSI15_CloseCondition
-        - RSI30_CloseCondition
+          - RSI1_CloseCondition
+          - RSI5_CloseCondition
+          - RSI15_CloseCondition
+          - RSI30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

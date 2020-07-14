@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - MA1_CloseCondition
-        - MA5_CloseCondition
-        - MA15_CloseCondition
-        - MA30_CloseCondition
+          - MA1_CloseCondition
+          - MA5_CloseCondition
+          - MA15_CloseCondition
+          - MA30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

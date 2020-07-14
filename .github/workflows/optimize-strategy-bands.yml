@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - Bands1_CloseCondition
-        - Bands5_CloseCondition
-        - Bands15_CloseCondition
-        - Bands30_CloseCondition
+          - Bands1_CloseCondition
+          - Bands5_CloseCondition
+          - Bands15_CloseCondition
+          - Bands30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

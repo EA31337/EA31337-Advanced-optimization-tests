@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - CCI1_CloseCondition
-        - CCI5_CloseCondition
-        - CCI15_CloseCondition
-        - CCI30_CloseCondition
+          - CCI1_CloseCondition
+          - CCI5_CloseCondition
+          - CCI15_CloseCondition
+          - CCI30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

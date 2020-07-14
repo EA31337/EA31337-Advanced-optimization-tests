@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - SAR1_CloseCondition
-        - SAR5_CloseCondition
-        - SAR15_CloseCondition
-        - SAR30_CloseCondition
+          - SAR1_CloseCondition
+          - SAR5_CloseCondition
+          - SAR15_CloseCondition
+          - SAR30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

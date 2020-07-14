@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - Fractals1_CloseCondition
-        - Fractals5_CloseCondition
-        - Fractals15_CloseCondition
-        - Fractals30_CloseCondition
+          - Fractals1_CloseCondition
+          - Fractals5_CloseCondition
+          - Fractals15_CloseCondition
+          - Fractals30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

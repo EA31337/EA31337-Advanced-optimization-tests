@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - MACD1_CloseCondition
-        - MACD5_CloseCondition
-        - MACD15_CloseCondition
-        - MACD30_CloseCondition
+          - MACD1_CloseCondition
+          - MACD5_CloseCondition
+          - MACD15_CloseCondition
+          - MACD30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:

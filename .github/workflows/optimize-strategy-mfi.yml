@@ -18,10 +18,10 @@ jobs:
     strategy:
       matrix:
         test:
-        - MFI1_CloseCondition
-        - MFI5_CloseCondition
-        - MFI15_CloseCondition
-        - MFI30_CloseCondition
+          - MFI1_CloseCondition
+          - MFI5_CloseCondition
+          - MFI15_CloseCondition
+          - MFI30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
