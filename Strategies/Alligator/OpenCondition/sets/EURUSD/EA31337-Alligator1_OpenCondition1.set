@@ -29,7 +29,7 @@ Alligator1_SignalMethod=0
 Alligator1_OpenCondition2=0
 Alligator1_CloseCondition=0
 # Optimization params.
-Alligator1_OpenCondition1=1
+Alligator1_OpenCondition1=583
 Alligator1_OpenCondition1,F=1
 Alligator1_OpenCondition1,1=1
 Alligator1_OpenCondition1,2=97
