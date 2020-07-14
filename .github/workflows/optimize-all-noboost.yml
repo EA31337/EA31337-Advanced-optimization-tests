@@ -15,19 +15,23 @@ jobs:
         shell: bash
         working-directory: All-NoBoost
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - ProfitFactorMinToTrade
+          - StopLossMax
+          - TakeProfitMax
+          - TrailingProfit
+          - TrailingStop
+          - TrailingStopAddPerMinute
+          - TrendPeriod
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA ProfitFactorMinToTrade
-      - run: docker-compose run $DCA StopLossMax
-      - run: docker-compose run $DCA TakeProfitMax
-      - run: docker-compose run $DCA TrailingProfit
-      - run: docker-compose run $DCA TrailingStop
-      - run: docker-compose run $DCA TrailingStopAddPerMinute
-      - run: docker-compose run $DCA TrendPeriod
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
