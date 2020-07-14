@@ -32,4 +32,4 @@ MFI30_CloseCondition=3
 MFI30_CloseCondition,F=1
 MFI30_CloseCondition,1=1
 MFI30_CloseCondition,2=1
-MFI30_CloseCondition,3=33
+MFI30_CloseCondition,3=32

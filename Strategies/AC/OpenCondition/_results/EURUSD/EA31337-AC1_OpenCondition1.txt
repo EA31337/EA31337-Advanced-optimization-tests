@@ -12,14 +12,14 @@
                             Spread          10
                                                                  [Optimization Graph]
         Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1  35.10           73          1.28            0.48      90.50       0.09   AC1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-           2  21.90            2          8.55           10.95       7.20       0.01  AC1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-           9   7.60           12          1.62            0.63      16.60       0.02 AC1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+           1  81.60           73          1.64            1.12      89.20       0.09   AC1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+           2  22.50            2          0.00           11.25      10.60       0.01  AC1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+           7  17.90            1          0.00           17.90       9.10       0.01 AC1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+           9  15.60           12          1.99            1.30      32.10       0.03 AC1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+           3   9.60            3          5.80            3.20       6.90       0.01 AC1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
            5   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
            6   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-           7   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
            8   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
           10   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-          11  -1.80            1          0.00           -1.80       1.80       0.00 AC1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-           4 -46.10           16          0.45           -2.88      85.40       0.09 AC1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-           3 -88.50           20          0.09           -4.42     107.80       0.11 AC1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+          11   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+           4 -60.00           16          0.43           -3.75      94.50       0.09 AC1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
