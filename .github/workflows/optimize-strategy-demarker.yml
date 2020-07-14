@@ -54,20 +54,24 @@ jobs:
         working-directory: Strategies/DeMarker/OpenCondition
     needs: CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - DeMarker1_OpenCondition1
+          - DeMarker5_OpenCondition1
+          - DeMarker15_OpenCondition1
+          - DeMarker30_OpenCondition1
+          - DeMarker1_OpenCondition2
+          - DeMarker5_OpenCondition2
+          - DeMarker15_OpenCondition2
+          - DeMarker30_OpenCondition2
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA DeMarker1_OpenCondition1
-      - run: docker-compose run $DCA DeMarker5_OpenCondition1
-      - run: docker-compose run $DCA DeMarker15_OpenCondition1
-      - run: docker-compose run $DCA DeMarker30_OpenCondition1
-      - run: docker-compose run $DCA DeMarker1_OpenCondition2
-      - run: docker-compose run $DCA DeMarker5_OpenCondition2
-      - run: docker-compose run $DCA DeMarker15_OpenCondition2
-      - run: docker-compose run $DCA DeMarker30_OpenCondition2
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

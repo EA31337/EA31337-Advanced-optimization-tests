@@ -54,20 +54,24 @@ jobs:
         working-directory: Strategies/SAR/OpenCondition
     needs: CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - SAR1_OpenCondition1
+          - SAR5_OpenCondition1
+          - SAR15_OpenCondition1
+          - SAR30_OpenCondition1
+          - SAR1_OpenCondition2
+          - SAR5_OpenCondition2
+          - SAR15_OpenCondition2
+          - SAR30_OpenCondition2
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA SAR1_OpenCondition1
-      - run: docker-compose run $DCA SAR5_OpenCondition1
-      - run: docker-compose run $DCA SAR15_OpenCondition1
-      - run: docker-compose run $DCA SAR30_OpenCondition1
-      - run: docker-compose run $DCA SAR1_OpenCondition2
-      - run: docker-compose run $DCA SAR5_OpenCondition2
-      - run: docker-compose run $DCA SAR15_OpenCondition2
-      - run: docker-compose run $DCA SAR30_OpenCondition2
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

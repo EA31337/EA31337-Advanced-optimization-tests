@@ -54,20 +54,24 @@ jobs:
         working-directory: Strategies/ATR/OpenCondition
     needs: CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - ATR1_OpenCondition1
+          - ATR5_OpenCondition1
+          - ATR15_OpenCondition1
+          - ATR30_OpenCondition1
+          - ATR1_OpenCondition2
+          - ATR5_OpenCondition2
+          - ATR15_OpenCondition2
+          - ATR30_OpenCondition2
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA ATR1_OpenCondition1
-      - run: docker-compose run $DCA ATR5_OpenCondition1
-      - run: docker-compose run $DCA ATR15_OpenCondition1
-      - run: docker-compose run $DCA ATR30_OpenCondition1
-      - run: docker-compose run $DCA ATR1_OpenCondition2
-      - run: docker-compose run $DCA ATR5_OpenCondition2
-      - run: docker-compose run $DCA ATR15_OpenCondition2
-      - run: docker-compose run $DCA ATR30_OpenCondition2
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

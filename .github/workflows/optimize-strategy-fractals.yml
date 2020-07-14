@@ -54,20 +54,24 @@ jobs:
         working-directory: Strategies/Fractals/OpenCondition
     needs: CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Fractals1_OpenCondition1
+          - Fractals5_OpenCondition1
+          - Fractals15_OpenCondition1
+          - Fractals30_OpenCondition1
+          - Fractals1_OpenCondition2
+          - Fractals5_OpenCondition2
+          - Fractals15_OpenCondition2
+          - Fractals30_OpenCondition2
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Fractals1_OpenCondition1
-      - run: docker-compose run $DCA Fractals5_OpenCondition1
-      - run: docker-compose run $DCA Fractals15_OpenCondition1
-      - run: docker-compose run $DCA Fractals30_OpenCondition1
-      - run: docker-compose run $DCA Fractals1_OpenCondition2
-      - run: docker-compose run $DCA Fractals5_OpenCondition2
-      - run: docker-compose run $DCA Fractals15_OpenCondition2
-      - run: docker-compose run $DCA Fractals30_OpenCondition2
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

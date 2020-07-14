@@ -56,20 +56,24 @@ jobs:
         working-directory: Strategies/Alligator/OpenCondition
     needs: CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - Alligator1_OpenCondition1
+          - Alligator5_OpenCondition1
+          - Alligator15_OpenCondition1
+          - Alligator30_OpenCondition1
+          - Alligator1_OpenCondition2
+          - Alligator5_OpenCondition2
+          - Alligator15_OpenCondition2
+          - Alligator30_OpenCondition2
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Alligator1_OpenCondition1
-      - run: docker-compose run $DCA Alligator5_OpenCondition1
-      - run: docker-compose run $DCA Alligator15_OpenCondition1
-      - run: docker-compose run $DCA Alligator30_OpenCondition1
-      - run: docker-compose run $DCA Alligator1_OpenCondition2
-      - run: docker-compose run $DCA Alligator5_OpenCondition2
-      - run: docker-compose run $DCA Alligator15_OpenCondition2
-      - run: docker-compose run $DCA Alligator30_OpenCondition2
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

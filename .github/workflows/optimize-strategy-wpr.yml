@@ -54,20 +54,24 @@ jobs:
         working-directory: Strategies/WPR/OpenCondition
     needs: CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+          - WPR1_OpenCondition1
+          - WPR5_OpenCondition1
+          - WPR15_OpenCondition1
+          - WPR30_OpenCondition1
+          - WPR1_OpenCondition2
+          - WPR5_OpenCondition2
+          - WPR15_OpenCondition2
+          - WPR30_OpenCondition2
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA WPR1_OpenCondition1
-      - run: docker-compose run $DCA WPR5_OpenCondition1
-      - run: docker-compose run $DCA WPR15_OpenCondition1
-      - run: docker-compose run $DCA WPR30_OpenCondition1
-      - run: docker-compose run $DCA WPR1_OpenCondition2
-      - run: docker-compose run $DCA WPR5_OpenCondition2
-      - run: docker-compose run $DCA WPR15_OpenCondition2
-      - run: docker-compose run $DCA WPR30_OpenCondition2
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
