@@ -29,7 +29,7 @@ AD1_SignalMethod=0
 AD1_OpenCondition1=0
 AD1_CloseCondition=0
 # Optimization params.
-AD1_OpenCondition2=680
+AD1_OpenCondition2=111
 AD1_OpenCondition2,F=1
 AD1_OpenCondition2,1=1
 AD1_OpenCondition2,2=55
