@@ -15,16 +15,20 @@ jobs:
         shell: bash
         working-directory: Strategies/SAR/CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+        - SAR1_CloseCondition
+        - SAR5_CloseCondition
+        - SAR15_CloseCondition
+        - SAR30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA SAR1_CloseCondition
-      - run: docker-compose run $DCA SAR5_CloseCondition
-      - run: docker-compose run $DCA SAR15_CloseCondition
-      - run: docker-compose run $DCA SAR30_CloseCondition
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

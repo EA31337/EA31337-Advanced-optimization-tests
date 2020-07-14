@@ -15,16 +15,20 @@ jobs:
         shell: bash
         working-directory: Strategies/MFI/CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+        - MFI1_CloseCondition
+        - MFI5_CloseCondition
+        - MFI15_CloseCondition
+        - MFI30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA MFI1_CloseCondition
-      - run: docker-compose run $DCA MFI5_CloseCondition
-      - run: docker-compose run $DCA MFI15_CloseCondition
-      - run: docker-compose run $DCA MFI30_CloseCondition
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

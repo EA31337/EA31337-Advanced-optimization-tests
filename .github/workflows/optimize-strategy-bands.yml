@@ -15,16 +15,20 @@ jobs:
         shell: bash
         working-directory: Strategies/Bands/CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+        - Bands1_CloseCondition
+        - Bands5_CloseCondition
+        - Bands15_CloseCondition
+        - Bands30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA Bands1_CloseCondition
-      - run: docker-compose run $DCA Bands5_CloseCondition
-      - run: docker-compose run $DCA Bands15_CloseCondition
-      - run: docker-compose run $DCA Bands30_CloseCondition
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

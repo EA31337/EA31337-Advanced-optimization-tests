@@ -15,16 +15,20 @@ jobs:
         shell: bash
         working-directory: Strategies/CCI/CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+        - CCI1_CloseCondition
+        - CCI5_CloseCondition
+        - CCI15_CloseCondition
+        - CCI30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA CCI1_CloseCondition
-      - run: docker-compose run $DCA CCI5_CloseCondition
-      - run: docker-compose run $DCA CCI15_CloseCondition
-      - run: docker-compose run $DCA CCI30_CloseCondition
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false

@@ -15,16 +15,20 @@ jobs:
         shell: bash
         working-directory: Strategies/MA/CloseCondition
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        test:
+        - MA1_CloseCondition
+        - MA5_CloseCondition
+        - MA15_CloseCondition
+        - MA30_CloseCondition
     steps:
       - uses: actions/checkout@v2
         with:
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
-      - run: docker-compose run $DCA MA1_CloseCondition
-      - run: docker-compose run $DCA MA5_CloseCondition
-      - run: docker-compose run $DCA MA15_CloseCondition
-      - run: docker-compose run $DCA MA30_CloseCondition
+      - run: docker-compose run $DCA ${{ matrix.test }}
       - name: Commit files
         run: |
           git config --local core.autocrlf false
