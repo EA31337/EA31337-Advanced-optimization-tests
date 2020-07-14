@@ -9,6 +9,7 @@ on:
       - 'optimize-strategy-alligator-*'
 
 jobs:
+
   CloseCondition:
     defaults:
       run:
@@ -44,6 +45,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
+
   OpenCondition:
     defaults:
       run:
@@ -84,7 +86,8 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
-  Stops:
+
+  Timeframes:
     defaults:
       run:
         shell: bash
