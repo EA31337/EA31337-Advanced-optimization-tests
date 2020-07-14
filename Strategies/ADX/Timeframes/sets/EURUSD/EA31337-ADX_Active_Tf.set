@@ -7,7 +7,7 @@ ProfitFactorMaxToTrade=0
 # Strategy params.
 AC_Active_Tf=0
 AD_Active_Tf=0
-ADX_Active_Tf=0
+ADX_Active_Tf=1
 Alligator_Active_Tf=0
 Bands_Active_Tf=0
 CCI_Active_Tf=0
