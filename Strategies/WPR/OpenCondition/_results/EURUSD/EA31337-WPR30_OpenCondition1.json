@@ -1,10 +1,10 @@
 {
-  "Time": "9",
+  "Time": "19",
   "Title": "Optimization Report",
   "EA Name": "EA31337-Advanced-v1.079-dev",
   "Build": "1260",
   "Symbol": "EURUSD (Euro vs US Dollar)",
-  "Period": "30 Minutes (M30)  2019.08.01 00:00 - 2019.12.30 23:30    (2019.08.01 - 2019.12.31)",
+  "Period": "1 Minute (M1)  2019.06.02 21:01 - 2019.12.30 23:59    (2019.06.01 - 2019.12.31)",
   "Model": "Every tick ",
   "Initial deposit": "100000.00",
   "Spread": "10",
