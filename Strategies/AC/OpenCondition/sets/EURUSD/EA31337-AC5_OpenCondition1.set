@@ -29,7 +29,7 @@ AC5_SignalMethod=0
 AC5_OpenCondition2=0
 AC5_CloseCondition=0
 # Optimization params.
-AC5_OpenCondition1=971
+AC5_OpenCondition1=583
 AC5_OpenCondition1,F=1
 AC5_OpenCondition1,1=1
 AC5_OpenCondition1,2=97
