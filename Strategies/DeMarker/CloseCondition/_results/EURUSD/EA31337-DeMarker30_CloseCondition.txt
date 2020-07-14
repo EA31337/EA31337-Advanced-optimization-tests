@@ -2,46 +2,45 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.06.29 20:30 (2018.01.01 - 2018.06.30)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        1   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-        2   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-        3   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-        4   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-        5   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-        6   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-        7   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-        8   0.00            0          0.00            0.00       0.00       0.00  DeMarker30_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-        9   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=40; MaxOrders=0; MaxOrdersPerType=0;
-       10   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-       11   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-       12   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
-       13   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-       14   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
-       15   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-       16   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-       17   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-       18   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-       19   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-       20   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-       21   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-       22   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-       23   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-       24   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-       25   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-       26   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-       27   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-       28   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-       29   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-       30   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-       31   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-       32   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
-       33   0.00            0          0.00            0.00       0.00       0.00 DeMarker30_CloseCondition=33; MaxOrders=0; MaxOrdersPerType=0;
+     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       12   65.08           60          1.43            1.08      69.31       0.07 DeMarker30_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+       30   11.06           60          1.05            0.18     131.12       0.13 DeMarker30_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+       32    7.06           60          1.04            0.12     116.11       0.12 DeMarker30_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+       31  -59.85           60          0.77           -1.00     164.22       0.16 DeMarker30_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+        1 -102.26           64          0.76           -1.60     193.73       0.19  DeMarker30_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+       11 -110.77           69          0.78           -1.61     214.73       0.21 DeMarker30_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+       19 -116.98          149          0.81           -0.79     146.83       0.15 DeMarker30_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+        7 -125.52           85          0.80           -1.48     266.24       0.27  DeMarker30_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+        6 -143.77           60          0.68           -2.40     204.24       0.20  DeMarker30_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+        8 -143.77           60          0.68           -2.40     204.24       0.20  DeMarker30_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+        9 -143.77           60          0.68           -2.40     204.24       0.20  DeMarker30_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+       10 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+       16 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+       17 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+       21 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+       22 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+       23 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+       25 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+       27 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+       28 -143.77           60          0.68           -2.40     204.24       0.20 DeMarker30_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+        2 -145.27           64          0.69           -2.27     223.84       0.22  DeMarker30_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+        5 -145.27           64          0.69           -2.27     223.84       0.22  DeMarker30_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+       13 -145.27           64          0.69           -2.27     223.84       0.22 DeMarker30_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+       14 -145.27           64          0.69           -2.27     223.84       0.22 DeMarker30_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+       15 -145.27           64          0.69           -2.27     223.84       0.22 DeMarker30_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+       18 -145.27           64          0.69           -2.27     223.84       0.22 DeMarker30_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+       29 -145.27           64          0.69           -2.27     223.84       0.22 DeMarker30_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+       26 -147.91           65          0.68           -2.28     219.27       0.22 DeMarker30_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+       24 -148.37           64          0.68           -2.32     223.84       0.22 DeMarker30_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+        3 -153.87           83          0.60           -1.85     159.57       0.16  DeMarker30_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+        4 -233.83          155          0.80           -1.51     331.54       0.33  DeMarker30_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+       20 -338.88           94          0.53           -3.61     340.48       0.34 DeMarker30_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
