@@ -11,15 +11,15 @@
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       6    55.85           64          1.39            0.87      56.72       0.06 DeMarker30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-      11    35.00           16          2.77            2.19      17.20       0.02 DeMarker30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-       7     0.38           29          1.01            0.01      46.20       0.05 DeMarker30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-       3   -39.92           85          0.82           -0.47      78.17       0.08 DeMarker30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-      10   -50.72           26          0.27           -1.95      83.90       0.08 DeMarker30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-       8   -85.71           30          0.10           -2.86      85.71       0.09 DeMarker30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-       2  -119.68          195          0.75           -0.61     177.46       0.18  DeMarker30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-       9  -171.74          128          0.59           -1.34     202.14       0.20 DeMarker30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-       5  -356.37          520          0.85           -0.69     551.42       0.55 DeMarker30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-       1  -627.26         1583          0.90           -0.40    1012.78       1.01   DeMarker30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-       4 -1444.64          874          0.66           -1.65    1743.31       1.74 DeMarker30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       7   15.58           24          1.15            0.65      61.32       0.06 DeMarker30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+       6    0.57           98          1.00            0.01     220.64       0.22 DeMarker30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+      11   -7.80            1          0.00           -7.80      22.80       0.02 DeMarker30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+       3   -9.12           60          0.96           -0.15     118.19       0.12 DeMarker30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+      10  -39.61           12          0.43           -3.30      65.40       0.07 DeMarker30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+       9  -91.27          128          0.78           -0.71     128.20       0.13 DeMarker30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+       2 -110.46          341          0.93           -0.32     451.64       0.45  DeMarker30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+       8 -128.61           30          0.03           -4.29     128.61       0.13 DeMarker30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+       5 -304.66          520          0.86           -0.59     506.03       0.51 DeMarker30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+       1 -582.39         1583          0.90           -0.37     900.80       0.90   DeMarker30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+       4 -695.40          874          0.86           -0.80    1222.21       1.22 DeMarker30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
