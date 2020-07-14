@@ -2,22 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.079-dev
+                                                                     (Build 1260)
 
                             Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
+                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
                             Model           Every tick (the most precise method based on all available least timeframes)
                             Initial deposit 100000.00
                             Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         8  -1453.76         1350          0.75           -1.08    1762.01       1.76 WPR1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         9  -1648.98         2442          0.74           -0.68    1841.03       1.84 WPR1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-         4  -2343.80         2236          0.71           -1.05    2420.60       2.42 WPR1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-         6  -2510.09         2024          0.69           -1.24    2783.23       2.78 WPR1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-         5  -2715.67         3348          0.73           -0.81    2912.99       2.91 WPR1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-         2  -6367.25         6972          0.69           -0.91    6510.86       6.51 WPR1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-         1  -6538.52         7669          0.77           -0.85    6628.11       6.63  WPR1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-         3  -8695.29        11845          0.76           -0.73    9362.44       9.34 WPR1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-         7 -10739.78        11129          0.66           -0.97   10856.87      10.85 WPR1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+        11    -79.61           86          0.67           -0.93      87.10       0.09 WPR1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+         7   -158.58          512          0.88           -0.31     247.54       0.25 WPR1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+        10   -201.02          333          0.77           -0.60     294.42       0.29 WPR1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+         8   -354.21          375          0.70           -0.94     375.71       0.38 WPR1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+         9   -788.15          708          0.65           -1.11     904.85       0.90 WPR1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+         6  -1291.07         1547          0.65           -0.83    1313.00       1.31 WPR1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+         5  -3149.06         3637          0.65           -0.87    3434.26       3.42 WPR1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+         3  -6167.80         7065          0.67           -0.87    6326.20       6.32 WPR1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+         2 -18963.80        18318          0.58           -1.04   19202.40      19.16  WPR1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+         1 -37933.22        43355          0.67           -0.87   38573.72      38.37   WPR1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+         4 -40408.35        39953          0.60           -1.01   41479.85      41.24 WPR1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
