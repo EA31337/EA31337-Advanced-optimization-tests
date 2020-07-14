@@ -28,7 +28,7 @@ SAR30_SignalMethod=0
 CloseConditionOnlyProfitable=0
 SAR30_OpenCondition2=0
 # Optimization params.
-SAR30_CloseCondition=24
+SAR30_CloseCondition=12
 SAR30_CloseCondition,F=1
 SAR30_CloseCondition,1=1
 SAR30_CloseCondition,2=1
