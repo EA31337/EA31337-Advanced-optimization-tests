@@ -18,7 +18,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          # Otherwise, the token used is the GITHUB_TOKEN, instead of your personal token.
           persist-credentials: false
           # Otherwise, you will failed to push refs to dest repo.
           fetch-depth: 0
