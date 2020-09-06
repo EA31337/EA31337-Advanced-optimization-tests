@@ -2,23 +2,14 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       10    102.90          290          1.16            0.35     368.80       0.37 Bands1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-        9   -403.63         1145          0.82           -0.35     655.10       0.65 Bands1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-        8  -2280.14         2649          0.66           -0.86    2963.64       2.95 Bands1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-        6  -3321.47         2359          0.59           -1.41    4016.87       4.00 Bands1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-        5  -5230.39         2845          0.41           -1.84    5321.79       5.32 Bands1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-        2  -5823.35         4009          0.57           -1.45    6431.80       6.40 Bands1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-        7  -6372.45         7982          0.65           -0.80    7981.85       7.89 Bands1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-        4 -10039.44         8650          0.60           -1.16   12996.04      12.81 Bands1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-        1 -24831.14        24870          0.61           -1.00   24889.54      24.88  Bands1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-        3 -36851.35        28126          0.55           -1.31   41929.86      40.77 Bands1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 -1368.38         1127          0.27           -1.21    1376.88       1.38 Bands1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
