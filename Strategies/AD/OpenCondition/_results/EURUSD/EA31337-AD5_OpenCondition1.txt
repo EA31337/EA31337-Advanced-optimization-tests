@@ -6,28 +6,27 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         13      2.10            1          0.00            2.10       7.80       0.01 AD5_OpenCondition1=661; MaxOrders=0; MaxOrdersPerType=0;
-          9     -0.40            1          0.00           -0.40       4.30       0.00 AD5_OpenCondition1=441; MaxOrders=0; MaxOrdersPerType=0;
-          3      0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=111; MaxOrders=0; MaxOrdersPerType=0;
-          5      0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=221; MaxOrders=0; MaxOrdersPerType=0;
-         19      0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=991; MaxOrders=0; MaxOrdersPerType=0;
-         17     -7.62           11          0.63           -0.69      25.81       0.03 AD5_OpenCondition1=881; MaxOrders=0; MaxOrdersPerType=0;
-          7     -9.77            5          0.36           -1.95      22.47       0.02 AD5_OpenCondition1=331; MaxOrders=0; MaxOrdersPerType=0;
-         11    -10.33            9          0.51           -1.15      16.23       0.02 AD5_OpenCondition1=551; MaxOrders=0; MaxOrdersPerType=0;
-         15    -30.70           29          0.47           -1.06      47.70       0.05 AD5_OpenCondition1=771; MaxOrders=0; MaxOrdersPerType=0;
-          1   -141.02          157          0.61           -0.90     191.80       0.19   AD5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-         18   -541.90          334          0.57           -1.62     601.46       0.60 AD5_OpenCondition1=936; MaxOrders=0; MaxOrdersPerType=0;
-         12   -554.06          277          0.54           -2.00     678.57       0.68 AD5_OpenCondition1=606; MaxOrders=0; MaxOrdersPerType=0;
-         16  -1018.94         1097          0.74           -0.93    1401.64       1.40 AD5_OpenCondition1=826; MaxOrders=0; MaxOrdersPerType=0;
-         14  -1072.93          509          0.48           -2.11    1148.75       1.15 AD5_OpenCondition1=716; MaxOrders=0; MaxOrdersPerType=0;
-          4  -1379.89         2457          0.80           -0.56    1767.52       1.76 AD5_OpenCondition1=166; MaxOrders=0; MaxOrdersPerType=0;
-         10  -3757.77         4558          0.76           -0.82    3803.37       3.80 AD5_OpenCondition1=496; MaxOrders=0; MaxOrdersPerType=0;
-          8  -7859.90         8863          0.72           -0.89    8091.26       8.08 AD5_OpenCondition1=386; MaxOrders=0; MaxOrdersPerType=0;
-          2 -14862.34        17047          0.76           -0.87   15124.34      15.10  AD5_OpenCondition1=56; MaxOrders=0; MaxOrdersPerType=0;
-          6 -30547.96        26772          0.67           -1.14   30973.58      30.89 AD5_OpenCondition1=276; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         10    10.20            2          0.00            5.10       5.30       0.01 AD5_OpenCondition1=497; MaxOrders=0; MaxOrdersPerType=0;
+         18    10.90            2          0.00            5.45       5.30       0.01 AD5_OpenCondition1=993; MaxOrders=0; MaxOrdersPerType=0;
+          8     8.20            2          0.00            4.10       5.90       0.01 AD5_OpenCondition1=373; MaxOrders=0; MaxOrdersPerType=0;
+         16     8.20            2          0.00            4.10       5.90       0.01 AD5_OpenCondition1=869; MaxOrders=0; MaxOrdersPerType=0;
+          9     2.10            1          0.00            2.10       2.60       0.00 AD5_OpenCondition1=435; MaxOrders=0; MaxOrdersPerType=0;
+          2     2.50            1          0.00            2.50       2.60       0.00  AD5_OpenCondition1=63; MaxOrders=0; MaxOrdersPerType=0;
+         11     1.10            2          1.78            0.55       8.70       0.01 AD5_OpenCondition1=559; MaxOrders=0; MaxOrdersPerType=0;
+         15    -0.50            3          0.89           -0.17       9.40       0.01 AD5_OpenCondition1=807; MaxOrders=0; MaxOrdersPerType=0;
+          4     0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=125; MaxOrders=0; MaxOrdersPerType=0;
+          6     0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=249; MaxOrders=0; MaxOrdersPerType=0;
+         12     0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=621; MaxOrders=0; MaxOrdersPerType=0;
+         17     0.00            0          0.00            0.00       0.00       0.00 AD5_OpenCondition1=931; MaxOrders=0; MaxOrdersPerType=0;
+         14    -1.30            1          0.00           -1.30       6.10       0.01 AD5_OpenCondition1=745; MaxOrders=0; MaxOrdersPerType=0;
+          7    -2.20            1          0.00           -2.20       3.70       0.00 AD5_OpenCondition1=311; MaxOrders=0; MaxOrdersPerType=0;
+         13    -4.41            4          0.35           -1.10       8.70       0.01 AD5_OpenCondition1=683; MaxOrders=0; MaxOrdersPerType=0;
+          5    -4.10            1          0.00           -4.10       7.10       0.01 AD5_OpenCondition1=187; MaxOrders=0; MaxOrdersPerType=0;
+          1  -235.80          206          0.36           -1.14     259.19       0.26   AD5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+          3 -1420.27         1474          0.55           -0.96    1438.33       1.44  AD5_OpenCondition1=94; MaxOrders=0; MaxOrdersPerType=0;
