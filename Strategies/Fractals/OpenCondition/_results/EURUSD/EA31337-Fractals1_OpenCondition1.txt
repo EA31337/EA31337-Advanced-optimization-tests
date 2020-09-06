@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      11     -3.30            3          0.43           -1.10      11.50       0.01 Fractals1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-       7    -25.23          281          0.95           -0.09     135.92       0.14 Fractals1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-      10    -50.70           17          0.20           -2.98      56.40       0.06 Fractals1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-       3   -166.26          323          0.76           -0.51     178.45       0.18 Fractals1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-       8   -275.80          244          0.57           -1.13     290.30       0.29 Fractals1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-       6   -661.85          637          0.58           -1.04     683.65       0.68 Fractals1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-       9   -919.55         1066          0.48           -0.86     939.95       0.94 Fractals1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-       2  -3331.83         3439          0.60           -0.97    3351.93       3.35  Fractals1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-       5  -3781.38         4543          0.54           -0.83    3801.28       3.80 Fractals1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-       4 -10652.11        13116          0.62           -0.81   10786.60      10.78 Fractals1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-       1 -16635.79        18081          0.43           -0.92   16668.29      16.67   Fractals1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+      11    -16.60           10          0.26           -1.66      23.30       0.02 Fractals1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+      10   -105.20           89          0.38           -1.18     128.10       0.13 Fractals1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+       6   -291.74          372          0.50           -0.78     322.04       0.32 Fractals1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+       8   -550.81          448          0.36           -1.23     558.31       0.56 Fractals1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+       3   -670.93          754          0.56           -0.89     720.73       0.72 Fractals1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+       5   -853.99         1217          0.69           -0.70     946.16       0.95 Fractals1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+       7   -883.70         1139          0.56           -0.78     894.20       0.89 Fractals1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+       9  -1207.83         1446          0.64           -0.84    1258.93       1.26 Fractals1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+       2 -10279.92         9510          0.40           -1.08   10336.42      10.33  Fractals1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+       4 -11698.05        12686          0.47           -0.92   11700.75      11.70 Fractals1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+       1 -17261.65        17954          0.54           -0.96   17266.75      17.27   Fractals1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
