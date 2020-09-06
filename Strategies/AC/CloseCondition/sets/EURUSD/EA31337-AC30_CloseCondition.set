@@ -31,7 +31,11 @@ AC5_SignalMethod=0
 AC15_SignalMethod=0
 AC30_SignalMethod=0
 # Optimization params.
+<<<<<<< Updated upstream
 AC30_CloseCondition=7
+=======
+AC30_CloseCondition=2
+>>>>>>> Stashed changes
 AC30_CloseCondition,F=1
 AC30_CloseCondition,1=1
 AC30_CloseCondition,2=1
