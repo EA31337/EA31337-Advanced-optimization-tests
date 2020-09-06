@@ -32,5 +32,5 @@ AC5_CloseCondition=0
 AC5_OpenCondition1=195
 AC5_OpenCondition1,F=1
 AC5_OpenCondition1,1=1
-AC5_OpenCondition1,2=97
+AC5_OpenCondition1,2=31
 AC5_OpenCondition1,3=1023
