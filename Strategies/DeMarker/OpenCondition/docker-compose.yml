@@ -9,7 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker1_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-DeMarker1_OpenCondition1
       SET_PARAMS: DeMarker1_OpenCondition1
@@ -21,7 +21,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker5_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-DeMarker5_OpenCondition1
       SET_PARAMS: DeMarker5_OpenCondition1
@@ -33,7 +33,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker15_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-DeMarker15_OpenCondition1
       SET_PARAMS: DeMarker15_OpenCondition1
@@ -45,7 +45,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker30_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-DeMarker30_OpenCondition1
       SET_PARAMS: DeMarker30_OpenCondition1
@@ -57,7 +57,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker1_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-DeMarker1_OpenCondition2
       SET_PARAMS: DeMarker1_OpenCondition2
@@ -69,7 +69,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker5_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-DeMarker5_OpenCondition2
       SET_PARAMS: DeMarker5_OpenCondition2
@@ -81,7 +81,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker15_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-DeMarker15_OpenCondition2
       SET_PARAMS: DeMarker15_OpenCondition2
@@ -93,7 +93,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-DeMarker30_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-DeMarker30_OpenCondition2
       SET_PARAMS: DeMarker30_OpenCondition2

@@ -9,7 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-Alligator1_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Alligator1_CloseCondition
       SET_PARAMS: Alligator1_CloseCondition
@@ -21,7 +21,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-Alligator5_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Alligator5_CloseCondition
       SET_PARAMS: Alligator5_CloseCondition
@@ -33,7 +33,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-Alligator15_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Alligator15_CloseCondition
       SET_PARAMS: Alligator15_CloseCondition
@@ -45,7 +45,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SETFILE: /opt/sets/EA31337-Alligator30_CloseCondition.set
       TEST_REPORT_NAME: EA31337-Alligator30_CloseCondition
       SET_PARAMS: Alligator30_CloseCondition
