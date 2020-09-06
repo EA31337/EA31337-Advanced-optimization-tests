@@ -28,7 +28,7 @@ SAR5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 SAR5_OpenCondition2=0
 # Optimization params.
-SAR5_CloseCondition=19
+SAR5_CloseCondition=12
 SAR5_CloseCondition,F=1
 SAR5_CloseCondition,1=1
 SAR5_CloseCondition,2=1
