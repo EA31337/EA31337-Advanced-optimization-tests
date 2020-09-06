@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 199.70           90          1.81            2.22      70.80       0.07   AC1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-           2 119.10           44          1.48            2.71     110.80       0.11  AC1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          10  91.20            7         54.65           13.03      20.90       0.02 AC1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-           9  52.70           18          3.09            2.93      28.40       0.03 AC1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-           7  13.50            1          0.00           13.50      16.40       0.02 AC1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-           3   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-           5   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-           6   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-           8   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-          11   0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-           4 -11.40           22          0.94           -0.52     164.20       0.16 AC1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1   86.30           90          1.21            0.96     122.70       0.12   AC1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+           8   78.50            4          0.00           19.63      17.50       0.02 AC1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+           2   51.50           31          1.37            1.66     182.50       0.18  AC1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+           3   22.70            7          1.89            3.24      43.80       0.04 AC1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+           9   22.90            5          1.63            4.58      35.20       0.04 AC1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+           5   20.50            6          2.02            3.42      46.60       0.05 AC1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+           6    0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+           7    0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+          10    0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+          11    0.00            0          0.00            0.00       0.00       0.00 AC1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+           4 -102.10           30          0.62           -3.40     301.00       0.30 AC1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
