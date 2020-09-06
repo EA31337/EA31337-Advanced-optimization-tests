@@ -32,5 +32,5 @@ ADX1_CloseCondition=0
 ADX1_OpenCondition1=991
 ADX1_OpenCondition1,F=1
 ADX1_OpenCondition1,1=1
-ADX1_OpenCondition1,2=55
+ADX1_OpenCondition1,2=31
 ADX1_OpenCondition1,3=1023
