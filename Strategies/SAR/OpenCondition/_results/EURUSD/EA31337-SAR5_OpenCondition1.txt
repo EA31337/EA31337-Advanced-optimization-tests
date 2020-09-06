@@ -2,24 +2,22 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          7    48.02          155          1.15            0.31      81.20       0.08 SAR5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-         11   -19.72           52          0.81           -0.38      76.72       0.08 SAR5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-         10   -61.44           88          0.81           -0.70     124.53       0.12 SAR5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-          8   -93.14           71          0.53           -1.31     112.94       0.11 SAR5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-          6  -154.48          196          0.76           -0.79     287.08       0.29 SAR5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-          3  -418.41         1368          0.87           -0.31     674.47       0.67 SAR5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-          9  -478.32          619          0.64           -0.77     542.51       0.54 SAR5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-          5 -1083.02         1123          0.55           -0.96    1095.52       1.10 SAR5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-          4 -2611.83         3180          0.69           -0.82    2685.13       2.69 SAR5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-          2 -3005.97         3484          0.75           -0.86    3094.17       3.09  SAR5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          1 -5506.71         9547          0.77           -0.58    6022.36       6.00   SAR5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         9   -251.89          454          0.77           -0.55     447.79       0.45 SAR5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+         5  -2182.19         7001          0.87           -0.31    2528.43       2.52 SAR5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+         8  -2228.98         1775          0.56           -1.26    2433.26       2.43 SAR5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+         3  -2580.20         4742          0.79           -0.54    2669.30       2.67 SAR5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+         6  -2747.03         2884          0.66           -0.95    2767.53       2.77 SAR5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+         4  -3560.43         8961          0.83           -0.40    4080.49       4.06 SAR5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+         7  -4765.10         4368          0.62           -1.09    4837.10       4.84 SAR5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+         2 -10106.06        19995          0.79           -0.51   11118.17      11.02 SAR5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+         1 -10998.61        19269          0.79           -0.57   11635.77      11.59 SAR5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
