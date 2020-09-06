@@ -2,32 +2,16 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                               EA31337-Lite-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         19   -47.30           24          0.22           -1.97      61.60       0.06 ADX5_OpenCondition2=991; MaxOrders=0; MaxOrdersPerType=0;
-          9   -88.80           50          0.29           -1.78     110.20       0.11 ADX5_OpenCondition2=441; MaxOrders=0; MaxOrdersPerType=0;
-         18  -162.09          297          0.70           -0.55     260.05       0.26 ADX5_OpenCondition2=936; MaxOrders=0; MaxOrdersPerType=0;
-          5  -236.29          206          0.52           -1.15     278.69       0.28 ADX5_OpenCondition2=221; MaxOrders=0; MaxOrdersPerType=0;
-         11  -326.46          401          0.66           -0.81     543.46       0.54 ADX5_OpenCondition2=551; MaxOrders=0; MaxOrdersPerType=0;
-         17  -342.57          302          0.60           -1.13     619.17       0.62 ADX5_OpenCondition2=881; MaxOrders=0; MaxOrdersPerType=0;
-         16  -348.35          294          0.48           -1.18     361.35       0.36 ADX5_OpenCondition2=826; MaxOrders=0; MaxOrdersPerType=0;
-          3  -374.21          207          0.37           -1.81     401.71       0.40 ADX5_OpenCondition2=111; MaxOrders=0; MaxOrdersPerType=0;
-          7  -571.54          423          0.38           -1.35     634.74       0.63 ADX5_OpenCondition2=331; MaxOrders=0; MaxOrdersPerType=0;
-         12  -657.83          505          0.47           -1.30     723.43       0.72 ADX5_OpenCondition2=606; MaxOrders=0; MaxOrdersPerType=0;
-         14  -880.87          886          0.61           -0.99    1216.58       1.21 ADX5_OpenCondition2=716; MaxOrders=0; MaxOrdersPerType=0;
-         15  -949.84          536          0.29           -1.77     986.14       0.99 ADX5_OpenCondition2=771; MaxOrders=0; MaxOrdersPerType=0;
-          4 -1087.00         2008          0.77           -0.54    1626.80       1.62 ADX5_OpenCondition2=166; MaxOrders=0; MaxOrdersPerType=0;
-         13 -1239.57         1422          0.66           -0.87    1483.57       1.48 ADX5_OpenCondition2=661; MaxOrders=0; MaxOrdersPerType=0;
-          8 -1806.98         2094          0.62           -0.86    2298.78       2.29 ADX5_OpenCondition2=386; MaxOrders=0; MaxOrdersPerType=0;
-         10 -2491.09         1726          0.53           -1.44    2921.89       2.91 ADX5_OpenCondition2=496; MaxOrders=0; MaxOrdersPerType=0;
-          6 -2837.18         3271          0.67           -0.87    3226.77       3.22 ADX5_OpenCondition2=276; MaxOrders=0; MaxOrdersPerType=0;
-          2 -3757.02         3623          0.55           -1.04    3785.22       3.79  ADX5_OpenCondition2=56; MaxOrders=0; MaxOrdersPerType=0;
-          1 -8642.45         8032          0.57           -1.08    9390.26       9.35   ADX5_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+          2  -675.29         1117          0.71           -0.60     938.45       0.94 ADX5_OpenCondition2=311; MaxOrders=0; MaxOrdersPerType=0;
+          3 -1624.05         1753          0.59           -0.93    1741.24       1.74 ADX5_OpenCondition2=435; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1734.62         1449          0.48           -1.20    1747.32       1.75  ADX5_OpenCondition2=63; MaxOrders=0; MaxOrdersPerType=0;
