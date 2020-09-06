@@ -9,6 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI1_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MFI1_OpenCondition1
       SET_PARAMS: MFI1_OpenCondition1
@@ -20,6 +21,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI5_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MFI5_OpenCondition1
       SET_PARAMS: MFI5_OpenCondition1
@@ -31,6 +33,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI15_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MFI15_OpenCondition1
       SET_PARAMS: MFI15_OpenCondition1
@@ -42,6 +45,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI30_OpenCondition1.set
       TEST_REPORT_NAME: EA31337-MFI30_OpenCondition1
       SET_PARAMS: MFI30_OpenCondition1
@@ -53,6 +57,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI1_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MFI1_OpenCondition2
       SET_PARAMS: MFI1_OpenCondition2
@@ -64,6 +69,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI5_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MFI5_OpenCondition2
       SET_PARAMS: MFI5_OpenCondition2
@@ -75,6 +81,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI15_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MFI15_OpenCondition2
       SET_PARAMS: MFI15_OpenCondition2
@@ -86,6 +93,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       SETFILE: /opt/sets/EA31337-MFI30_OpenCondition2.set
       TEST_REPORT_NAME: EA31337-MFI30_OpenCondition2
       SET_PARAMS: MFI30_OpenCondition2
