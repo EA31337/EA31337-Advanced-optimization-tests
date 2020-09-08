@@ -1,0 +1,9 @@
+# Overridden params.
+ProfitFactorMinToTrade=0
+ProfitFactorMaxToTrade=0
+# Optimization params.
+MaxOrdersPerType=0
+MaxOrdersPerType,F=0
+MaxOrdersPerType,1=0
+MaxOrdersPerType,2=0
+MaxOrdersPerType,3=0
