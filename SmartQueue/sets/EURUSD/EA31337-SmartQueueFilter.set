@@ -1,0 +1,14 @@
+# Overridden params.
+LotSize=0.01
+Boosting_Enabled=0
+Account_Conditions_Active=0
+CloseOrderAfterXHours=24
+SmartQueueActive=1
+MaxOrders=5
+SmartQueueMethod=0
+# Optimization params.
+SmartQueueFilter=30
+SmartQueueFilter,F=0
+SmartQueueFilter,1=0
+SmartQueueFilter,2=0
+SmartQueueFilter,3=0
