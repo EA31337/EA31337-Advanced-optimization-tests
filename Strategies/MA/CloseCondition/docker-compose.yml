@@ -9,7 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MA1_CloseCondition.set
       TEST_REPORT_NAME: EA31337-MA1_CloseCondition
       SET_PARAMS: MA1_CloseCondition
@@ -21,7 +21,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MA5_CloseCondition.set
       TEST_REPORT_NAME: EA31337-MA5_CloseCondition
       SET_PARAMS: MA5_CloseCondition
@@ -33,7 +33,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MA15_CloseCondition.set
       TEST_REPORT_NAME: EA31337-MA15_CloseCondition
       SET_PARAMS: MA15_CloseCondition
@@ -45,7 +45,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../../../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=50
       SETFILE: /opt/sets/EA31337-MA30_CloseCondition.set
       TEST_REPORT_NAME: EA31337-MA30_CloseCondition
       SET_PARAMS: MA30_CloseCondition
