@@ -1,0 +1,6 @@
+# Optimization params.
+LotSize=0
+LotSize,F=0
+LotSize,1=0
+LotSize,2=0
+LotSize,3=0

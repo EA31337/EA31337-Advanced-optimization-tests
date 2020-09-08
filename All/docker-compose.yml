@@ -1,0 +1,73 @@
+---
+version: '3.4'
+services:
+  CloseOrderAfterXHours:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params CloseOrderAfterXHours 0 120 24
+      SETFILE: /opt/sets/EA31337-CloseOrderAfterXHours.set
+      SET_PARAMS: CloseOrderAfterXHours
+      TEST_REPORT_NAME: EA31337-CloseOrderAfterXHours
+  InitNoOfOrdersToCalcPF:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params "$${SET_PARAMS}" 10 40 10
+      SETFILE: /opt/sets/EA31337-InitNoOfOrdersToCalcPF.set
+      SET_PARAMS: InitNoOfOrdersToCalcPF
+      TEST_REPORT_NAME: EA31337-InitNoOfOrdersToCalcPF
+  LotSize:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      RUN_ON_SET: set_opt_params LotSize 0 0.01 0.01
+      SETFILE: /opt/sets/EA31337-LotSize.set
+      SET_PARAMS: LotSize
+      TEST_REPORT_NAME: EA31337-LotSize
+  MaxOrders:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params MaxOrders 0 40 5
+      SETFILE: /opt/sets/EA31337-MaxOrders.set
+      SET_PARAMS: MaxOrders
+      TEST_REPORT_NAME: EA31337-MaxOrders
+  MaxOrdersPerType:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_MONTHS: 6-12
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: set_opt_params MaxOrdersPerType 0 20 2
+      SETFILE: /opt/sets/EA31337-MaxOrdersPerType.set
+      SET_PARAMS: MaxOrdersPerType
+      TEST_REPORT_NAME: EA31337-MaxOrdersPerType

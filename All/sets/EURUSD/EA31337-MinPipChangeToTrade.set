@@ -1,0 +1,9 @@
+# Overridden params.
+ProfitFactorMinToTrade=0
+ProfitFactorMaxToTrade=0
+# Optimization params.
+MinPipChangeToTrade=0
+MinPipChangeToTrade,F=0
+MinPipChangeToTrade,1=0
+MinPipChangeToTrade,2=0
+MinPipChangeToTrade,3=0
