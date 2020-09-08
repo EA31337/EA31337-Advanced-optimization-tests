@@ -28,7 +28,7 @@ DeMarker15_SignalMethod=0
 CloseConditionOnlyProfitable=0
 DeMarker15_OpenCondition2=0
 # Optimization params.
-DeMarker15_CloseCondition=13
+DeMarker15_CloseCondition=11
 DeMarker15_CloseCondition,F=1
 DeMarker15_CloseCondition,1=1
 DeMarker15_CloseCondition,2=1
