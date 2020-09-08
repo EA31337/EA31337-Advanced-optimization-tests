@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,36 +11,36 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-           2 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-           3 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-           4 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-           5 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-           6 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-           7 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-           8 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-           9 -101.41          271          0.89           -0.37     605.51       0.60  AD15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
-          10 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-          11 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-          12 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
-          13 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-          14 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
-          15 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-          16 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-          17 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-          18 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-          19 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-          20 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-          21 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-          22 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-          23 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-          24 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-          25 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-          26 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-          27 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-          28 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-          29 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-          30 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-          31 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-          32 -101.41          271          0.89           -0.37     605.51       0.60 AD15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          1 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+          2 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+          3 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+          4 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+          5 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+          6 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+          7 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+          8 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+          9 49739.97        13037          1.29            3.82   29999.55      16.76  AD15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+         10 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+         11 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+         12 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+         13 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+         14 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+         15 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+         16 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+         17 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+         18 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+         19 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+         20 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
+         21 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+         22 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+         23 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+         24 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+         25 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+         26 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+         27 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+         28 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+         29 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+         30 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+         31 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+         32 49739.97        13037          1.29            3.82   29999.55      16.76 AD15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
