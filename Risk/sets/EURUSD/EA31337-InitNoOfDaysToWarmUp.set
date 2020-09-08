@@ -1,0 +1,9 @@
+# Overridden params.
+LotSize=0
+RiskRatio=1.0
+# Optimization params.
+InitNoOfDaysToWarmUp=21
+InitNoOfDaysToWarmUp,F=1
+InitNoOfDaysToWarmUp,1=0
+InitNoOfDaysToWarmUp,2=7
+InitNoOfDaysToWarmUp,3=28

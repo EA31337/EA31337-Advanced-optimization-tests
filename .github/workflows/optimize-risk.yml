@@ -1,0 +1,46 @@
+---
+name: Optimize Risk
+
+# yamllint disable rule:truthy
+on:
+  push:
+    branches:
+      - 'optimize-risk'
+      - 'optimize-risk-*'
+
+jobs:
+  Risk:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Risk
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA InitNoOfDaysToWarmUp
+      - run: docker-compose run $DCA RiskMarginPerOrder
+      - run: docker-compose run $DCA RiskMarginTotal
+      - run: docker-compose run $DCA RiskRatio
+      - run: docker-compose run $DCA RiskRatioDecreaseMethod
+      - run: docker-compose run $DCA RiskRatioIncreaseMethod
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
