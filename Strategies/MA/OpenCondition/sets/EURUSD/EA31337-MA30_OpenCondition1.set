@@ -29,7 +29,7 @@ MA30_SignalMethod=0
 MA30_OpenCondition2=0
 MA30_CloseCondition=0
 # Optimization params.
-MA30_OpenCondition1=195
+MA30_OpenCondition1=1
 MA30_OpenCondition1,F=1
 MA30_OpenCondition1,1=1
 MA30_OpenCondition1,2=97
