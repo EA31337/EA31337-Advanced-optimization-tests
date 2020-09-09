@@ -2,45 +2,45 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       3   950.72         7933          1.02            0.12   11863.80      11.76  Fractals15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-      15  -450.71         1175          0.78           -0.38     732.50       0.73 Fractals15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-       4  -864.51         4699          0.97           -0.18    4662.36       4.65  Fractals15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-       1  -872.43         4663          0.97           -0.19    4883.30       4.86  Fractals15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-       6 -1028.56         1174          0.74           -0.88    1747.74       1.74  Fractals15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-       8 -1028.56         1174          0.74           -0.88    1747.74       1.74  Fractals15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-       9 -1028.56         1174          0.74           -0.88    1747.74       1.74  Fractals15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
-      10 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-      16 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-      17 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-      21 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-      22 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-      23 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-      25 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-      27 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-      28 -1028.56         1174          0.74           -0.88    1747.74       1.74 Fractals15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-      32 -1097.45         1174          0.51           -0.93    1379.05       1.38 Fractals15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
-      31 -1113.84         1174          0.55           -0.95    1739.14       1.73 Fractals15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-      30 -1174.90         1174          0.47           -1.00    1800.20       1.79 Fractals15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-      26 -2083.88         4705          0.93           -0.44    5946.64       5.93 Fractals15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-       2 -2206.45         4665          0.93           -0.47    6021.10       6.00  Fractals15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-      13 -2242.75         4664          0.93           -0.48    6095.33       6.08 Fractals15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-      20 -2243.71         4666          0.93           -0.48    6108.79       6.09 Fractals15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-       5 -2248.55         4665          0.93           -0.48    6101.13       6.08  Fractals15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-       7 -2248.55         4665          0.93           -0.48    6101.13       6.08  Fractals15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-      11 -2248.55         4665          0.93           -0.48    6101.13       6.08 Fractals15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-      12 -2248.55         4665          0.93           -0.48    6101.13       6.08 Fractals15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
-      18 -2248.55         4665          0.93           -0.48    6101.13       6.08 Fractals15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-      24 -2248.55         4665          0.93           -0.48    6101.13       6.08 Fractals15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-      29 -2248.55         4665          0.93           -0.48    6101.13       6.08 Fractals15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-      19 -2277.12         5844          0.93           -0.39    5524.93       5.49 Fractals15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-      14 -9105.82        11331          0.88           -0.80   18244.52      18.18 Fractals15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+    Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      24   3733.55         2153          1.32            1.73    3450.56       3.23 Fractals15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+       1    -53.21         2153          1.00           -0.02    5282.02       5.10  Fractals15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+       4   -386.95         2173          0.98           -0.18    6026.95       5.74  Fractals15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+      15   -801.76         2153          0.86           -0.37    2064.17       2.04 Fractals15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+      19  -1079.84         2175          0.86           -0.50    3326.66       3.28 Fractals15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+      12  -1814.07         2153          0.90           -0.84    6392.84       6.20 Fractals15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+      32  -1884.12         2153          0.73           -0.88    3327.03       3.30 Fractals15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+       3  -2056.52         2153          0.87           -0.96    6261.35       6.11  Fractals15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+      31  -2112.87         2153          0.63           -0.98    2280.94       2.28 Fractals15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+       7  -2127.60         2173          0.07           -0.98    2129.80       2.13  Fractals15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+       2  -2225.63         2153          0.25           -1.03    2262.23       2.26  Fractals15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+      14  -2369.96         2153          0.87           -1.10    7337.22       7.05 Fractals15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+      30  -2470.95         2153          0.56           -1.15    2782.89       2.78 Fractals15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+       5  -3001.89         2153          0.84           -1.39    7087.26       6.88  Fractals15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+       6  -3001.89         2153          0.84           -1.39    7087.26       6.88  Fractals15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+       8  -3001.89         2153          0.84           -1.39    7087.26       6.88  Fractals15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+       9  -3001.89         2153          0.84           -1.39    7087.26       6.88  Fractals15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+      10  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+      11  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+      16  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+      17  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+      18  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+      21  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+      22  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+      23  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+      25  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+      27  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+      28  -3001.89         2153          0.84           -1.39    7087.26       6.88 Fractals15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+      26  -3390.90         2173          0.44           -1.56    4838.14       4.81 Fractals15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+      29  -3521.37         2173          0.82           -1.62    7087.26       6.91 Fractals15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+      13  -3555.57         2173          0.82           -1.64    7087.26       6.91 Fractals15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+      20 -20147.49        24493          0.62           -0.82   21685.99      21.51 Fractals15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
