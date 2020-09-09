@@ -25,7 +25,6 @@ jobs:
       - run: docker-compose run $DCA LotSize
       - run: docker-compose run $DCA MaxOrders
       - run: docker-compose run $DCA MaxOrdersPerType
-      - run: docker-compose run $DCA MinPipChangeToTrade
       - name: Commit files
         run: |
           git config --local core.autocrlf false
