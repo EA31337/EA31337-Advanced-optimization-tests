@@ -29,7 +29,7 @@ MFI30_SignalMethod=0
 MFI30_OpenCondition2=0
 MFI30_CloseCondition=0
 # Optimization params.
-MFI30_OpenCondition1=777
+MFI30_OpenCondition1=971
 MFI30_OpenCondition1,F=1
 MFI30_OpenCondition1,1=1
 MFI30_OpenCondition1,2=97
