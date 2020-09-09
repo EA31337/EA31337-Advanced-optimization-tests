@@ -14,7 +14,7 @@ BoostTrendFactor=1.0
 ConWinsIncreaseFactor=1.0
 ConLossesIncreaseFactor=1.0
 # Optimization params.
-BestDailyStrategyMultiplierFactor=0.2
+BestDailyStrategyMultiplierFactor=0.3
 BestDailyStrategyMultiplierFactor,F=0
 BestDailyStrategyMultiplierFactor,1=0
 BestDailyStrategyMultiplierFactor,2=0
