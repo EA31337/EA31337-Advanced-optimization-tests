@@ -28,7 +28,7 @@ AD30_SignalMethod=0
 CloseConditionOnlyProfitable=0
 AD30_OpenCondition2=0
 # Optimization params.
-AD30_CloseCondition=1
+AD30_CloseCondition=11
 AD30_CloseCondition,F=1
 AD30_CloseCondition,1=1
 AD30_CloseCondition,2=1
