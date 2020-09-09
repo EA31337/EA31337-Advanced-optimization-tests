@@ -29,7 +29,7 @@ Envelopes30_SignalMethod=0
 Envelopes30_OpenCondition2=0
 Envelopes30_CloseCondition=0
 # Optimization params.
-Envelopes30_OpenCondition1=1
+Envelopes30_OpenCondition1=292
 Envelopes30_OpenCondition1,F=1
 Envelopes30_OpenCondition1,1=1
 Envelopes30_OpenCondition1,2=97
