@@ -1,0 +1,30 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+          Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             9  75.50           15          6.68            5.03      20.90       0.02  Bands_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+            10  75.50           15          6.68            5.03      20.90       0.02  Bands_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+            11  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+            12  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+            13  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+            14  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+            15  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+            16  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             1   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+             2   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+             3   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+             4   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+             5   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+             6   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             7   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+             8   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
