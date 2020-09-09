@@ -29,7 +29,7 @@ RSI1_SignalMethod=0
 RSI1_OpenCondition2=0
 RSI1_CloseCondition=0
 # Optimization params.
-RSI1_OpenCondition1=1
+RSI1_OpenCondition1=98
 RSI1_OpenCondition1,F=1
 RSI1_OpenCondition1,1=1
 RSI1_OpenCondition1,2=97
