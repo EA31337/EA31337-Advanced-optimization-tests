@@ -21,7 +21,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Optimization params.
-MACD_Active_Tf=0
+MACD_Active_Tf=1
 MACD_Active_Tf,F=1
 MACD_Active_Tf,1=0
 MACD_Active_Tf,2=1
