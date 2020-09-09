@@ -28,7 +28,7 @@ AD1_SignalMethod=0
 CloseConditionOnlyProfitable=0
 AD1_OpenCondition2=0
 # Optimization params.
-AD1_CloseCondition=32
+AD1_CloseCondition=15
 AD1_CloseCondition,F=1
 AD1_CloseCondition,1=1
 AD1_CloseCondition,2=1
