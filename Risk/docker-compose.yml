@@ -9,7 +9,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params InitNoOfDaysToWarmUp 0 28 7
       SETFILE: /opt/sets/EA31337-InitNoOfDaysToWarmUp.set
       SET_PARAMS: InitNoOfDaysToWarmUp
@@ -22,7 +22,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params RiskMarginPerOrder 0 5
       SETFILE: /opt/sets/EA31337-RiskMarginPerOrder.set
       SET_PARAMS: RiskMarginPerOrder
@@ -35,7 +35,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params RiskMarginTotal 5 20 5
       SETFILE: /opt/sets/EA31337-RiskMarginTotal.set
       SET_PARAMS: RiskMarginTotal
@@ -48,7 +48,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params RiskRatio 0 2.0 0.5
       SETFILE: /opt/sets/EA31337-RiskRatio.set
       SET_PARAMS: RiskRatio
@@ -61,7 +61,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       SET_PARAMS: RiskRatioDecreaseMethod
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
@@ -78,7 +78,7 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 7 * 10"))
