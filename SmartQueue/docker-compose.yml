@@ -36,7 +36,7 @@ services:
     env_file: ../EA-Tester.ini
     environment:
       BT_MONTHS: 1-12
-      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=1
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=2
       RUN_ON_SET: >
         set_opt_params "$${SET_PARAMS}"
         $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 5 * 10"))
