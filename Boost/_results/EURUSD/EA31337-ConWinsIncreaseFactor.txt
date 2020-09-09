@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 -17476.96         3720          0.45           -4.70   17523.76      17.52   ConWinsIncreaseFactor=-1; MaxOrders=0; MaxOrdersPerType=0;
+        2 -17476.96         3720          0.45           -4.70   17523.76      17.52 ConWinsIncreaseFactor=-0.9; MaxOrders=0; MaxOrdersPerType=0;
+        6 -18084.56         3720          0.44           -4.86   18131.36      18.13 ConWinsIncreaseFactor=-0.5; MaxOrders=0; MaxOrdersPerType=0;
+        3 -18086.66         3720          0.44           -4.86   18133.46      18.13 ConWinsIncreaseFactor=-0.8; MaxOrders=0; MaxOrdersPerType=0;
+        4 -18086.66         3720          0.44           -4.86   18133.46      18.13 ConWinsIncreaseFactor=-0.7; MaxOrders=0; MaxOrdersPerType=0;
+        5 -18087.06         3720          0.44           -4.86   18133.86      18.13 ConWinsIncreaseFactor=-0.6; MaxOrders=0; MaxOrdersPerType=0;
+        8 -18433.82         3720          0.44           -4.96   18480.62      18.48 ConWinsIncreaseFactor=-0.3; MaxOrders=0; MaxOrdersPerType=0;
+        7 -18450.81         3720          0.44           -4.96   18497.61      18.50 ConWinsIncreaseFactor=-0.4; MaxOrders=0; MaxOrdersPerType=0;
+       10 -18875.18         3720          0.45           -5.07   18921.98      18.92 ConWinsIncreaseFactor=-0.1; MaxOrders=0; MaxOrdersPerType=0;
+        9 -18939.96         3720          0.44           -5.09   18986.76      18.99 ConWinsIncreaseFactor=-0.2; MaxOrders=0; MaxOrdersPerType=0;
+       11 -19014.91         3720          0.44           -5.11   19061.71      19.06    ConWinsIncreaseFactor=0; MaxOrders=0; MaxOrdersPerType=0;

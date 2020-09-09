@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   1 -17639.58         3720          0.41           -4.74   17694.08      17.69                   BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   2 -17843.54         3720          0.42           -4.80   17898.04      17.90                   BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   3 -17887.96         3720          0.42           -4.81   17942.46      17.94                   BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   4 -18455.05         3720          0.43           -4.96   18509.55      18.51                   BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   5 -18708.21         3720          0.43           -5.03   18762.71      18.76                   BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   6 -18887.90         3720          0.45           -5.08   18942.40      18.94 BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
