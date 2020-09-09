@@ -1,0 +1,108 @@
+---
+name: Optimize Boost
+
+# yamllint disable rule:truthy
+on:
+  push:
+    branches:
+      - 'optimize-boost'
+      - 'optimize-boost-*'
+
+jobs:
+  BestStrategies:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Boost
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA BestDailyStrategyMultiplierFactor
+      - run: docker-compose run $DCA BestWeeklyStrategyMultiplierFactor
+      - run: docker-compose run $DCA BestMonthlyStrategyMultiplierFactor
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --rebase --autostash
+          git commit --allow-empty -am "${{ github.workflow }}"
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
+  WorseStrategies:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Boost
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA WorseDailyStrategyMultiplierFactor
+      - run: docker-compose run $DCA WorseWeeklyStrategyMultiplierFactor
+      - run: docker-compose run $DCA WorseMonthlyStrategyMultiplierFactor
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --rebase --autostash
+          git commit --allow-empty -am "${{ github.workflow }}"
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
+  Factors:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Boost
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA BoostTrendFactor
+      - run: docker-compose run $DCA ConFactorOrdersLimit
+      - run: docker-compose run $DCA ConLossesIncreaseFactor
+      - run: docker-compose run $DCA ConWinsIncreaseFactor
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --rebase --autostash
+          git commit --allow-empty -am "${{ github.workflow }}"
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"
