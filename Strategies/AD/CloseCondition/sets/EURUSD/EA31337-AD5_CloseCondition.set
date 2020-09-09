@@ -28,7 +28,7 @@ AD5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 AD5_OpenCondition2=0
 # Optimization params.
-AD5_CloseCondition=4
+AD5_CloseCondition=11
 AD5_CloseCondition,F=1
 AD5_CloseCondition,1=1
 AD5_CloseCondition,2=1
