@@ -2,45 +2,45 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-         2 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-         3 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-         4 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-         5 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-         6 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-         7 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-         8 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-         9 -751.00          162          0.59           -4.64    1168.67       1.17  Force30_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
-        10 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-        11 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-        12 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
-        13 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-        14 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
-        15 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-        16 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-        17 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-        18 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-        19 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-        20 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-        21 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-        22 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-        23 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-        24 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-        25 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-        26 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-        27 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-        28 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-        29 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-        30 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-        31 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-        32 -751.00          162          0.59           -4.64    1168.67       1.17 Force30_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         3   579.06         6189          1.01            0.09    6210.63       5.99  Force30_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+        14  -380.21         6189          0.99           -0.06    5926.10       5.83 Force30_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+        13  -444.33         6189          0.99           -0.07    6415.19       6.32 Force30_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+        32  -587.46         6189          0.98           -0.09    4758.55       4.65 Force30_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+        11  -656.34         6189          0.98           -0.11    6366.55       6.13 Force30_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+         5 -1397.23         6189          0.97           -0.23    6397.09       6.35  Force30_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+         6 -1397.23         6189          0.97           -0.23    6397.09       6.35  Force30_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+         8 -1397.23         6189          0.97           -0.23    6397.09       6.35  Force30_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+         9 -1397.23         6189          0.97           -0.23    6397.09       6.35  Force30_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+        10 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+        16 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+        17 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+        21 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+        22 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+        23 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+        25 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+        27 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+        28 -1397.23         6189          0.97           -0.23    6397.09       6.35 Force30_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+        30 -1859.56         6189          0.89           -0.30    2782.45       2.78 Force30_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+        20 -2082.44         6218          0.93           -0.33    6068.06       6.07 Force30_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
+         4 -2543.68         6218          0.93           -0.41    6972.06       6.97  Force30_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+        19 -2935.94         6218          0.74           -0.47    4249.96       4.21 Force30_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+        29 -3000.30         6218          0.89           -0.48    7027.90       6.81 Force30_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+        12 -3327.27         6218          0.92           -0.54    6894.95       6.87 Force30_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+        31 -3715.03         6189          0.83           -0.60    4836.67       4.83 Force30_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+        24 -4391.63         6218          0.89           -0.71    7282.99       7.28 Force30_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+        26 -5185.14         6189          0.44           -0.84    6559.30       6.47 Force30_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+        15 -5295.17         6218          0.77           -0.85    5762.76       5.74 Force30_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+         2 -5498.73         6218          0.46           -0.88    5563.62       5.56  Force30_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+         7 -5674.20         6189          0.21           -0.92    5682.50       5.68  Force30_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+         1 -6624.87         6218          0.78           -1.07    7815.90       7.81  Force30_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+        18 -7710.79         6424          0.66           -1.20    7958.06       7.96 Force30_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
