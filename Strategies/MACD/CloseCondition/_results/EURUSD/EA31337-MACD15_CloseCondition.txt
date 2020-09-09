@@ -1,0 +1,46 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4  12764.66         6078          1.19            2.10   23641.38      17.98  MACD15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+        24   9952.07         6078          1.26            1.64   15911.44      13.10 MACD15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+         1  -1465.49         6078          0.97           -0.24   21374.52      18.36  MACD15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+        31  -5195.60         6078          0.59           -0.85    5470.72       5.47 MACD15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+        15  -5282.15         6079          0.63           -0.87    8219.97       8.07 MACD15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+         2  -5995.68         6078          0.26           -0.99    6168.78       6.17  MACD15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+         7  -6021.28         6078          0.06           -0.99    6024.28       6.02  MACD15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+        32  -7171.00         6078          0.64           -1.18   12492.18      12.33 MACD15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+        30  -7254.08         6078          0.41           -1.19    7592.62       7.59 MACD15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+        19 -10034.80         6078          0.69           -1.65   15923.26      15.49 MACD15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+        18 -10566.20         5970          0.89           -1.77   41126.70      32.68 MACD15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+         3 -12260.17         6078          0.83           -2.02   39879.06      31.43  MACD15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+        26 -13424.86         6045          0.47           -2.22   14057.60      14.06 MACD15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+        11 -14286.26         6067          0.86           -2.35   43924.37      35.16 MACD15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+        29 -14720.16         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+         5 -14726.26         6078          0.85           -2.42   44364.37      35.51  MACD15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+         6 -14726.26         6078          0.85           -2.42   44364.37      35.51  MACD15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+         8 -14726.26         6078          0.85           -2.42   44364.37      35.51  MACD15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+         9 -14726.26         6078          0.85           -2.42   44364.37      35.51  MACD15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+        10 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+        16 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+        17 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+        21 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+        22 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+        23 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+        25 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+        27 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+        28 -14726.26         6078          0.85           -2.42   44364.37      35.51 MACD15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+        13 -15151.06         6078          0.85           -2.49   44364.37      35.64 MACD15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+        12 -15757.88         6011          0.83           -2.62   41383.61      34.23 MACD15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+        14 -18854.10         6078          0.80           -3.10   44498.74      36.80 MACD15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+        20 -25822.98        28418          0.61           -0.91   28982.57      28.50 MACD15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
