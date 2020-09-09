@@ -2,45 +2,45 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          3  3819.95         6817          1.09            0.56    9360.39       9.27  CCI15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-          4   825.65         3575          1.03            0.23    3673.12       3.64  CCI15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-          1    40.90         3541          1.00            0.01    4110.01       4.09  CCI15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-          5    40.90         3541          1.00            0.01    4110.01       4.09  CCI15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-          7    40.90         3541          1.00            0.01    4110.01       4.09  CCI15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-         12    40.90         3541          1.00            0.01    4110.01       4.09 CCI15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
-         13    40.90         3541          1.00            0.01    4110.01       4.09 CCI15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-         18    40.90         3541          1.00            0.01    4110.01       4.09 CCI15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-         24    40.90         3541          1.00            0.01    4110.01       4.09 CCI15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-         29    40.90         3541          1.00            0.01    4110.01       4.09 CCI15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-         20    28.90         3542          1.00            0.01    4114.01       4.09 CCI15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-          2     5.31         3541          1.00            0.00    4150.99       4.13  CCI15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-         31    -9.32           51          0.88           -0.18      89.02       0.09 CCI15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-         26   -24.98         3582          1.00           -0.01    4175.46       4.16 CCI15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-         32   -25.12           51          0.72           -0.49     122.12       0.12 CCI15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
-         30   -31.82           51          0.66           -0.62     112.82       0.11 CCI15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-          6   -48.46           51          0.65           -0.95     132.76       0.13  CCI15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-          8   -48.46           51          0.65           -0.95     132.76       0.13  CCI15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-          9   -48.46           51          0.65           -0.95     132.76       0.13  CCI15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
-         10   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-         11   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-         16   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-         17   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-         21   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-         22   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-         23   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-         25   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-         27   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-         28   -48.46           51          0.65           -0.95     132.76       0.13 CCI15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-         15   -58.74           51          0.55           -1.15      72.83       0.07 CCI15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-         19 -1164.44         4723          0.96           -0.25    4605.96       4.57 CCI15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-         14 -6852.95        10208          0.90           -0.67   17216.00      17.15 CCI15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4  67572.39        13984          1.41            4.83   21499.05      13.03  CCI15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+         3  64587.99        13984          1.39            4.62   27004.31      14.83  CCI15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+         5  51037.50        13984          1.25            3.65   27370.14      15.77  CCI15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+         6  51037.50        13984          1.25            3.65   27370.14      15.77  CCI15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+         8  51037.50        13984          1.25            3.65   27370.14      15.77  CCI15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+         9  51037.50        13984          1.25            3.65   27370.14      15.77  CCI15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+        10  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+        11  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+        16  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+        17  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+        18  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+        21  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+        22  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+        23  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+        25  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+        27  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+        28  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
+        29  51037.50        13984          1.25            3.65   27370.14      15.77 CCI15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+        14  50484.83        13984          1.27            3.61   26044.92      15.08 CCI15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+        13  50270.39        13984          1.24            3.59   27370.14      15.84 CCI15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+        12  47338.62        13984          1.25            3.39   23073.87      13.97 CCI15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+         1  45447.74        13984          1.48            3.25    9709.92       6.58  CCI15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+        24  26942.36        13984          1.27            1.93    9874.55       7.37 CCI15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+        20   7032.01        36324          1.04            0.19   25193.52      19.92 CCI15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
+        31  -3123.50        13984          0.94           -0.22    9965.12       9.35 CCI15_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+        32  -4545.02        13984          0.90           -0.33   11678.24      10.92 CCI15_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+        30  -5742.03        13984          0.86           -0.41    9784.63       9.42 CCI15_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+        15  -7164.64        13985          0.81           -0.51    8688.35       8.61 CCI15_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+        19 -10149.68        13986          0.54           -0.73   11453.90      11.34 CCI15_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+         2 -13138.26        13984          0.28           -0.94   13144.26      13.14  CCI15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+         7 -13266.94        13984          0.11           -0.95   13267.14      13.27  CCI15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+        26 -14600.74        13984          0.27           -1.04   15124.93      15.08 CCI15_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
