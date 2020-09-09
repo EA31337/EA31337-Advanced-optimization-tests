@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             9  75.50           15          6.68            5.03      20.90       0.02  Bands_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-            10  75.50           15          6.68            5.03      20.90       0.02  Bands_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-            11  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-            12  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-            13  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-            14  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-            15  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-            16  75.50           15          6.68            5.03      20.90       0.02 Bands_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             9  83.00            1          0.00           83.00      20.90       0.02  Bands_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+            10  83.00            1          0.00           83.00      20.90       0.02  Bands_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+            11  83.00            1          0.00           83.00      20.90       0.02 Bands_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+            12  83.00            1          0.00           83.00      20.90       0.02 Bands_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+            13  83.00            1          0.00           83.00      20.90       0.02 Bands_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+            14  83.00            1          0.00           83.00      20.90       0.02 Bands_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+            15  83.00            1          0.00           83.00      20.90       0.02 Bands_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+            16  83.00            1          0.00           83.00      20.90       0.02 Bands_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
              1   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
              2   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
              3   0.00            0          0.00            0.00       0.00       0.00  Bands_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
