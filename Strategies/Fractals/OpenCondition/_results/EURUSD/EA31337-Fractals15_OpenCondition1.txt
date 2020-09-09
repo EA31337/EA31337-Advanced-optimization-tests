@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.078
-                                                                     (Build 1010)
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       6    88.64           54          1.25            1.64     147.24       0.15 Fractals15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-       9    36.98           50          1.17            0.74     163.71       0.16 Fractals15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-      11     6.30            5          2.17            1.26      14.00       0.01 Fractals15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-       2   -12.58          420          1.00           -0.03     490.98       0.49  Fractals15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-      10   -39.71            5          0.25           -7.94      54.31       0.05 Fractals15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-       7   -48.23           40          0.87           -1.21     200.62       0.20 Fractals15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-       3  -180.57          197          0.83           -0.92     342.56       0.34 Fractals15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-       8  -308.73           79          0.59           -3.91     534.43       0.53 Fractals15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-       5  -719.03          468          0.81           -1.54     954.52       0.95 Fractals15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-       4  -741.82         1200          0.92           -0.62    1396.25       1.39 Fractals15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-       1 -1548.09         2519          0.88           -0.61    1916.43       1.91   Fractals15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+   Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+     10     -2.30           19          0.97           -0.12     141.20       0.14 Fractals15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+     11   -141.30          117          0.36           -1.21     160.54       0.16 Fractals15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+      9  -1037.22          694          0.53           -1.49    1044.12       1.04 Fractals15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+      7  -1454.61         1065          0.55           -1.37    1479.41       1.48 Fractals15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+      6  -1613.30         2153          0.85           -0.75    2938.16       2.91 Fractals15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+      8  -1693.06         1460          0.77           -1.16    2342.89       2.33 Fractals15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+      5  -1845.25         8005          0.94           -0.23    3978.49       3.91 Fractals15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+      2  -2450.12         4245          0.88           -0.58    4079.36       4.05  Fractals15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+      4  -2625.53        16292          0.97           -0.16   12203.66      11.19 Fractals15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+      3  -2858.36         2774          0.68           -1.03    3325.41       3.31 Fractals15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+      1 -28892.52        30388          0.78           -0.95   30615.87      30.11   Fractals15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;

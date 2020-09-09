@@ -28,7 +28,7 @@ Fractals30_SignalMethod=0
 CloseConditionOnlyProfitable=0
 Fractals30_OpenCondition2=0
 # Optimization params.
-Fractals30_CloseCondition=19
+Fractals30_CloseCondition=14
 Fractals30_CloseCondition,F=1
 Fractals30_CloseCondition,1=1
 Fractals30_CloseCondition,2=1

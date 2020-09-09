@@ -29,7 +29,7 @@ Fractals5_SignalMethod=0
 Fractals5_OpenCondition2=0
 Fractals5_CloseCondition=0
 # Optimization params.
-Fractals5_OpenCondition1=971
+Fractals5_OpenCondition1=874
 Fractals5_OpenCondition1,F=1
 Fractals5_OpenCondition1,1=1
 Fractals5_OpenCondition1,2=97
