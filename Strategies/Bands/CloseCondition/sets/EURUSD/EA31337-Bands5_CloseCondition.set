@@ -28,7 +28,7 @@ Bands5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 Bands5_OpenCondition2=0
 # Optimization params.
-Bands5_CloseCondition=32
+Bands5_CloseCondition=4
 Bands5_CloseCondition,F=1
 Bands5_CloseCondition,1=1
 Bands5_CloseCondition,2=1
