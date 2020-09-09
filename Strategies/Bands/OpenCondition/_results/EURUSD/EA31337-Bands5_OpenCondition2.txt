@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,5 +11,13 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -1607.87         1127          0.19           -1.43    1611.37       1.61 Bands5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+     Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        9   -813.42          648          0.61           -1.26     988.38       0.99 Bands5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+        7  -3432.28         3265          0.62           -1.05    4207.41       4.18 Bands5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+        8  -5823.08         3575          0.53           -1.63    7170.01       7.08 Bands5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+        2  -7877.66         5679          0.58           -1.39    8482.35       8.48 Bands5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+        5  -9653.09         5588          0.48           -1.73   10661.11      10.65 Bands5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+        4 -12859.45        12958          0.70           -0.99   19686.98      19.34 Bands5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+        6 -16858.76        16500          0.68           -1.02   19033.86      18.90 Bands5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+        3 -37649.08        30756          0.64           -1.22   39924.34      39.50 Bands5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+        1 -46783.04        34729          0.59           -1.35   50693.48      49.69  Bands5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
