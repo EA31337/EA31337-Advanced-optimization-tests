@@ -2,29 +2,29 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              4  136.47           91          1.52            1.50     161.06       0.16  RSI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-              2  132.17           90          1.50            1.47     161.06       0.16  RSI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-             12  131.36           95          1.49            1.38     161.36       0.16 RSI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-             10  127.06           94          1.47            1.35     161.36       0.16  RSI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             16   96.20          248          1.23            0.39     162.70       0.16 RSI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-             14   90.29          247          1.21            0.37     162.70       0.16 RSI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-             11   48.56            5         27.98            9.71      22.80       0.02 RSI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-              8   43.41          244          1.10            0.18     162.40       0.16  RSI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-              6   37.51          243          1.09            0.15     162.40       0.16  RSI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-              9    5.40            4          4.00            1.35      20.90       0.02  RSI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-              3    4.30            1          0.00            4.30       2.60       0.00  RSI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-              1    0.00            0          0.00            0.00       0.00       0.00  RSI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-             15  -43.04          160          0.75           -0.27     154.70       0.15 RSI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-             13  -67.44          158          0.66           -0.43     170.00       0.17 RSI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-              7  -96.53          156          0.44           -0.62     154.20       0.15  RSI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-              5 -104.93          154          0.42           -0.68     169.50       0.17  RSI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              2   6.89            1          0.00            6.89      30.51       0.03  RSI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+              4   6.89            1          0.00            6.89      30.51       0.03  RSI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+              6   6.89            1          0.00            6.89      30.51       0.03  RSI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+              8   6.89            1          0.00            6.89      30.51       0.03  RSI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+             10   6.89            1          0.00            6.89      30.51       0.03  RSI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+             12   6.89            1          0.00            6.89      30.51       0.03 RSI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+             14   6.89            1          0.00            6.89      30.51       0.03 RSI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+             16   6.89            1          0.00            6.89      30.51       0.03 RSI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+              1   0.00            0          0.00            0.00       0.00       0.00  RSI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+              3   0.00            0          0.00            0.00       0.00       0.00  RSI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+              5   0.00            0          0.00            0.00       0.00       0.00  RSI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+              7   0.00            0          0.00            0.00       0.00       0.00  RSI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+              9   0.00            0          0.00            0.00       0.00       0.00  RSI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             11   0.00            0          0.00            0.00       0.00       0.00 RSI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+             13   0.00            0          0.00            0.00       0.00       0.00 RSI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             15   0.00            0          0.00            0.00       0.00       0.00 RSI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
