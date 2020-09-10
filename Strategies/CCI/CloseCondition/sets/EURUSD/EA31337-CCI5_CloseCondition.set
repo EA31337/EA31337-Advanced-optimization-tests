@@ -28,7 +28,7 @@ CCI5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 CCI5_OpenCondition2=0
 # Optimization params.
-CCI5_CloseCondition=26
+CCI5_CloseCondition=13
 CCI5_CloseCondition,F=1
 CCI5_CloseCondition,1=1
 CCI5_CloseCondition,2=1
