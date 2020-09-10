@@ -11,26 +11,24 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1  -1509.58          534          0.56           -2.83    1772.63       1.77   WorseWeeklyStrategyMultiplierFactor=0; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           4  -3071.50         3720          0.54           -0.83    3079.80       3.08 WorseWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           2  -3094.99         3720          0.53           -0.83    3103.29       3.10 WorseWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           3  -3094.99         3720          0.53           -0.83    3103.29       3.10 WorseWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           5  -3149.00         3720          0.54           -0.85    3157.30       3.16 WorseWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           6  -3308.30         3720          0.53           -0.89    3316.60       3.32 WorseWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           7  -5780.74         3720          0.48           -1.55    5796.74       5.80 WorseWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           8  -6726.09         3720          0.49           -1.81    6749.79       6.75 WorseWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-           9 -10217.93         3720          0.46           -2.75   10249.33      10.25 WorseWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-          10 -13186.36         3720          0.45           -3.54   13217.76      13.22 WorseWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
-          11 -18887.90         3720          0.45           -5.08   18942.40      18.94   WorseWeeklyStrategyMultiplierFactor=1; MaxOrders=0;
-                                                                                                                          MaxOrdersPerType=0;
+Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+  11  6601.50          441          1.15           14.97   12532.05      10.62 WorseWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+  10  5226.30          441          1.14           11.85   11146.01       9.67                   WorseWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   9  3937.27          441          1.12            8.93   10706.68       9.44                   WorseWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   8  3185.91          441          1.11            7.22    9806.95       8.81                   WorseWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   5  2284.04          441          1.11            5.18    7353.50       6.81                   WorseWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   7  2187.18          441          1.09            4.96    9357.70       8.51                   WorseWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   6  1395.42          441          1.06            3.16    9081.77       8.34                   WorseWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   4 -1051.25          442          0.95           -2.38    7738.81       7.32                   WorseWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   1 -1091.24          277          0.95           -3.94    7460.25       7.08 WorseWeeklyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+   3 -1731.27          442          0.91           -3.92    7477.21       7.14                   WorseWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
+   2 -2000.85          442          0.90           -4.53    7245.45       6.94                   WorseWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0;
+                                                                                                                                   MaxOrdersPerType=0;
