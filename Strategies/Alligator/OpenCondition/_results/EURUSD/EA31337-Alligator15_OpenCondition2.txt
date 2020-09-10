@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
    Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-     10    -2.60            5          0.35           -0.52       5.90       0.01 Alligator15_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-     11    -2.20            3          0.39           -0.73       5.70       0.01 Alligator15_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-      7   -31.47           46          0.45           -0.68      53.77       0.05 Alligator15_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-      3   -40.04           76          0.58           -0.53      76.53       0.08 Alligator15_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-      8   -41.57           40          0.16           -1.04      41.57       0.04 Alligator15_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-      9   -55.27           43          0.18           -1.29      56.80       0.06 Alligator15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-      6  -157.30          141          0.31           -1.12     174.74       0.17 Alligator15_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-      2  -282.21          293          0.47           -0.96     331.91       0.33  Alligator15_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-      5  -876.42          762          0.34           -1.15     890.82       0.89 Alligator15_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-      1 -1463.36         1358          0.39           -1.08    1508.65       1.51   Alligator15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-      4 -1640.28         1550          0.37           -1.06    1670.71       1.67 Alligator15_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+      1   120.18         1947          1.02            0.06    2038.25       2.02   Alligator15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+     11   117.40           23          3.42            5.10      78.70       0.08 Alligator15_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+      3   -27.00          138          0.95           -0.20     288.60       0.29 Alligator15_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+     10   -69.90           25          0.01           -2.80      70.80       0.07 Alligator15_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+      7   -71.90          132          0.84           -0.54     288.60       0.29 Alligator15_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+      6   -82.80          133          0.64           -0.62     195.00       0.19 Alligator15_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+      9   -96.60           77          0.73           -1.25     197.50       0.20 Alligator15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+      8  -251.90          141          0.20           -1.79     326.20       0.33 Alligator15_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+      5  -330.12         1719          0.94           -0.19    1453.45       1.45 Alligator15_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+      2  -556.30          255          0.23           -2.18     640.80       0.64  Alligator15_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+      4 -3764.21         2935          0.44           -1.28    3884.21       3.88 Alligator15_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;

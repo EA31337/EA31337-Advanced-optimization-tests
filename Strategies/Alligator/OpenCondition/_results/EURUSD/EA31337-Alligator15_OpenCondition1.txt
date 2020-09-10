@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,10 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-   Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      6  -224.41          236          0.44           -0.95     227.91       0.23 Alligator15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-      2  -552.48          557          0.44           -0.99     578.58       0.58 Alligator15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-      1  -799.85          543          0.33           -1.47     806.65       0.81 Alligator15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-      5  -807.66          576          0.21           -1.40     810.96       0.81 Alligator15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-      4  -858.60          809          0.38           -1.06     892.51       0.89 Alligator15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-      3 -1749.60         1533          0.30           -1.14    1749.60       1.75 Alligator15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       4  665.20          588          1.20            1.13    3207.60       3.15 Alligator15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+       5  193.30          172          1.26            1.12     742.60       0.74 Alligator15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+       6  114.20          126          1.12            0.91    1281.00       1.27 Alligator15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+       8    2.10            8          1.03            0.26      85.50       0.09 Alligator15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+      11    0.20            1          0.00            0.20      15.30       0.02 Alligator15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+      10  -19.00            5          0.01           -3.80      66.80       0.07 Alligator15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+       9  -74.50           71          0.55           -1.05     140.20       0.14 Alligator15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+       3  -84.30           59          0.76           -1.43     337.50       0.34 Alligator15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+       7 -239.70          119          0.52           -2.01     350.60       0.35 Alligator15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+       2 -326.60          204          0.79           -1.60    1408.70       1.40  Alligator15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+       1 -839.03         1973          0.88           -0.43    2099.10       2.08   Alligator15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
