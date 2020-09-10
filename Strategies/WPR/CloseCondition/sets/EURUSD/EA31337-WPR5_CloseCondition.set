@@ -28,7 +28,7 @@ WPR5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 WPR5_OpenCondition2=0
 # Optimization params.
-WPR5_CloseCondition=13
+WPR5_CloseCondition=4
 WPR5_CloseCondition,F=1
 WPR5_CloseCondition,1=1
 WPR5_CloseCondition,2=1

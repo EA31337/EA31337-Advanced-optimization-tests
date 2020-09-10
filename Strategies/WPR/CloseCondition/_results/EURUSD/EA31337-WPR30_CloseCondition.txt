@@ -1,0 +1,27 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1  72999.59        11799          1.91            6.19   16062.00      12.21  WPR30_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+         4  45308.36        12071          1.44            3.75   18845.79      15.01 WPR30_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+         5  40003.09        11648          1.28            3.43   24354.58      18.83 WPR30_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+         9  39393.20        12062          1.46            3.27   22518.50      15.68 WPR30_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+         7  15930.04        12021          1.28            1.33   20846.98      17.61 WPR30_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+        13   8645.63        12071          1.15            0.72   13020.89      11.03 WPR30_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+        11   5060.42        12071          1.08            0.42   14169.30      12.82 WPR30_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+        12   4399.05        12071          1.06            0.36   20448.16      17.07 WPR30_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+         2   1633.22        12611          1.10            0.13    6888.53       6.35  WPR30_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+         8 -11059.82        12071          0.50           -0.92   12383.16      12.24 WPR30_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+         3 -11980.16        12071          0.04           -0.99   11981.56      11.98  WPR30_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+        10 -13022.33        12005          0.65           -1.08   18840.18      18.23 WPR30_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+         6 -14495.59        12071          0.59           -1.20   17388.05      17.18 WPR30_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
