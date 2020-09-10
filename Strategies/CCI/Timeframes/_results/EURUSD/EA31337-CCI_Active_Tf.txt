@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             10 749.92          465          1.11            1.61    1049.95       1.03  CCI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             12 749.92          465          1.11            1.61    1049.95       1.03 CCI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-             14 749.92          465          1.11            1.61    1049.95       1.03 CCI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-             16 749.92          465          1.11            1.61    1049.95       1.03 CCI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-              9 743.03          464          1.11            1.60    1049.95       1.03  CCI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-             11 743.03          464          1.11            1.60    1049.95       1.03 CCI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-             13 743.03          464          1.11            1.60    1049.95       1.03 CCI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-             15 743.03          464          1.11            1.60    1049.95       1.03 CCI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-              2   6.89            1          0.00            6.89      30.51       0.03  CCI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-              4   6.89            1          0.00            6.89      30.51       0.03  CCI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-              6   6.89            1          0.00            6.89      30.51       0.03  CCI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-              8   6.89            1          0.00            6.89      30.51       0.03  CCI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-              1   0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-              3   0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-              5   0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
-              7   0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             3     7.90           68          1.04            0.12      46.00       0.05  CCI_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=6;
+             7     7.90           68          1.04            0.12      46.00       0.05  CCI_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=6;
+             4     5.10           70          1.03            0.07      46.00       0.05  CCI_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=6;
+             8     5.10           70          1.03            0.07      46.00       0.05  CCI_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=6;
+             1     0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=6;
+             5     0.00            0          0.00            0.00       0.00       0.00  CCI_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=6;
+             2    -2.80            2          0.00           -1.40       2.90       0.00  CCI_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=6;
+             6    -2.80            2          0.00           -1.40       2.90       0.00  CCI_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=6;
+            11 -7307.10         8110          0.30           -0.90    7385.50       7.38 CCI_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=6;
+            15 -7307.10         8110          0.30           -0.90    7385.50       7.38 CCI_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=6;
+             9 -7308.60         8042          0.28           -0.91    7387.00       7.38  CCI_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=6;
+            13 -7308.60         8042          0.28           -0.91    7387.00       7.38 CCI_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=6;
+            12 -7309.90         8112          0.30           -0.90    7388.30       7.38 CCI_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=6;
+            16 -7309.90         8112          0.30           -0.90    7388.30       7.38 CCI_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=6;
+            10 -7311.40         8044          0.28           -0.91    7389.80       7.38  CCI_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=6;
+            14 -7311.40         8044          0.28           -0.91    7389.80       7.38 CCI_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=6;
