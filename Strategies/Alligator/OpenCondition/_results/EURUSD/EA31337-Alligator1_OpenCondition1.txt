@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-   Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      7      6.80            4          0.00            1.70      15.30       0.02 Alligator1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-     11      0.00            0          0.00            0.00       0.00       0.00 Alligator1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-      6     -6.70            7          0.44           -0.96      10.50       0.01 Alligator1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-      9    -43.40           23          0.28           -1.89      54.70       0.05 Alligator1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-     10    -58.90           12          0.18           -4.91      68.80       0.07 Alligator1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-      8    -73.60           83          0.74           -0.89     127.20       0.13 Alligator1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-      5   -206.50          242          0.64           -0.85     243.20       0.24 Alligator1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-      3   -220.27          343          0.74           -0.64     278.27       0.28 Alligator1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-      4   -619.04          465          0.63           -1.33     715.43       0.71 Alligator1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-      2  -7920.58         6087          0.61           -1.30    8534.87       8.48  Alligator1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-      1 -14041.28        13448          0.57           -1.04   14194.78      14.18   Alligator1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
+    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       7   29.70            3         17.50            9.90       7.70       0.01 Alligator1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+       9   28.10            2         16.61           14.05       7.70       0.01 Alligator1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+       2    0.00            0          0.00            0.00       0.00       0.00  Alligator1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+       3    0.00            0          0.00            0.00       0.00       0.00 Alligator1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+       6    0.00            0          0.00            0.00       0.00       0.00 Alligator1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+      10    0.00            0          0.00            0.00       0.00       0.00 Alligator1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+      11    0.00            0          0.00            0.00       0.00       0.00 Alligator1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+       8   -9.40           13          0.83           -0.72      38.10       0.04 Alligator1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+       4  -15.70            1          0.00          -15.70      23.00       0.02 Alligator1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+       5  -15.70            1          0.00          -15.70      23.00       0.02 Alligator1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+       1 -159.67           85          0.47           -1.88     162.80       0.16   Alligator1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
