@@ -9,6 +9,7 @@ on:
       - 'optimize-strategy-fractals-*'
 
 jobs:
+
   CloseCondition:
     defaults:
       run:
@@ -85,19 +86,28 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git add . && git add --renormalize .
-          git status
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
+
   Timeframes:
     defaults:
       run:
@@ -117,16 +127,24 @@ jobs:
           git config --local core.autocrlf false
           git config --local user.email "${{ github.actor }}@users.noreply.github.com"
           git config --local user.name "${{ github.actor }}"
-          git pull origin ${{ github.ref }} --autostash --rebase -Xours
           git add . && git add --renormalize .
-          git status
-          git commit -am "${{ github.workflow }}"
-      - name: Git Diff
-        run: NO_PAGER=1 git --no-pager diff HEAD^
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
     env:
       DCA: "--rm"
