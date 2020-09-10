@@ -6,7 +6,7 @@ CloseOrderAfterXHours=48
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
-TrailingStop=50
+TrailingStop=40
 TrailingStop,F=1
 TrailingStop,1=0
 TrailingStop,2=10
