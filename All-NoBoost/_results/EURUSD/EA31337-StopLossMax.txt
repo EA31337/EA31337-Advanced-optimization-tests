@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,9 +11,9 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-              2 -3859.89         3851          0.76           -1.00    4017.69       4.01  StopLossMax=40; MaxOrders=0; MaxOrdersPerType=0;
-              4 -3900.81         3756          0.75           -1.04    4054.11       4.05  StopLossMax=80; MaxOrders=0; MaxOrdersPerType=0;
-              5 -3941.17         3762          0.75           -1.05    4100.47       4.09 StopLossMax=100; MaxOrders=0; MaxOrdersPerType=0;
-              3 -4118.09         3786          0.74           -1.09    4271.39       4.27  StopLossMax=60; MaxOrders=0; MaxOrdersPerType=0;
-              1 -4266.30         4066          0.74           -1.05    4438.00       4.43  StopLossMax=20; MaxOrders=0; MaxOrdersPerType=0;
+            Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+               1 1747.66          743          1.22            2.35    1081.70       1.05  StopLossMax=0; MaxOrders=0; MaxOrdersPerType=0;
+               3 1725.85          746          1.23            2.31     837.34       0.82 StopLossMax=40; MaxOrders=0; MaxOrdersPerType=0;
+               4 1580.33          740          1.20            2.14    1081.70       1.06 StopLossMax=60; MaxOrders=0; MaxOrdersPerType=0;
+               5 1580.33          740          1.20            2.14    1081.70       1.06 StopLossMax=80; MaxOrders=0; MaxOrdersPerType=0;
+               2 1410.26          783          1.22            1.80     523.23       0.52 StopLossMax=20; MaxOrders=0; MaxOrdersPerType=0;
