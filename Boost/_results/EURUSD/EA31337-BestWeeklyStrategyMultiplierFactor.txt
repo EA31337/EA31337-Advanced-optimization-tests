@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-   1 -17639.58         3720          0.41           -4.74   17694.08      17.69                   BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   2 -17843.54         3720          0.42           -4.80   17898.04      17.90                   BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   3 -17887.96         3720          0.42           -4.81   17942.46      17.94                   BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   4 -18455.05         3720          0.43           -4.96   18509.55      18.51                   BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   5 -18708.21         3720          0.43           -5.03   18762.71      18.76                   BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0;
-                                                                                                                                   MaxOrdersPerType=0;
-   6 -18887.90         3720          0.45           -5.08   18942.40      18.94 BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+   7 7477.09          441          1.29           16.95    7473.12       6.66 BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
+   1 7378.86          441          1.17           16.73   13331.10      11.20   BestWeeklyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+   8 7200.31          441          1.25           16.33    8486.21       7.48 BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+   3 6901.13          441          1.38           15.65    6095.40       5.52 BestWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+   2 6829.79          441          1.38           15.49    6028.66       5.47 BestWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+   9 6754.33          441          1.20           15.32    9756.60       8.49 BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+  11 6601.50          441          1.15           14.97   12532.05      10.62   BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+  10 6129.46          441          1.17           13.90   10334.92       8.93 BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+   6 5305.93          441          1.23           12.03    7525.92       6.82 BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+   4 4460.84          441          1.24           10.12    6315.94       5.85 BestWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+   5 4003.57          441          1.20            9.08    6855.95       6.34 BestWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
