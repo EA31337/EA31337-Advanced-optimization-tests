@@ -12,13 +12,13 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        10    142.50          303          1.20            0.47     379.10       0.38 MACD5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-         9   -666.81          835          0.71           -0.80    1550.20       1.54 MACD5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-         2  -2063.15         2630          0.75           -0.78    2906.78       2.88 MACD5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-         5  -2516.93         2486          0.62           -1.01    4192.00       4.14 MACD5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+        10    177.90          294          1.27            0.61     372.10       0.37 MACD5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+         9   -867.24         1010          0.66           -0.86    1639.50       1.63 MACD5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+         2  -1666.25         2588          0.79           -0.64    2968.27       2.93 MACD5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
          8  -2674.40         2260          0.69           -1.18    3067.39       3.06 MACD5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+         5  -3097.09         2742          0.59           -1.13    4464.67       4.41 MACD5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
          7  -3513.66         4795          0.71           -0.73    4581.36       4.53 MACD5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         6  -7654.36         4416          0.57           -1.73    8383.39       8.36 MACD5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-         1 -12084.47         7951          0.45           -1.52   12842.10      12.77  MACD5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         6  -8855.53         5176          0.57           -1.71    9444.24       9.44 MACD5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         1 -10832.56         8869          0.56           -1.22   14713.03      14.18  MACD5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
          4 -17460.47        17167          0.71           -1.02   18522.17      18.43 MACD5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
          3 -38104.95        27915          0.51           -1.37   41077.87      40.87 MACD5_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
