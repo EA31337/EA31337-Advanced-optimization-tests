@@ -1,0 +1,25 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             4 3482.76          442          1.11            7.88    8727.65       7.85  MaxOrdersPerType=6; MaxOrders=0; MaxOrdersPerDay=0;
+             5 3482.76          442          1.11            7.88    8727.65       7.85  MaxOrdersPerType=8; MaxOrders=0; MaxOrdersPerDay=0;
+             6 3482.76          442          1.11            7.88    8727.65       7.85 MaxOrdersPerType=10; MaxOrders=0; MaxOrdersPerDay=0;
+             7 3482.76          442          1.11            7.88    8727.65       7.85 MaxOrdersPerType=12; MaxOrders=0; MaxOrdersPerDay=0;
+             8 3482.76          442          1.11            7.88    8727.65       7.85 MaxOrdersPerType=14; MaxOrders=0; MaxOrdersPerDay=0;
+             9 3482.76          442          1.11            7.88    8727.65       7.85 MaxOrdersPerType=16; MaxOrders=0; MaxOrdersPerDay=0;
+            10 3482.76          442          1.11            7.88    8727.65       7.85 MaxOrdersPerType=18; MaxOrders=0; MaxOrdersPerDay=0;
+            11 3482.76          442          1.11            7.88    8727.65       7.85 MaxOrdersPerType=20; MaxOrders=0; MaxOrdersPerDay=0;
+             1 3008.40          441          1.09            6.82    8727.65       7.85  MaxOrdersPerType=0; MaxOrders=0; MaxOrdersPerDay=0;
+             3 3008.40          441          1.09            6.82    8727.65       7.85  MaxOrdersPerType=4; MaxOrders=0; MaxOrdersPerDay=0;
+             2 2814.06          370          1.12            7.61    4899.01       4.57  MaxOrdersPerType=2; MaxOrders=0; MaxOrdersPerDay=0;
