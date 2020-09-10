@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,10 +11,10 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             5 -2687.58         3816          0.82           -0.70    2994.72       2.99  TrendPeriod=240; MaxOrders=0; MaxOrdersPerType=0;
-             4 -2870.71         3636          0.81           -0.79    3190.55       3.19   TrendPeriod=60; MaxOrders=0; MaxOrdersPerType=0;
-             6 -3788.05         4214          0.76           -0.90    4054.98       4.04 TrendPeriod=1440; MaxOrders=0; MaxOrdersPerType=0;
-             3 -4472.22         3812          0.72           -1.17    4674.26       4.67   TrendPeriod=30; MaxOrders=0; MaxOrdersPerType=0;
-             1 -4649.94         4216          0.74           -1.10    4878.45       4.87    TrendPeriod=5; MaxOrders=0; MaxOrdersPerType=0;
-             2 -5080.05         5249          0.74           -0.97    5483.32       5.47   TrendPeriod=15; MaxOrders=0; MaxOrdersPerType=0;
+           Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              5 1386.41          720          1.18            1.93    1090.96       1.07  TrendPeriod=240; MaxOrders=0; MaxOrdersPerType=0;
+              2  879.52          605          1.11            1.45    1109.26       1.09   TrendPeriod=15; MaxOrders=0; MaxOrdersPerType=0;
+              4  739.70          574          1.10            1.29    1075.53       1.06   TrendPeriod=60; MaxOrders=0; MaxOrdersPerType=0;
+              3  723.81          573          1.10            1.26    1064.22       1.05   TrendPeriod=30; MaxOrders=0; MaxOrdersPerType=0;
+              1  656.70          604          1.09            1.09    1093.32       1.08    TrendPeriod=5; MaxOrders=0; MaxOrdersPerType=0;
+              6  445.33          765          1.05            0.58    1132.23       1.12 TrendPeriod=1440; MaxOrders=0; MaxOrdersPerType=0;
