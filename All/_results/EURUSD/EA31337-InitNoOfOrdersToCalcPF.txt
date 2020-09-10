@@ -1,0 +1,18 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         1 3008.40          441          1.09            6.82    8727.65       7.85 InitNoOfOrdersToCalcPF=10; MaxOrders=0; MaxOrdersPerType=0;
+         2 3008.40          441          1.09            6.82    8727.65       7.85 InitNoOfOrdersToCalcPF=20; MaxOrders=0; MaxOrdersPerType=0;
+         3 3008.40          441          1.09            6.82    8727.65       7.85 InitNoOfOrdersToCalcPF=30; MaxOrders=0; MaxOrdersPerType=0;
+         4 3008.40          441          1.09            6.82    8727.65       7.85 InitNoOfOrdersToCalcPF=40; MaxOrders=0; MaxOrdersPerType=0;
