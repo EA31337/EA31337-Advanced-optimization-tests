@@ -20,6 +20,6 @@
         7   -9.37            5          0.00           -1.87       9.37       0.01 DeMarker5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
        11  -10.30            5          0.00           -2.06      10.30       0.01 DeMarker5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
         9  -19.47            8          0.00           -2.43      19.47       0.02 DeMarker5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-        3  -28.10           23          0.17           -1.22      28.90       0.03 DeMarker5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+        3  -30.50           24          0.14           -1.27      31.30       0.03 DeMarker5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
         5 -182.30          169          0.54           -1.08     311.60       0.31 DeMarker5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
         1 -323.27          211          0.40           -1.53     451.77       0.45   DeMarker5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
