@@ -6,7 +6,7 @@ CloseOrderAfterXHours=48
 # Fixed params.
 ProfitFactorMaxToTrade=5.0
 # Optimization params.
-ProfitFactorMinToTrade=0.9
+ProfitFactorMinToTrade=0.6
 ProfitFactorMinToTrade,F=1
 ProfitFactorMinToTrade,1=0
 ProfitFactorMinToTrade,2=0

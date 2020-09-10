@@ -2,7 +2,7 @@
 
 
                                                                  Optimization Report
-                                                               EA31337-Lite-v1.080-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
@@ -11,12 +11,10 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        7  -303.68          572          0.90           -0.53     675.52       0.67 ProfitFactorMinToTrade=0.9; MaxOrders=0; MaxOrdersPerType=0;
-        6  -405.71          677          0.87           -0.60     767.24       0.77 ProfitFactorMinToTrade=0.8; MaxOrders=0; MaxOrdersPerType=0;
-        8  -467.13          450          0.78           -1.04     684.10       0.68   ProfitFactorMinToTrade=1; MaxOrders=0; MaxOrdersPerType=0;
-        5  -641.89          811          0.82           -0.79     989.94       0.99 ProfitFactorMinToTrade=0.7; MaxOrders=0; MaxOrdersPerType=0;
-        4 -1050.02         1104          0.77           -0.95    1361.98       1.36 ProfitFactorMinToTrade=0.6; MaxOrders=0; MaxOrdersPerType=0;
-        3 -1592.46         1942          0.80           -0.82    2039.45       2.04 ProfitFactorMinToTrade=0.5; MaxOrders=0; MaxOrdersPerType=0;
-        1 -2990.12         3338          0.78           -0.90    3145.92       3.14 ProfitFactorMinToTrade=0.3; MaxOrders=0; MaxOrdersPerType=0;
-        2 -3004.20         3309          0.77           -0.91    3160.30       3.16 ProfitFactorMinToTrade=0.4; MaxOrders=0; MaxOrdersPerType=0;
+      Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         2 1343.92          603          1.19            2.23     788.72       0.77 ProfitFactorMinToTrade=0.6; MaxOrders=0; MaxOrdersPerType=0;
+         3 1343.92          603          1.19            2.23     788.72       0.77 ProfitFactorMinToTrade=0.7; MaxOrders=0; MaxOrdersPerType=0;
+         4 1343.92          603          1.19            2.23     788.72       0.77 ProfitFactorMinToTrade=0.8; MaxOrders=0; MaxOrdersPerType=0;
+         5 1343.92          603          1.19            2.23     788.72       0.77 ProfitFactorMinToTrade=0.9; MaxOrders=0; MaxOrdersPerType=0;
+         6 1343.92          603          1.19            2.23     788.72       0.77   ProfitFactorMinToTrade=1; MaxOrders=0; MaxOrdersPerType=0;
+         1 1300.11          611          1.18            2.13     788.72       0.77 ProfitFactorMinToTrade=0.5; MaxOrders=0; MaxOrdersPerType=0;
