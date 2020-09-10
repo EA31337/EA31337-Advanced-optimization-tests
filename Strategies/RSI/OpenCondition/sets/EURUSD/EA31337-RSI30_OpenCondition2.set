@@ -29,7 +29,7 @@ RSI30_SignalMethod=0
 RSI30_OpenCondition1=0
 RSI30_CloseCondition=0
 # Optimization params.
-RSI30_OpenCondition2=1
+RSI30_OpenCondition2=195
 RSI30_OpenCondition2,F=1
 RSI30_OpenCondition2,1=1
 RSI30_OpenCondition2,2=97
