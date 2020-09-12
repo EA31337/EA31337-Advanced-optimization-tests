@@ -29,7 +29,7 @@ Force30_SignalMethod=0
 Force30_OpenCondition2=0
 Force30_CloseCondition=0
 # Optimization params.
-Force30_OpenCondition1=680
+Force30_OpenCondition1=874
 Force30_OpenCondition1,F=1
 Force30_OpenCondition1,1=1
 Force30_OpenCondition1,2=97

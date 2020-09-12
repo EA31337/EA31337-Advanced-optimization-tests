@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-    Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       4 1488.85         1086          1.64            1.37    1029.20       1.02 Envelopes15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-       1  861.30          649          1.42            1.33    1288.50       1.28   Envelopes15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-       5  465.09          532          1.27            0.87     874.40       0.87 Envelopes15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-       2    0.00            0          0.00            0.00       0.00       0.00  Envelopes15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-       6    0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-       8    0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-       9    0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-      10    0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-      11    0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-       3   -1.80            1          0.00           -1.80       1.80       0.00 Envelopes15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-       7   -1.80            1          0.00           -1.80       1.80       0.00 Envelopes15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+    Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       1 757.97          150          2.57            5.05     310.50       0.31   Envelopes15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+       5 671.70           94          3.54            7.15     220.10       0.22 Envelopes15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+       4 519.10           98          4.29            5.30     189.70       0.19 Envelopes15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
+       2   0.00            0          0.00            0.00       0.00       0.00  Envelopes15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
+       3   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
+       6   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
+       7   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
+       8   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
+       9   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
+      10   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
+      11   0.00            0          0.00            0.00       0.00       0.00 Envelopes15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;

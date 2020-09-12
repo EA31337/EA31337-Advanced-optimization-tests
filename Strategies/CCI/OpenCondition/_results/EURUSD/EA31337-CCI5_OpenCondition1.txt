@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          9     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-         10     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         11     0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-          8   -35.60            3          0.00          -11.87      66.80       0.07 CCI5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-          7   -43.45          766          0.98           -0.06     578.05       0.58 CCI5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-          5   -63.89        11103          1.00           -0.01    6271.38       5.91 CCI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-          3  -206.84         1079          0.94           -0.19     867.18       0.87 CCI5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-          6 -1272.54         2642          0.86           -0.48    2087.92       2.08 CCI5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-          2 -2547.69         4154          0.83           -0.61    3291.88       3.29  CCI5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-          1 -5535.98        15492          0.91           -0.36    9076.78       8.78   CCI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-          4 -6531.56        42443          0.96           -0.15   23376.73      20.13 CCI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         8      0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
+         9      0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
+        10      0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
+        11      0.00            0          0.00            0.00       0.00       0.00 CCI5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
+         7   -179.06          351          0.63           -0.51     242.63       0.24 CCI5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
+         3   -239.18          414          0.58           -0.58     302.53       0.30 CCI5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
+         6   -275.96          833          0.78           -0.33     479.54       0.48 CCI5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
+         2   -657.55         1314          0.66           -0.50     898.68       0.90  CCI5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
+         5  -8063.21         9825          0.48           -0.82    8185.18       8.18 CCI5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+         1 -11038.50        12850          0.46           -0.86   11080.97      11.08   CCI5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+         4 -19125.60        22803          0.50           -0.84   19203.10      19.20 CCI5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
