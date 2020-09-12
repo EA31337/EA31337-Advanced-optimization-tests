@@ -26,6 +26,7 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 MFI30_SignalMethod=0
+MFI30_OpenCondition1=0
 MFI30_CloseCondition=0
 # Optimization params.
 MFI30_OpenCondition2=971
