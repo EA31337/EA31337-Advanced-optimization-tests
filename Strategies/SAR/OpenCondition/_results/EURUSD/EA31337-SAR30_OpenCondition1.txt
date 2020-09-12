@@ -12,13 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        10  -2130.42          962          0.66           -2.21    3363.21       3.33 SAR30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
-         2  -4707.12         9319          0.91           -0.51   11181.35      10.82 SAR30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-         5  -5626.38        11562          0.93           -0.49   20942.65      19.49 SAR30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-         9  -8282.83         3790          0.68           -2.19   12195.31      11.82 SAR30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-         7  -8340.08        12741          0.90           -0.65   14793.90      14.27 SAR30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-         4  -8360.59         8273          0.83           -1.01   10207.93      10.05 SAR30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-         8  -9095.99         5285          0.67           -1.72    9380.09       9.36 SAR30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-         3 -13685.03        22978          0.91           -0.60   31320.19      30.21 SAR30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-         6 -19110.34        17396          0.80           -1.10   20008.42      19.90 SAR30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-         1 -30257.08        32024          0.86           -0.94   46868.62      40.53  SAR30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+         8   1880.29         1325          1.23            1.42     876.59       0.87 SAR30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
+         2   1321.22         2034          1.11            0.65    2065.18       2.00  SAR30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
+        10   -730.29          558          0.77           -1.31    1042.43       1.04 SAR30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
+        11   -784.15          572          0.73           -1.37     966.32       0.96 SAR30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
+         4   -845.55         1516          0.91           -0.56    1634.24       1.62 SAR30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
+         9  -1387.48         2416          0.84           -0.57    1598.97       1.60 SAR30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
+         6  -1801.38         1097          0.77           -1.64    2145.78       2.14 SAR30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
+         3  -2321.75         3304          0.85           -0.70    2959.30       2.95 SAR30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
+         5  -2358.08         2782          0.82           -0.85    3318.33       3.29 SAR30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+         7  -4729.71         5877          0.81           -0.80    5052.01       5.04 SAR30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
+         1 -14708.13        11469          0.71           -1.28   15378.58      15.28   SAR30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
