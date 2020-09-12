@@ -11,15 +11,15 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-   Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-      2      0.00            0          0.00            0.00       0.00       0.00  Envelopes30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
-      3      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
-      6      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
-      7      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
-      8      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
-      9      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
-     10      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
-     11      0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
-      4  -1311.86         1161          0.59           -1.13    1480.01       1.48 Envelopes30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
-      5 -10620.56        12226          0.52           -0.87   10680.26      10.68 Envelopes30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
-      1 -10855.19        12491          0.52           -0.87   11024.77      11.01   Envelopes30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+   Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+      2     0.00            0          0.00            0.00       0.00       0.00  Envelopes30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
+      3     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
+      6     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
+      7     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
+      8     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
+      9     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
+     10     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
+     11     0.00            0          0.00            0.00       0.00       0.00 Envelopes30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
+      4  -804.59          216          0.60           -3.72     990.65       0.99 Envelopes30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
+      5  -880.90          364          0.65           -2.42    1256.62       1.26 Envelopes30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+      1 -1017.23          386          0.63           -2.64    1496.72       1.50   Envelopes30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;

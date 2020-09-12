@@ -20,6 +20,6 @@
        6    0.90            4          1.17            0.22      28.00       0.03 Alligator1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
        7   -4.80            2          0.00           -2.40      13.70       0.01 Alligator1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
        8  -16.40            2          0.45           -8.20      45.80       0.05 Alligator1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
-       5  -22.00           45          0.86           -0.49      99.80       0.10 Alligator1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
-       1  -28.80           64          0.88           -0.45     162.60       0.16   Alligator1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
-       4 -138.10           92          0.77           -1.50     409.10       0.41 Alligator1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
+       5  -74.70           45          0.54           -1.66      99.80       0.10 Alligator1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+       1  -91.50           64          0.62           -1.43     167.80       0.17   Alligator1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+       4 -140.00           92          0.76           -1.52     364.30       0.36 Alligator1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
