@@ -26,6 +26,7 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 AC5_SignalMethod=0
+AC5_OpenCondition1=0
 AC5_CloseCondition=0
 # Optimization params.
 AC5_OpenCondition2=389

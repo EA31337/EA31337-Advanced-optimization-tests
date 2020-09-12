@@ -26,6 +26,7 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 Alligator5_SignalMethod=0
+Alligator5_OpenCondition1=0
 Alligator5_CloseCondition=0
 # Optimization params.
 Alligator5_OpenCondition2=971

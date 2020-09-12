@@ -26,6 +26,7 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 MA5_SignalMethod=0
+MA5_OpenCondition1=0
 MA5_CloseCondition=0
 # Optimization params.
 MA5_OpenCondition2=971
