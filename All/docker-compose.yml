@@ -9,7 +9,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params CloseOrderAfterXHours 0 120 24
       SETFILE: /opt/sets/EA31337-CloseOrderAfterXHours.set
@@ -23,7 +22,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params "$${SET_PARAMS}" 10 40 10
       SETFILE: /opt/sets/EA31337-InitNoOfOrdersToCalcPF.set
@@ -37,7 +35,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params LotSize 0 0.01 0.01
       SETFILE: /opt/sets/EA31337-LotSize.set
@@ -51,7 +48,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params MaxOrders 0 40 5
       SETFILE: /opt/sets/EA31337-MaxOrders.set
@@ -65,7 +61,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
       RUN_ON_SET: set_opt_params MaxOrdersPerType 0 20 2
       SETFILE: /opt/sets/EA31337-MaxOrdersPerType.set
