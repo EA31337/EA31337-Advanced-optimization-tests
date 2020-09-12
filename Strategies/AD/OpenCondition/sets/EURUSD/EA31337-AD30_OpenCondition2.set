@@ -26,7 +26,6 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 AD30_SignalMethod=0
-AD30_OpenCondition1=0
 AD30_CloseCondition=0
 # Optimization params.
 AD30_OpenCondition2=111

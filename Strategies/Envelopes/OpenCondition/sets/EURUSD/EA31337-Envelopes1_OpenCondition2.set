@@ -26,7 +26,6 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 Envelopes1_SignalMethod=0
-Envelopes1_OpenCondition1=0
 Envelopes1_CloseCondition=0
 # Optimization params.
 Envelopes1_OpenCondition2=98

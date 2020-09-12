@@ -26,7 +26,6 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 ADX15_SignalMethod=0
-ADX15_OpenCondition1=0
 ADX15_CloseCondition=0
 # Optimization params.
 ADX15_OpenCondition2=1
