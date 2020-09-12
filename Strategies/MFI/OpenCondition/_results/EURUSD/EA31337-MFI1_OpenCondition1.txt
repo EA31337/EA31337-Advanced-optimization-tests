@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        10   -192.00          163          0.72           -1.18     300.10       0.30 MFI1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
-        11   -343.00          463          0.58           -0.74     351.90       0.35 MFI1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
-         8  -1184.46         1833          0.79           -0.65    1545.46       1.54 MFI1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
-         9  -3029.79         3138          0.56           -0.97    3037.29       3.04 MFI1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
-         7  -3140.51         4033          0.66           -0.78    3179.51       3.18 MFI1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
-         3  -4588.05         5306          0.63           -0.86    4692.25       4.69 MFI1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
-         6  -4858.74         7210          0.75           -0.67    4953.94       4.95 MFI1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
-         2 -11424.30        12270          0.68           -0.93   11532.90      11.53  MFI1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
-         4 -13248.94        18118          0.74           -0.73   13282.74      13.28 MFI1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
-         5 -19530.31        25231          0.64           -0.77   19547.61      19.55 MFI1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
-         1 -32404.23        39313          0.64           -0.82   32414.33      32.41   MFI1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+        10    -59.80          163          0.90           -0.37     211.10       0.21 MFI1_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
+        11   -419.84          463          0.46           -0.91     428.74       0.43 MFI1_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
+         8  -1168.26         1833          0.79           -0.64    1488.36       1.49 MFI1_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
+         9  -3370.89         3138          0.50           -1.07    3378.09       3.38 MFI1_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
+         7  -3519.78         4033          0.60           -0.87    3565.67       3.56 MFI1_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
+         3  -4577.65         5308          0.62           -0.86    4672.25       4.67 MFI1_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
+         6  -5086.14         7207          0.74           -0.71    5181.34       5.18 MFI1_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
+         2 -11752.90        12255          0.67           -0.96   11861.50      11.86  MFI1_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
+         4 -13493.04        18119          0.73           -0.74   13526.84      13.53 MFI1_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
+         5 -20160.65        25357          0.62           -0.80   20178.85      20.18 MFI1_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+         1 -36437.56        41113          0.59           -0.89   36448.06      36.45   MFI1_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
