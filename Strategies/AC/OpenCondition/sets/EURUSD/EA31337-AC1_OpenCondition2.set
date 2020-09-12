@@ -32,5 +32,5 @@ AC1_CloseCondition=0
 AC1_OpenCondition2=0
 AC1_OpenCondition2,F=1
 AC1_OpenCondition2,1=1
-AC1_OpenCondition2,2=31
+AC1_OpenCondition2,2=19
 AC1_OpenCondition2,3=1023

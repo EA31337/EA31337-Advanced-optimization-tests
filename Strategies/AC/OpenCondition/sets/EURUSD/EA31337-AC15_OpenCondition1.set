@@ -31,5 +31,5 @@ AC15_CloseCondition=0
 AC15_OpenCondition1=0
 AC15_OpenCondition1,F=1
 AC15_OpenCondition1,1=1
-AC15_OpenCondition1,2=31
+AC15_OpenCondition1,2=19
 AC15_OpenCondition1,3=1023
