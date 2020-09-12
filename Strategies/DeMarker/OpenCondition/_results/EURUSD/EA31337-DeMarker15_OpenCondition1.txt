@@ -16,10 +16,10 @@
        9    0.00            0          0.00            0.00       0.00       0.00 DeMarker15_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
       10    0.00            0          0.00            0.00       0.00       0.00 DeMarker15_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
       11    0.00            0          0.00            0.00       0.00       0.00 DeMarker15_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
-       2  -41.45           37          0.62           -1.12     140.35       0.14  DeMarker15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
-       6  -41.45           37          0.62           -1.12     140.35       0.14 DeMarker15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
-       3 -209.86          138          0.59           -1.52     476.82       0.48 DeMarker15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
-       4 -224.84          317          0.84           -0.71     509.60       0.51 DeMarker15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
-       7 -269.91           95          0.38           -2.84     424.68       0.42 DeMarker15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
-       1 -841.66          983          0.79           -0.86    1432.12       1.43   DeMarker15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
-       5 -966.23          930          0.74           -1.04    1369.46       1.37 DeMarker15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
+       2  -36.05           37          0.70           -0.97     146.32       0.15  DeMarker15_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
+       6  -36.05           37          0.70           -0.97     146.32       0.15 DeMarker15_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
+       4 -126.87          297          0.92           -0.43     498.40       0.50 DeMarker15_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
+       3 -212.96          138          0.58           -1.54     459.72       0.46 DeMarker15_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
+       7 -246.91           95          0.42           -2.60     391.58       0.39 DeMarker15_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
+       1 -809.19          978          0.81           -0.83    1519.12       1.52   DeMarker15_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+       5 -911.83          924          0.77           -0.99    1419.66       1.42 DeMarker15_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
