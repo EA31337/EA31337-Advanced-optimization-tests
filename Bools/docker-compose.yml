@@ -9,7 +9,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       SET_PARAMS: Account_Conditions_Active
       RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
@@ -23,7 +22,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
       SETFILE: /opt/sets/EA31337-Bools.set
@@ -37,7 +35,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
       SETFILE: /opt/sets/EA31337-Bools.set
@@ -51,7 +48,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
       SETFILE: /opt/sets/EA31337-Bools.set
@@ -65,7 +61,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
       SETFILE: /opt/sets/EA31337-Bools.set
@@ -79,7 +74,6 @@ services:
       - ./_results/EURUSD:/opt/_results:rw
     env_file: ../EA-Tester.ini
     environment:
-      BT_MONTHS: 6-12
       EA_OPTS: maxdrawdown_enable=1,maxdrawdown=10
       RUN_ON_SET: set_opt_params $${SET_PARAMS} 0 1
       SETFILE: /opt/sets/EA31337-Bools.set
