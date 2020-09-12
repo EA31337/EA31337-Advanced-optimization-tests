@@ -6,15 +6,15 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          1 570.37          411          1.11            1.39    1040.81       1.02   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=0;
-          5 521.82          432          1.10            1.21     967.14       0.95  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=0;
-          6 449.77          423          1.09            1.06    1015.38       1.00 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=0;
-          4 205.28          442          1.04            0.46    1090.96       1.08  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=0;
-          3 131.45          455          1.03            0.29     837.34       0.83  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=0;
-          2 -99.34          487          0.98           -0.20     592.20       0.59  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         3 -1628.99         1472          0.71           -1.11    2014.89       2.01  CloseOrderAfterXHours=48; MaxOrders=0; MaxOrdersPerType=6;
+         5 -1644.27         1481          0.71           -1.11    2106.87       2.10  CloseOrderAfterXHours=96; MaxOrders=0; MaxOrdersPerType=6;
+         4 -1687.00         1475          0.71           -1.14    2149.60       2.14  CloseOrderAfterXHours=72; MaxOrders=0; MaxOrdersPerType=6;
+         2 -1696.16         1454          0.69           -1.17    2082.06       2.07  CloseOrderAfterXHours=24; MaxOrders=0; MaxOrdersPerType=6;
+         6 -1730.58         1483          0.70           -1.17    2193.18       2.18 CloseOrderAfterXHours=120; MaxOrders=0; MaxOrdersPerType=6;
+         1 -1768.69         1483          0.70           -1.19    2231.29       2.22   CloseOrderAfterXHours=0; MaxOrders=0; MaxOrdersPerType=6;
