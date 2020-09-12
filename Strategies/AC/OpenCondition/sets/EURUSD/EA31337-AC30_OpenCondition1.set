@@ -29,7 +29,7 @@ AC30_SignalMethod=0
 AC30_OpenCondition2=0
 AC30_CloseCondition=0
 # Optimization params.
-AC30_OpenCondition1=466
+AC30_OpenCondition1=77
 AC30_OpenCondition1,F=1
 AC30_OpenCondition1,1=1
 AC30_OpenCondition1,2=19

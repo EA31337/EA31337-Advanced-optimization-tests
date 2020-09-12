@@ -6,42 +6,63 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.04 23:59 (2019.01.01 - 2019.12.05)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
        Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          3     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=63; MaxOrders=0; MaxOrdersPerType=0;
-          4     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=94; MaxOrders=0; MaxOrdersPerType=0;
-          5     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=125; MaxOrders=0; MaxOrdersPerType=0;
-          6     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=156; MaxOrders=0; MaxOrdersPerType=0;
-          7     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=187; MaxOrders=0; MaxOrdersPerType=0;
-          8     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=218; MaxOrders=0; MaxOrdersPerType=0;
-          9     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=249; MaxOrders=0; MaxOrdersPerType=0;
-         11     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=311; MaxOrders=0; MaxOrdersPerType=0;
-         12     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=342; MaxOrders=0; MaxOrdersPerType=0;
-         13     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=373; MaxOrders=0; MaxOrdersPerType=0;
-         15     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=435; MaxOrders=0; MaxOrdersPerType=0;
-         16     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=466; MaxOrders=0; MaxOrdersPerType=0;
-         17     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=497; MaxOrders=0; MaxOrdersPerType=0;
-         19     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=559; MaxOrders=0; MaxOrdersPerType=0;
-         20     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=590; MaxOrders=0; MaxOrdersPerType=0;
-         21     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=621; MaxOrders=0; MaxOrdersPerType=0;
-         22     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=652; MaxOrders=0; MaxOrdersPerType=0;
-         24     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=714; MaxOrders=0; MaxOrdersPerType=0;
-         25     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=745; MaxOrders=0; MaxOrdersPerType=0;
-         27     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=807; MaxOrders=0; MaxOrdersPerType=0;
-         29     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=869; MaxOrders=0; MaxOrdersPerType=0;
-         33     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=993; MaxOrders=0; MaxOrdersPerType=0;
-         28    -6.40            2          0.00           -3.20       6.40       0.01 AC5_OpenCondition1=838; MaxOrders=0; MaxOrdersPerType=0;
-         32   -12.50            6          0.06           -2.08      15.90       0.02 AC5_OpenCondition1=962; MaxOrders=0; MaxOrdersPerType=0;
-         23   -31.30            3          0.00          -10.43      40.70       0.04 AC5_OpenCondition1=683; MaxOrders=0; MaxOrdersPerType=0;
-         31   -68.70           27          0.68           -2.54     123.80       0.12 AC5_OpenCondition1=931; MaxOrders=0; MaxOrdersPerType=0;
-         14   -75.90           23          0.08           -3.30      93.30       0.09 AC5_OpenCondition1=404; MaxOrders=0; MaxOrdersPerType=0;
-         30  -267.80          121          0.36           -2.21     498.50       0.50 AC5_OpenCondition1=900; MaxOrders=0; MaxOrdersPerType=0;
-         10  -351.70          151          0.64           -2.33    1182.80       1.17 AC5_OpenCondition1=280; MaxOrders=0; MaxOrdersPerType=0;
-         18  -979.92          493          0.68           -1.99    1181.33       1.18 AC5_OpenCondition1=528; MaxOrders=0; MaxOrdersPerType=0;
-         26 -1057.72          268          0.42           -3.95    1224.02       1.22 AC5_OpenCondition1=776; MaxOrders=0; MaxOrdersPerType=0;
-          1 -2607.93         1704          0.74           -1.53    3481.73       3.46   AC5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-          2 -4962.24         2890          0.79           -1.72    7976.06       7.76  AC5_OpenCondition1=32; MaxOrders=0; MaxOrdersPerType=0;
+          4   837.23          517          1.39            1.62     657.10       0.65   AC5_OpenCondition1=58; MaxOrders=0; MaxOrdersPerType=6;
+         31    96.90           87          1.27            1.11     114.90       0.11  AC5_OpenCondition1=571; MaxOrders=0; MaxOrdersPerType=6;
+         12    26.20            4        132.00            6.55      35.10       0.04  AC5_OpenCondition1=210; MaxOrders=0; MaxOrdersPerType=6;
+          7    26.40            3          0.00            8.80      35.10       0.04  AC5_OpenCondition1=115; MaxOrders=0; MaxOrdersPerType=6;
+         17    21.70           33          1.19            0.66      68.80       0.07  AC5_OpenCondition1=305; MaxOrders=0; MaxOrdersPerType=6;
+         46    11.70            3          4.00            3.90       9.40       0.01  AC5_OpenCondition1=856; MaxOrders=0; MaxOrdersPerType=6;
+         35     2.40           11          1.09            0.22      21.70       0.02  AC5_OpenCondition1=647; MaxOrders=0; MaxOrdersPerType=6;
+          5     0.00            0          0.00            0.00       0.00       0.00   AC5_OpenCondition1=77; MaxOrders=0; MaxOrdersPerType=6;
+          9     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=153; MaxOrders=0; MaxOrdersPerType=6;
+         10     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=172; MaxOrders=0; MaxOrdersPerType=6;
+         11     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=191; MaxOrders=0; MaxOrdersPerType=6;
+         14     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=248; MaxOrders=0; MaxOrdersPerType=6;
+         16     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=286; MaxOrders=0; MaxOrdersPerType=6;
+         19     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=343; MaxOrders=0; MaxOrdersPerType=6;
+         20     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=362; MaxOrders=0; MaxOrdersPerType=6;
+         21     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=381; MaxOrders=0; MaxOrdersPerType=6;
+         24     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=438; MaxOrders=0; MaxOrdersPerType=6;
+         25     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=457; MaxOrders=0; MaxOrdersPerType=6;
+         26     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=476; MaxOrders=0; MaxOrdersPerType=6;
+         27     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=495; MaxOrders=0; MaxOrdersPerType=6;
+         32     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=590; MaxOrders=0; MaxOrdersPerType=6;
+         34     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=628; MaxOrders=0; MaxOrdersPerType=6;
+         36     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=666; MaxOrders=0; MaxOrdersPerType=6;
+         37     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=685; MaxOrders=0; MaxOrdersPerType=6;
+         39     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=723; MaxOrders=0; MaxOrdersPerType=6;
+         41     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=761; MaxOrders=0; MaxOrdersPerType=6;
+         42     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=780; MaxOrders=0; MaxOrdersPerType=6;
+         43     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=799; MaxOrders=0; MaxOrdersPerType=6;
+         47     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=875; MaxOrders=0; MaxOrdersPerType=6;
+         48     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=894; MaxOrders=0; MaxOrdersPerType=6;
+         51     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=951; MaxOrders=0; MaxOrdersPerType=6;
+         52     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=970; MaxOrders=0; MaxOrdersPerType=6;
+         53     0.00            0          0.00            0.00       0.00       0.00  AC5_OpenCondition1=989; MaxOrders=0; MaxOrdersPerType=6;
+         54     0.00            0          0.00            0.00       0.00       0.00 AC5_OpenCondition1=1008; MaxOrders=0; MaxOrdersPerType=6;
+          3    -4.80            5          0.81           -0.96      21.50       0.02   AC5_OpenCondition1=39; MaxOrders=0; MaxOrdersPerType=6;
+         13   -28.71           26          0.76           -1.10      84.00       0.08  AC5_OpenCondition1=229; MaxOrders=0; MaxOrdersPerType=6;
+         40   -41.60           15          0.49           -2.77      72.70       0.07  AC5_OpenCondition1=742; MaxOrders=0; MaxOrdersPerType=6;
+         29   -44.10            6          0.00           -7.35      44.40       0.04  AC5_OpenCondition1=533; MaxOrders=0; MaxOrdersPerType=6;
+         33   -45.71           29          0.62           -1.58      99.00       0.10  AC5_OpenCondition1=609; MaxOrders=0; MaxOrdersPerType=6;
+         49   -54.40            8          0.00           -6.80      56.10       0.06  AC5_OpenCondition1=913; MaxOrders=0; MaxOrdersPerType=6;
+         44   -63.00           20          0.28           -3.15      78.80       0.08  AC5_OpenCondition1=818; MaxOrders=0; MaxOrdersPerType=6;
+          8   -92.30           64          0.60           -1.44     165.70       0.17  AC5_OpenCondition1=134; MaxOrders=0; MaxOrdersPerType=6;
+         50  -102.41           40          0.52           -2.56     210.30       0.21  AC5_OpenCondition1=932; MaxOrders=0; MaxOrdersPerType=6;
+         45  -108.51           42          0.35           -2.58     167.30       0.17  AC5_OpenCondition1=837; MaxOrders=0; MaxOrdersPerType=6;
+          2  -108.40           21          0.04           -5.16     108.40       0.11   AC5_OpenCondition1=20; MaxOrders=0; MaxOrdersPerType=6;
+         22  -127.40           51          0.36           -2.50     172.60       0.17  AC5_OpenCondition1=400; MaxOrders=0; MaxOrdersPerType=6;
+         15  -209.11          256          0.80           -0.82     443.51       0.44  AC5_OpenCondition1=267; MaxOrders=0; MaxOrdersPerType=6;
+         23  -234.80          123          0.54           -1.91     287.30       0.29  AC5_OpenCondition1=419; MaxOrders=0; MaxOrdersPerType=6;
+         30  -249.74          650          0.91           -0.38     563.82       0.56  AC5_OpenCondition1=552; MaxOrders=0; MaxOrdersPerType=6;
+          1  -260.87         1678          0.96           -0.16    1018.58       1.01    AC5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+          6  -485.32          209          0.52           -2.32     561.30       0.56   AC5_OpenCondition1=96; MaxOrders=0; MaxOrdersPerType=6;
+         18  -670.41          213          0.33           -3.15     772.20       0.77  AC5_OpenCondition1=324; MaxOrders=0; MaxOrdersPerType=6;
+         38  -904.22          337          0.33           -2.68     968.30       0.97  AC5_OpenCondition1=704; MaxOrders=0; MaxOrdersPerType=6;
+         28 -1002.21         1489          0.82           -0.67    1460.49       1.46  AC5_OpenCondition1=514; MaxOrders=0; MaxOrdersPerType=6;
