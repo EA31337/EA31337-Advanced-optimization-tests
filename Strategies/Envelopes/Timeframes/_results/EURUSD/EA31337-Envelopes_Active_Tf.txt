@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          3    -0.50           10          0.98           -0.05      35.50       0.04  Envelopes_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=6;
-          4    -0.50           10          0.98           -0.05      35.50       0.04  Envelopes_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=6;
-         11    -0.50           10          0.98           -0.05      35.50       0.04 Envelopes_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=6;
-         12    -0.50           10          0.98           -0.05      35.50       0.04 Envelopes_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=6;
-          1     0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=6;
-          2     0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=6;
-          9     0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=6;
-         10     0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=6;
-          5 -1593.09         1261          0.70           -1.26    1803.04       1.80  Envelopes_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=6;
-          6 -1593.09         1261          0.70           -1.26    1803.04       1.80  Envelopes_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=6;
-         13 -1593.09         1261          0.70           -1.26    1803.04       1.80 Envelopes_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=6;
-         14 -1593.09         1261          0.70           -1.26    1803.04       1.80 Envelopes_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=6;
-          7 -1615.49         1271          0.70           -1.27    1831.74       1.83  Envelopes_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=6;
-          8 -1615.49         1271          0.70           -1.27    1831.74       1.83  Envelopes_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=6;
-         15 -1615.49         1271          0.70           -1.27    1831.74       1.83 Envelopes_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=6;
-         16 -1615.49         1271          0.70           -1.27    1831.74       1.83 Envelopes_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=6;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          10 421.70          255          1.52            1.65     245.12       0.24  Envelopes_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+          12 421.70          255          1.52            1.65     245.12       0.24 Envelopes_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+          14 421.70          255          1.52            1.65     245.12       0.24 Envelopes_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+          16 421.70          255          1.52            1.65     245.12       0.24 Envelopes_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+           9 303.36          126          2.46            2.41      91.30       0.09  Envelopes_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+          11 303.36          126          2.46            2.41      91.30       0.09 Envelopes_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+          13 303.36          126          2.46            2.41      91.30       0.09 Envelopes_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+          15 303.36          126          2.46            2.41      91.30       0.09 Envelopes_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+           2 194.34           84          1.35            2.31     181.12       0.18  Envelopes_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+           4 194.34           84          1.35            2.31     181.12       0.18  Envelopes_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+           6 194.34           84          1.35            2.31     181.12       0.18  Envelopes_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+           8 194.34           84          1.35            2.31     181.12       0.18  Envelopes_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+           1   0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+           3   0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+           5   0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+           7   0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
