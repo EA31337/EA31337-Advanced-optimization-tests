@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-            Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-               4  88.60          128          1.25            0.69      67.10       0.07  MA_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=6;
-               8  88.60          128          1.25            0.69      67.10       0.07  MA_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=6;
-              12  88.60          128          1.25            0.69      67.10       0.07 MA_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=6;
-              16  88.60          128          1.25            0.69      67.10       0.07 MA_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=6;
-               2  61.20           58          1.31            1.06      69.40       0.07  MA_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=6;
-               6  61.20           58          1.31            1.06      69.40       0.07  MA_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=6;
-              10  61.20           58          1.31            1.06      69.40       0.07  MA_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=6;
-              14  61.20           58          1.31            1.06      69.40       0.07 MA_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=6;
-               3   7.90           68          1.04            0.12      46.00       0.05  MA_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=6;
-               7   7.90           68          1.04            0.12      46.00       0.05  MA_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=6;
-              11   7.90           68          1.04            0.12      46.00       0.05 MA_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=6;
-              15   7.90           68          1.04            0.12      46.00       0.05 MA_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=6;
-               1   0.00            0          0.00            0.00       0.00       0.00  MA_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=6;
-               5   0.00            0          0.00            0.00       0.00       0.00  MA_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=6;
-               9   0.00            0          0.00            0.00       0.00       0.00  MA_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=6;
-              13   0.00            0          0.00            0.00       0.00       0.00 MA_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=6;
+           Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+              1     0.00            0          0.00            0.00       0.00       0.00  MA_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=6;
+              9     0.00            0          0.00            0.00       0.00       0.00  MA_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=6;
+             10   -35.88         1449          1.00           -0.02    1545.69       1.52  MA_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=6;
+              2   -36.48         1449          1.00           -0.03    1545.69       1.52  MA_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=6;
+              3  -852.81         2370          0.91           -0.36    1970.53       1.95  MA_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=6;
+             11  -852.81         2370          0.91           -0.36    1970.53       1.95 MA_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=6;
+              5 -1931.36         1269          0.61           -1.52    2218.66       2.21  MA_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=6;
+             13 -1931.36         1269          0.61           -1.52    2218.66       2.21 MA_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=6;
+              6 -2424.98         2974          0.87           -0.82    3093.13       3.08  MA_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=6;
+             14 -2424.98         2974          0.87           -0.82    3093.13       3.08 MA_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=6;
+              4 -3124.94         3804          0.87           -0.82    4780.02       4.73  MA_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=6;
+             12 -3124.94         3804          0.87           -0.82    4780.02       4.73 MA_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=6;
+              8 -5100.58         5262          0.83           -0.97    5915.20       5.88  MA_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=6;
+             16 -5100.58         5262          0.83           -0.97    5915.20       5.88 MA_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=6;
+              7 -5261.55         5836          0.71           -0.90    5790.18       5.77  MA_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=6;
+             15 -5261.55         5836          0.71           -0.90    5790.18       5.77 MA_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=6;
