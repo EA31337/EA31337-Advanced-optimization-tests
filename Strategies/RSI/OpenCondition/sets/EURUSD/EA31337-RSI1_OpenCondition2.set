@@ -26,7 +26,6 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 RSI1_SignalMethod=0
-RSI1_OpenCondition1=0
 RSI1_CloseCondition=0
 # Optimization params.
 RSI1_OpenCondition2=292

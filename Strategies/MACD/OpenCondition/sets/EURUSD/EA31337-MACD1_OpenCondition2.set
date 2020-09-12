@@ -26,7 +26,6 @@ SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Required params.
 MACD1_SignalMethod=0
-MACD1_OpenCondition1=0
 MACD1_CloseCondition=0
 # Optimization params.
 MACD1_OpenCondition2=971
