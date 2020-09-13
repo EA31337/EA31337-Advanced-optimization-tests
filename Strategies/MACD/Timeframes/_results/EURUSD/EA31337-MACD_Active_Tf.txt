@@ -11,20 +11,20 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             12 426.58          256          1.52            1.67     245.12       0.24 MACD_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
-             16 426.58          256          1.52            1.67     245.12       0.24 MACD_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
-             10 413.20          254          1.51            1.63     245.12       0.24  MACD_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
-             14 413.20          254          1.51            1.63     245.12       0.24 MACD_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
-             11 318.04          127          2.49            2.50      91.30       0.09 MACD_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
-             15 318.04          127          2.49            2.50      91.30       0.09 MACD_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
-              9 303.36          126          2.46            2.41      91.30       0.09  MACD_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
-             13 303.36          126          2.46            2.41      91.30       0.09 MACD_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
-              4 199.23           85          1.35            2.34     181.12       0.18  MACD_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
-              8 199.23           85          1.35            2.34     181.12       0.18  MACD_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
-              2 185.84           83          1.33            2.24     181.12       0.18  MACD_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
-              6 185.84           83          1.33            2.24     181.12       0.18  MACD_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
-              3  13.39            2          3.13            6.69      39.00       0.04  MACD_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
-              7  13.39            2          3.13            6.69      39.00       0.04  MACD_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
-              1   0.00            0          0.00            0.00       0.00       0.00  MACD_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
-              5   0.00            0          0.00            0.00       0.00       0.00  MACD_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+          Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+             2   374.54          247          1.38            1.52     130.97       0.13  MACD_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+            10   361.41          570          1.21            0.63     264.63       0.26  MACD_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+            14   135.57          614          1.07            0.22     270.44       0.27 MACD_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+             6   125.00          291          1.10            0.43     230.24       0.23  MACD_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+             1     0.00            0          0.00            0.00       0.00       0.00  MACD_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+             9   -76.65          351          0.90           -0.22     344.65       0.34  MACD_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+             5  -121.51           41          0.59           -2.96     157.31       0.16  MACD_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+            13  -173.66          393          0.84           -0.44     337.83       0.34 MACD_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+             4  -759.19         1278          0.67           -0.59     776.89       0.78  MACD_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+            12  -781.28         1612          0.75           -0.48     934.44       0.93 MACD_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+            16  -970.70         1656          0.71           -0.59    1049.51       1.05 MACD_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+             8  -972.30         1322          0.63           -0.74     990.30       0.99  MACD_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+             3  -997.70         1028          0.25           -0.97     998.40       1.00  MACD_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;
+            11 -1074.15         1381          0.49           -0.78    1179.48       1.18 MACD_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+             7 -1119.61         1069          0.31           -1.05    1122.51       1.12  MACD_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+            15 -1172.36         1422          0.51           -0.82    1222.26       1.22 MACD_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
