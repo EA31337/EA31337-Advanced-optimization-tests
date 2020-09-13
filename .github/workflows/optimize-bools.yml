@@ -1,0 +1,50 @@
+---
+name: Optimize Bools
+
+# yamllint disable rule:truthy
+on:
+  push:
+    branches:
+      - 'optimize-bools'
+      - 'optimize-bools-*'
+
+jobs:
+  Bools:
+    defaults:
+      run:
+        shell: bash
+        working-directory: Bools
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        task:
+          - Account_Conditions_Active
+          - Boosting_Enabled
+          - CloseConditionOnlyProfitable
+          - MinimalizeLosses
+          - SmartQueueActive
+          - StrategyHandicapByPF
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA ${{ matrix.task }}
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --rebase --autostash
+          git commit --allow-empty -am "${{ github.workflow }}"
+      - name: Git Diff
+        run: NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

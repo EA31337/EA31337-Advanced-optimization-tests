@@ -1,0 +1,70 @@
+---
+name: Optimize Timeframes
+
+# yamllint disable rule:truthy
+on:
+  push:
+    branches:
+      - 'optimize-tf'
+      - 'optimize-tf-*'
+
+jobs:
+  Timeframes:
+    defaults:
+      run:
+        shell: bash
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        strategy:
+          - AC
+          - AD
+          - ADX
+          - Alligator
+          - Bands
+          - CCI
+          - DeMarker
+          - Envelopes
+          - Force
+          - Fractals
+          - MA
+          - MACD
+          - MFI
+          - RSI
+          - SAR
+          - WPR
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false
+          # Otherwise, you will failed to push refs to dest repo.
+          fetch-depth: 0
+      - run: docker-compose run $DCA ${{ matrix.strategy }}_Active_Tf
+        working-directory: Strategies/${{ matrix.strategy }}/Timeframes
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --local user.name "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Re-pull on failure
+        if: ${{ failure() }}
+        run: git pull origin ${{ github.ref }} --autostash --rebase -X ours
+      - name: Re-push on failure
+        if: ${{ failure() }}
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.ref }}
+          force: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    env:
+      DCA: "--rm"

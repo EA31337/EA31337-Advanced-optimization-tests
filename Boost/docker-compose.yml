@@ -1,0 +1,174 @@
+---
+version: '3.4'
+services:
+  BoostTrendFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      BT_TESTMODEL: 0
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 2")
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 2")
+        0.1
+      SETFILE: /opt/sets/EA31337-BoostTrendFactor.set
+      SET_PARAMS: BoostTrendFactor
+      TEST_REPORT_NAME: EA31337-BoostTrendFactor
+  ConWinsIncreaseFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5")
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
+        0.1
+      SETFILE: /opt/sets/EA31337-ConWinsIncreaseFactor.set
+      SET_PARAMS: ConWinsIncreaseFactor
+      TEST_REPORT_NAME: EA31337-ConWinsIncreaseFactor
+  ConLossesIncreaseFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5")
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
+        0.1
+      SETFILE: /opt/sets/EA31337-ConLossesIncreaseFactor.set
+      SET_PARAMS: ConLossesIncreaseFactor
+      TEST_REPORT_NAME: EA31337-ConLossesIncreaseFactor
+  ConFactorOrdersLimit:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 100 * 10"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 100 * 10")
+        100
+      SETFILE: /opt/sets/EA31337-ConFactorOrdersLimit.set
+      SET_PARAMS: ConFactorOrdersLimit
+      TEST_REPORT_NAME: EA31337-ConFactorOrdersLimit
+  BestDailyStrategyMultiplierFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
+        0.1
+      SETFILE: /opt/sets/EA31337-BestDailyStrategyMultiplierFactor.set
+      SET_PARAMS: BestDailyStrategyMultiplierFactor
+      TEST_REPORT_NAME: EA31337-BestDailyStrategyMultiplierFactor
+  BestMonthlyStrategyMultiplierFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
+        0.1
+      SETFILE: /opt/sets/EA31337-BestMonthlyStrategyMultiplierFactor.set
+      SET_PARAMS: BestMonthlyStrategyMultiplierFactor
+      TEST_REPORT_NAME: EA31337-BestMonthlyStrategyMultiplierFactor
+  BestWeeklyStrategyMultiplierFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 5"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 5")
+        0.1
+      SETFILE: /opt/sets/EA31337-BestWeeklyStrategyMultiplierFactor.set
+      SET_PARAMS: BestWeeklyStrategyMultiplierFactor
+      TEST_REPORT_NAME: EA31337-BestWeeklyStrategyMultiplierFactor
+  WorseDailyStrategyMultiplierFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 10"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 10")
+        0.1
+      SETFILE: /opt/sets/EA31337-WorseDailyStrategyMultiplierFactor.set
+      SET_PARAMS: WorseDailyStrategyMultiplierFactor
+      TEST_REPORT_NAME: EA31337-WorseDailyStrategyMultiplierFactor
+  WorseMonthlyStrategyMultiplierFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 10"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 10")
+        0.1
+      SETFILE: /opt/sets/EA31337-WorseMonthlyStrategyMultiplierFactor.set
+      SET_PARAMS: WorseMonthlyStrategyMultiplierFactor
+      TEST_REPORT_NAME: EA31337-WorseMonthlyStrategyMultiplierFactor
+  WorseWeeklyStrategyMultiplierFactor:
+    command: run_backtest -v
+    image: ea31337/ea-tester:EURUSD-2019-DS
+    volumes:
+      - ./sets/EURUSD:/opt/sets:rw
+      - ./_results/EURUSD:/opt/_results:rw
+    env_file: ../EA-Tester.ini
+    environment:
+      EA_OPTS: maxdrawdown_enable=1,maxdrawdown=20
+      RUN_ON_SET: >
+        set_opt_params "$${SET_PARAMS}"
+        $$(get_max 0 $$(bc <<< "$$(input_get $${SET_PARAMS}) - 0.1 * 10"))
+        $$(bc <<< "$$(input_get $${SET_PARAMS}) + 0.1 * 10")
+        0.1
+      SETFILE: /opt/sets/EA31337-WorseWeeklyStrategyMultiplierFactor.set
+      SET_PARAMS: WorseWeeklyStrategyMultiplierFactor
+      TEST_REPORT_NAME: EA31337-WorseWeeklyStrategyMultiplierFactor

@@ -1,0 +1,10 @@
+# Overridden params.
+LotSize=0
+Boosting_Enabled=0
+Account_Conditions_Active=0
+# Optimization params.
+RiskMarginTotal=5
+RiskMarginTotal,F=0
+RiskMarginTotal,1=0
+RiskMarginTotal,2=0
+RiskMarginTotal,3=0

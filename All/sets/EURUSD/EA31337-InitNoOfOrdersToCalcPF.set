@@ -1,0 +1,9 @@
+# Overridden params.
+ProfitFactorMinToTrade=0
+ProfitFactorMaxToTrade=0
+# Optimization params.
+InitNoOfOrdersToCalcPF=20
+InitNoOfOrdersToCalcPF,F=1
+InitNoOfOrdersToCalcPF,1=0
+InitNoOfOrdersToCalcPF,2=0
+InitNoOfOrdersToCalcPF,3=0

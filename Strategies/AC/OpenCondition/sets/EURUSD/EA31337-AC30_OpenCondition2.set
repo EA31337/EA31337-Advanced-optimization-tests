@@ -32,5 +32,5 @@ AC30_CloseCondition=0
 AC30_OpenCondition2=389
 AC30_OpenCondition2,F=1
 AC30_OpenCondition2,1=1
-AC30_OpenCondition2,2=97
+AC30_OpenCondition2,2=19
 AC30_OpenCondition2,3=1023
