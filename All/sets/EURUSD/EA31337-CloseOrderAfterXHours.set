@@ -3,7 +3,7 @@ LotSize=0.01
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
-CloseOrderAfterXHours=72
+CloseOrderAfterXHours=120
 CloseOrderAfterXHours,F=0
 CloseOrderAfterXHours,1=0
 CloseOrderAfterXHours,2=0
