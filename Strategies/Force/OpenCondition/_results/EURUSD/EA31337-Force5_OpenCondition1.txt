@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         6   12.90            6          1.32            2.15      67.00       0.07 Force5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=6;
-         8    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=6;
-         9    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=6;
-        10    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=6;
-        11    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=6;
-         7  -14.40            3          0.55           -4.80      67.00       0.07 Force5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=6;
-         3  -15.90            5          0.61           -3.18      68.30       0.07 Force5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=6;
-         4  -99.70           77          0.85           -1.29     378.80       0.38 Force5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=6;
-         2 -118.00           17          0.36           -6.94     200.50       0.20  Force5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=6;
-         5 -181.90          100          0.72           -1.82     325.40       0.33 Force5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=6;
-         1 -234.40          105          0.66           -2.23     339.50       0.34   Force5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=6;
+         4  631.20          185          1.56            3.41     779.30       0.77 Force5_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
+         6   12.90            6          1.32            2.15      67.00       0.07 Force5_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+         8    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+         9    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+        10    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+        11    0.00            0          0.00            0.00       0.00       0.00 Force5_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+         7  -14.40            3          0.55           -4.80      67.00       0.07 Force5_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+         3  -15.90            5          0.61           -3.18      68.30       0.07 Force5_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+         5  -89.60          116          0.88           -0.77     441.30       0.44 Force5_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+         2 -101.50           18          0.45           -5.64     202.10       0.20  Force5_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+         1 -135.30          122          0.83           -1.11     455.40       0.46   Force5_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;

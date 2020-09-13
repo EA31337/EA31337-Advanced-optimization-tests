@@ -29,7 +29,7 @@ Force5_SignalMethod=0
 Force5_OpenCondition2=0
 Force5_CloseCondition=0
 # Optimization params.
-Force5_OpenCondition1=486
+Force5_OpenCondition1=292
 Force5_OpenCondition1,F=1
 Force5_OpenCondition1,1=1
 Force5_OpenCondition1,2=97
