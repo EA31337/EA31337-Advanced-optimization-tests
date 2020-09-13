@@ -12,11 +12,9 @@
                              Spread          10
                                                                  [Optimization Graph]
      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        8   -715.25          579          0.61           -1.24     909.08       0.91 Bands5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-        6  -3432.28         3265          0.62           -1.05    4207.41       4.18 Bands5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-        7  -6718.25         4047          0.50           -1.66    7696.38       7.62 Bands5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-        1  -7245.50         4931          0.55           -1.47    7873.81       7.84 Bands5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-        4 -13660.05         6872          0.43           -1.99   13814.45      13.80 Bands5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-        3 -16666.24        11747          0.59           -1.42   19580.37      19.39 Bands5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-        5 -16858.76        16500          0.68           -1.02   19033.86      18.90 Bands5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-        2 -37649.08        30756          0.64           -1.22   39924.34      39.50 Bands5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+        6  -2162.63         1555          0.55           -1.39    2698.58       2.70 Bands5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+        5  -7283.80         7156          0.67           -1.02   10078.83      10.06 Bands5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+        2  -7646.70        14113          0.81           -0.54   15465.20      15.44 Bands5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+        3 -11276.13         8086          0.58           -1.39   13443.42      13.41 Bands5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+        1 -11283.25         8562          0.59           -1.32   13224.91      13.22 Bands5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+        4 -13319.40         6565          0.41           -2.03   13615.99      13.61 Bands5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
