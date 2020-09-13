@@ -29,7 +29,7 @@ CloseConditionOnlyProfitable=0
 MFI5_OpenCondition2=0
 MFI5_OpenCondition2=0
 # Optimization params.
-MFI5_CloseCondition=26
+MFI5_CloseCondition=3
 MFI5_CloseCondition,F=1
 MFI5_CloseCondition,1=1
 MFI5_CloseCondition,2=1

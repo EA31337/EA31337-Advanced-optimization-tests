@@ -1,0 +1,166 @@
+diff --git a/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.json b/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.json
+index 633360d..fc4f1f3 100644
+--- a/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.json
++++ b/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.json
+@@ -1,5 +1,5 @@
+ {
+-  "Time": "42",
++  "Time": "17",
+   "Title": "Optimization Report",
+   "EA Name": "EA31337-Advanced-v1.080-dev",
+   "Build": "1260",
+diff --git a/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.txt b/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.txt
+index 164c904..4e2aa0c 100644
+--- a/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.txt
++++ b/Boost/_results/EURUSD/EA31337-BestDailyStrategyMultiplierFactor.txt
+@@ -11,13 +11,11 @@
+                              Initial deposit 100000.00
+                              Spread          10
+                                                                  [Optimization Graph]
+-Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+-   2 8460.69          442          1.60           19.14    5402.06       4.82 BestDailyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+-   3 8293.46          442          1.58           18.76    5166.56       4.62 BestDailyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+-   4 8124.07          442          1.52           18.38    5059.92       4.53 BestDailyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+-   1 7378.86          441          1.17           16.73   13331.10      11.20   BestDailyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+-   5 6933.63          442          1.40           15.69    5155.75       4.64 BestDailyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
+-   9 6703.03          441          1.21           15.20    8937.10       7.78 BestDailyStrategyMultiplierFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+-   6 6702.16          441          1.33           15.20    5847.19       5.23 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+-   7 6637.90          442          1.29           15.02    6524.35       5.81 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
+-   8 6491.59          441          1.24           14.72    7376.56       6.51 BestDailyStrategyMultiplierFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
++ Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
++    2 956.80          135          1.80            7.09     394.50       0.39 BestDailyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=6;
++    7 894.50          135          1.56            6.63     406.40       0.40 BestDailyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=6;
++    3 891.90          135          1.72            6.61     365.50       0.36 BestDailyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=6;
++    4 858.40          135          1.64            6.36     400.40       0.40 BestDailyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=6;
++    5 761.50          135          1.53            5.64     410.20       0.41 BestDailyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=6;
++    6 760.20          135          1.47            5.63     428.20       0.43 BestDailyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=6;
++    1 662.80          135          1.26            4.91     729.30       0.72   BestDailyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=6;
+diff --git a/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.json b/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.json
+index 3df55e2..61234b6 100644
+--- a/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.json
++++ b/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.json
+@@ -1,5 +1,5 @@
+ {
+-  "Time": "136",
++  "Time": "53",
+   "Title": "Optimization Report",
+   "EA Name": "EA31337-Advanced-v1.080-dev",
+   "Build": "1260",
+diff --git a/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.txt b/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.txt
+index ff3fb01..57068c4 100644
+--- a/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.txt
++++ b/Boost/_results/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.txt
+@@ -12,23 +12,24 @@
+                              Spread          10
+                                                                  [Optimization Graph]
+ Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+-  11 9796.50          719          1.15           13.63   12225.41      10.15 BestMonthlyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+-   8 9533.50          719          1.20           13.26    7557.04       6.51                   BestMonthlyStrategyMultiplierFactor=0.7; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   9 9234.14          719          1.17           12.84    8464.98       7.28                   BestMonthlyStrategyMultiplierFactor=0.8; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-  10 8688.82          719          1.15           12.08    9580.02       8.19                   BestMonthlyStrategyMultiplierFactor=0.9; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   3 8673.87          720          1.34           12.05    7004.49       6.16                   BestMonthlyStrategyMultiplierFactor=0.2; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   7 8592.80          720          1.23           11.93    6453.08       5.66                   BestMonthlyStrategyMultiplierFactor=0.6; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   2 8164.45          720          1.33           11.34    7197.87       6.35                   BestMonthlyStrategyMultiplierFactor=0.1; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   6 7507.10          720          1.23           10.43    5833.68       5.20                   BestMonthlyStrategyMultiplierFactor=0.5; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   4 6972.37          720          1.27            9.68    5824.68       5.24                   BestMonthlyStrategyMultiplierFactor=0.3; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   5 6231.68          720          1.23            8.66    5801.13       5.25                   BestMonthlyStrategyMultiplierFactor=0.4; MaxOrders=0;
+-                                                                                                                                  MaxOrdersPerType=0;
+-   1 4942.53          719          1.08            6.87    9689.16       8.53 BestMonthlyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
++  10 1542.20          240          1.31            6.43    1799.30       1.80                   BestMonthlyStrategyMultiplierFactor=1.4; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++  11 1460.90          240          1.27            6.09    2043.30       2.04                   BestMonthlyStrategyMultiplierFactor=1.5; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   9 1372.70          240          1.29            5.72    1590.20       1.59                   BestMonthlyStrategyMultiplierFactor=1.3; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   8 1208.60          240          1.27            5.04    1424.30       1.42                   BestMonthlyStrategyMultiplierFactor=1.2; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   7 1120.60          240          1.27            4.67    1282.10       1.28                   BestMonthlyStrategyMultiplierFactor=1.1; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   6 1016.80          240          1.26            4.24    1139.90       1.14 BestMonthlyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=6;
++   5  823.70          240          1.22            3.43     997.70       1.00                   BestMonthlyStrategyMultiplierFactor=0.9; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   4  714.70          240          1.20            2.98     902.90       0.90                   BestMonthlyStrategyMultiplierFactor=0.8; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   3  499.10          240          1.15            2.08     784.40       0.78                   BestMonthlyStrategyMultiplierFactor=0.7; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   2  419.00          240          1.13            1.75     713.30       0.71                   BestMonthlyStrategyMultiplierFactor=0.6; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
++   1  389.90          240          1.13            1.62     642.20       0.64                   BestMonthlyStrategyMultiplierFactor=0.5; MaxOrders=0;
++                                                                                                                                  MaxOrdersPerType=6;
+diff --git a/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.json b/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.json
+index af09d6d..66db67c 100644
+--- a/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.json
++++ b/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.json
+@@ -1,5 +1,5 @@
+ {
+-  "Time": "50",
++  "Time": "25",
+   "Title": "Optimization Report",
+   "EA Name": "EA31337-Advanced-v1.080-dev",
+   "Build": "1260",
+diff --git a/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.txt b/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.txt
+index f8c30f2..5270a7f 100644
+--- a/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.txt
++++ b/Boost/_results/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.txt
+@@ -11,15 +11,15 @@
+                              Initial deposit 100000.00
+                              Spread          10
+                                                                  [Optimization Graph]
+-Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+-   7 7477.09          441          1.29           16.95    7473.12       6.66 BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=0;
+-   1 7378.86          441          1.17           16.73   13331.10      11.20   BestWeeklyStrategyMultiplierFactor=0; MaxOrders=0; MaxOrdersPerType=0;
+-   8 7200.31          441          1.25           16.33    8486.21       7.48 BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0; MaxOrdersPerType=0;
+-   3 6901.13          441          1.38           15.65    6095.40       5.52 BestWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=0;
+-   2 6829.79          441          1.38           15.49    6028.66       5.47 BestWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=0;
+-   9 6754.33          441          1.20           15.32    9756.60       8.49 BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0; MaxOrdersPerType=0;
+-  11 6601.50          441          1.15           14.97   12532.05      10.62   BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=0;
+-  10 6129.46          441          1.17           13.90   10334.92       8.93 BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0; MaxOrdersPerType=0;
+-   6 5305.93          441          1.23           12.03    7525.92       6.82 BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=0;
+-   4 4460.84          441          1.24           10.12    6315.94       5.85 BestWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=0;
+-   5 4003.57          441          1.20            9.08    6855.95       6.34 BestWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=0;
++Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
++   1 938.70          135          1.53            6.95     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.1; MaxOrders=0; MaxOrdersPerType=6;
++   2 938.70          135          1.53            6.95     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.2; MaxOrders=0; MaxOrdersPerType=6;
++   3 932.80          135          1.53            6.91     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.3; MaxOrders=0; MaxOrdersPerType=6;
++   4 904.60          135          1.50            6.70     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.4; MaxOrders=0; MaxOrdersPerType=6;
++   5 898.60          135          1.48            6.66     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.5; MaxOrders=0; MaxOrdersPerType=6;
++   6 848.50          135          1.43            6.29     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.6; MaxOrders=0; MaxOrdersPerType=6;
++   7 778.60          135          1.37            5.77     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.7; MaxOrders=0; MaxOrdersPerType=6;
++   9 756.40          135          1.33            5.60     587.10       0.58 BestWeeklyStrategyMultiplierFactor=0.9; MaxOrders=0; MaxOrdersPerType=6;
++   8 731.40          135          1.33            5.42     534.10       0.53 BestWeeklyStrategyMultiplierFactor=0.8; MaxOrders=0; MaxOrdersPerType=6;
++  10 658.00          135          1.26            4.87     729.30       0.72   BestWeeklyStrategyMultiplierFactor=1; MaxOrders=0; MaxOrdersPerType=6;
++  11 542.80          135          1.20            4.02     873.90       0.86 BestWeeklyStrategyMultiplierFactor=1.1; MaxOrders=0; MaxOrdersPerType=6;
+diff --git a/Boost/sets/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.set b/Boost/sets/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.set
+index 2955ca1..13c942a 100644
+--- a/Boost/sets/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.set
++++ b/Boost/sets/EURUSD/EA31337-BestMonthlyStrategyMultiplierFactor.set
+@@ -14,7 +14,7 @@ BoostTrendFactor=1.0
+ ConWinsIncreaseFactor=1.0
+ ConLossesIncreaseFactor=1.0
+ # Optimization params.
+-BestMonthlyStrategyMultiplierFactor=1
++BestMonthlyStrategyMultiplierFactor=1.4
+ BestMonthlyStrategyMultiplierFactor,F=0
+ BestMonthlyStrategyMultiplierFactor,1=0
+ BestMonthlyStrategyMultiplierFactor,2=0
+diff --git a/Boost/sets/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.set b/Boost/sets/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.set
+index 291085b..462d96f 100644
+--- a/Boost/sets/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.set
++++ b/Boost/sets/EURUSD/EA31337-BestWeeklyStrategyMultiplierFactor.set
+@@ -14,7 +14,7 @@ BoostTrendFactor=1.0
+ ConWinsIncreaseFactor=1.0
+ ConLossesIncreaseFactor=1.0
+ # Optimization params.
+-BestWeeklyStrategyMultiplierFactor=0.6
++BestWeeklyStrategyMultiplierFactor=0.1
+ BestWeeklyStrategyMultiplierFactor,F=0
+ BestWeeklyStrategyMultiplierFactor,1=0
+ BestWeeklyStrategyMultiplierFactor,2=0

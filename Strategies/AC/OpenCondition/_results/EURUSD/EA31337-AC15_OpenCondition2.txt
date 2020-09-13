@@ -2,24 +2,67 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.04 23:59 (2019.06.01 - 2019.12.05)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1  -2.50            5          0.63           -0.50       8.10       0.01   AC15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-           2  -2.50            5          0.63           -0.50       8.10       0.01  AC15_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-           3  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-           4  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-           5  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-           6  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-           7  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-           8  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-           9  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-          10  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-          11  -2.50            5          0.63           -0.50       8.10       0.01 AC15_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          1   0.00            0          0.00            0.00       0.00       0.00    AC15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+          2   0.00            0          0.00            0.00       0.00       0.00   AC15_OpenCondition2=20; MaxOrders=0; MaxOrdersPerType=0;
+          3   0.00            0          0.00            0.00       0.00       0.00   AC15_OpenCondition2=39; MaxOrders=0; MaxOrdersPerType=0;
+          4   0.00            0          0.00            0.00       0.00       0.00   AC15_OpenCondition2=58; MaxOrders=0; MaxOrdersPerType=0;
+          5   0.00            0          0.00            0.00       0.00       0.00   AC15_OpenCondition2=77; MaxOrders=0; MaxOrdersPerType=0;
+          6   0.00            0          0.00            0.00       0.00       0.00   AC15_OpenCondition2=96; MaxOrders=0; MaxOrdersPerType=0;
+          7   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=115; MaxOrders=0; MaxOrdersPerType=0;
+          8   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=134; MaxOrders=0; MaxOrdersPerType=0;
+          9   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=153; MaxOrders=0; MaxOrdersPerType=0;
+         10   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=172; MaxOrders=0; MaxOrdersPerType=0;
+         11   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=191; MaxOrders=0; MaxOrdersPerType=0;
+         12   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=210; MaxOrders=0; MaxOrdersPerType=0;
+         13   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=229; MaxOrders=0; MaxOrdersPerType=0;
+         14   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=248; MaxOrders=0; MaxOrdersPerType=0;
+         15   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=267; MaxOrders=0; MaxOrdersPerType=0;
+         16   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=286; MaxOrders=0; MaxOrdersPerType=0;
+         17   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=305; MaxOrders=0; MaxOrdersPerType=0;
+         18   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=324; MaxOrders=0; MaxOrdersPerType=0;
+         19   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=343; MaxOrders=0; MaxOrdersPerType=0;
+         20   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=362; MaxOrders=0; MaxOrdersPerType=0;
+         21   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=381; MaxOrders=0; MaxOrdersPerType=0;
+         22   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=400; MaxOrders=0; MaxOrdersPerType=0;
+         23   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=419; MaxOrders=0; MaxOrdersPerType=0;
+         24   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=438; MaxOrders=0; MaxOrdersPerType=0;
+         25   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=457; MaxOrders=0; MaxOrdersPerType=0;
+         26   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=476; MaxOrders=0; MaxOrdersPerType=0;
+         27   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=495; MaxOrders=0; MaxOrdersPerType=0;
+         28   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=514; MaxOrders=0; MaxOrdersPerType=0;
+         29   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=533; MaxOrders=0; MaxOrdersPerType=0;
+         30   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=552; MaxOrders=0; MaxOrdersPerType=0;
+         31   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=571; MaxOrders=0; MaxOrdersPerType=0;
+         32   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=590; MaxOrders=0; MaxOrdersPerType=0;
+         33   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=609; MaxOrders=0; MaxOrdersPerType=0;
+         34   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=628; MaxOrders=0; MaxOrdersPerType=0;
+         35   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=647; MaxOrders=0; MaxOrdersPerType=0;
+         36   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=666; MaxOrders=0; MaxOrdersPerType=0;
+         37   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=685; MaxOrders=0; MaxOrdersPerType=0;
+         38   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=704; MaxOrders=0; MaxOrdersPerType=0;
+         39   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=723; MaxOrders=0; MaxOrdersPerType=0;
+         40   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=742; MaxOrders=0; MaxOrdersPerType=0;
+         41   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=761; MaxOrders=0; MaxOrdersPerType=0;
+         42   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=780; MaxOrders=0; MaxOrdersPerType=0;
+         43   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=799; MaxOrders=0; MaxOrdersPerType=0;
+         44   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=818; MaxOrders=0; MaxOrdersPerType=0;
+         45   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=837; MaxOrders=0; MaxOrdersPerType=0;
+         46   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=856; MaxOrders=0; MaxOrdersPerType=0;
+         47   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=875; MaxOrders=0; MaxOrdersPerType=0;
+         48   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=894; MaxOrders=0; MaxOrdersPerType=0;
+         49   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=913; MaxOrders=0; MaxOrdersPerType=0;
+         50   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=932; MaxOrders=0; MaxOrdersPerType=0;
+         51   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=951; MaxOrders=0; MaxOrdersPerType=0;
+         52   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=970; MaxOrders=0; MaxOrdersPerType=0;
+         53   0.00            0          0.00            0.00       0.00       0.00  AC15_OpenCondition2=989; MaxOrders=0; MaxOrdersPerType=0;
+         54   0.00            0          0.00            0.00       0.00       0.00 AC15_OpenCondition2=1008; MaxOrders=0; MaxOrdersPerType=0;

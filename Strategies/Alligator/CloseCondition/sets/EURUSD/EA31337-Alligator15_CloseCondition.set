@@ -29,7 +29,7 @@ Alligator15_SignalMethod=0
 CloseConditionOnlyProfitable=0
 Alligator15_OpenCondition2=0
 # Optimization params.
-Alligator15_CloseCondition=29
+Alligator15_CloseCondition=1
 Alligator15_CloseCondition,F=1
 Alligator15_CloseCondition,1=1
 Alligator15_CloseCondition,2=1

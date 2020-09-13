@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          2 180.19          143          1.36            1.26     199.70       0.20  RSI30_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-          1  97.75          108          1.22            0.91     206.80       0.21   RSI30_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-          3   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-          4   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-          5   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-          6   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-          7   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-          8   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         11   0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-         10 -10.10            5          0.00           -2.02      20.70       0.02 RSI30_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-          9 -32.10            8          0.07           -4.01      52.30       0.05 RSI30_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+         4 17730.06         2149          4.30            8.25    4148.64       3.51 RSI30_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+         5  3752.96         1210          2.55            3.10    1174.20       1.13 RSI30_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+         8  3607.43          308         11.84           11.71    3111.50       3.04 RSI30_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+         9   413.10           49          9.83            8.43     214.20       0.21 RSI30_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+         6   238.30           12          0.00           19.86      62.40       0.06 RSI30_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         3    37.87          115          1.14            0.33     412.83       0.41 RSI30_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+        10     0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+        11     0.00            0          0.00            0.00       0.00       0.00 RSI30_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+         7   -72.90           91          0.52           -0.80     147.10       0.15 RSI30_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         2  -226.79          549          0.93           -0.41    4822.00       4.76  RSI30_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         1 -2189.73         6728          0.92           -0.33    7965.08       7.88   RSI30_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;

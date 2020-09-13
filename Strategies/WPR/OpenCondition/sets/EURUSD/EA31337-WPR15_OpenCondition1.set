@@ -29,7 +29,7 @@ WPR15_SignalMethod=0
 WPR15_OpenCondition2=0
 WPR15_CloseCondition=0
 # Optimization params.
-WPR15_OpenCondition1=583
+WPR15_OpenCondition1=971
 WPR15_OpenCondition1,F=1
 WPR15_OpenCondition1,1=1
 WPR15_OpenCondition1,2=97

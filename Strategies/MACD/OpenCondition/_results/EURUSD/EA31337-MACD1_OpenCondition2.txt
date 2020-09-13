@@ -2,22 +2,24 @@
 
 
                                                                  Optimization Report
-                                                           EA31337-Advanced-Optimize-v1.076
-                                                            Tripleafx-FX-Demo (Build 1010)
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2018.01.04 03:00 - 2018.12.30 23:30 (2018.01.01 - 2018.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 10000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         3  1865.03         4099          1.62            0.45    2536.75      17.61 MACD1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-         8    67.62         1081          1.41            0.06      95.94       0.96 MACD1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-         9   -20.87          113          0.28           -0.18      31.04       0.31 MACD1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-         1  -394.20          579          0.47           -0.68     630.78       6.19   MACD1_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-         6  -774.60         3922          0.81           -0.20    1401.59      13.23 MACD1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         7 -1306.56         5614          0.76           -0.23    1485.40      14.66 MACD1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-         4 -1505.02        20323          0.90           -0.07    4231.11      35.38 MACD1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-         5 -2451.05         5246          0.49           -0.47    2517.91      25.13 MACD1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-         2 -2493.53         8737          0.74           -0.29    6059.27      44.95  MACD1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+      Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        11    -79.60           61          0.45           -1.30     117.60       0.12 MACD1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+        10   -396.00          263          0.42           -1.51     448.30       0.45 MACD1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+         9   -659.30          332          0.34           -1.99     662.70       0.66 MACD1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+         6   -887.00          573          0.38           -1.55     896.70       0.90 MACD1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         3  -1692.20         1279          0.61           -1.32    1899.50       1.90 MACD1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+         2  -2062.60         2203          0.60           -0.94    2351.80       2.35  MACD1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         7  -2346.80         2026          0.68           -1.16    2410.30       2.41 MACD1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         8  -3136.03         2232          0.48           -1.41    3294.23       3.29 MACD1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+         4  -5402.67         4821          0.57           -1.12    5477.07       5.48 MACD1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+         5  -7487.08         4399          0.57           -1.70    7763.88       7.74 MACD1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+         1 -17841.28        15779          0.65           -1.13   18523.55      18.40   MACD1_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;

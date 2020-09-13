@@ -2,24 +2,15 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
      Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       11   -11.30            4          0.57           -2.83      34.20       0.03 Bands30_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-        9   -74.54           91          0.82           -0.82     198.04       0.20 Bands30_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-        7  -108.20           40          0.49           -2.71     169.70       0.17 Bands30_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-        3  -123.51          100          0.71           -1.24     177.34       0.18 Bands30_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-       10  -129.04           70          0.62           -1.84     184.94       0.18 Bands30_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-        5  -164.23          291          0.89           -0.56     564.66       0.56 Bands30_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-        6  -299.11          142          0.58           -2.11     319.01       0.32 Bands30_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-        8  -305.96          429          0.85           -0.71     529.99       0.53 Bands30_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-        2  -556.29         1446          0.93           -0.38    1357.04       1.36  Bands30_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-        1 -1068.94         1461          0.87           -0.73    1923.16       1.92   Bands30_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-        4 -1635.25         1364          0.80           -1.20    2919.71       2.90 Bands30_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+        2 -4053.76         1555          0.55           -2.61    5691.99       5.69 Bands30_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+        1 -7638.13         6079          0.74           -1.26   15045.75      14.96 Bands30_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;

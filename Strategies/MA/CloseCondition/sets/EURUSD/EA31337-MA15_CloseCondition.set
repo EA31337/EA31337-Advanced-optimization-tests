@@ -28,7 +28,7 @@ MA15_SignalMethod=0
 CloseConditionOnlyProfitable=0
 MA15_OpenCondition2=0
 # Optimization params.
-MA15_CloseCondition=24
+MA15_CloseCondition=1
 MA15_CloseCondition,F=1
 MA15_CloseCondition,1=1
 MA15_CloseCondition,2=1

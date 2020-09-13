@@ -28,7 +28,7 @@ CCI1_SignalMethod=0
 CloseConditionOnlyProfitable=0
 CCI1_OpenCondition2=0
 # Optimization params.
-CCI1_CloseCondition=13
+CCI1_CloseCondition=1
 CCI1_CloseCondition,F=1
 CCI1_CloseCondition,1=1
 CCI1_CloseCondition,2=1

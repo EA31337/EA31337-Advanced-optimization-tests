@@ -2,24 +2,23 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-      Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1   0.00            0          0.00            0.00       0.00       0.00   Force30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;
-         2   0.00            0          0.00            0.00       0.00       0.00  Force30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
-         3   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
-         4   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=292; MaxOrders=0; MaxOrdersPerType=0;
-         5   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
-         6   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
-         7   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
-         8   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
-         9   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
-        10   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
-        11   0.00            0          0.00            0.00       0.00       0.00 Force30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+     Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+       10   -25.50            7          0.00           -3.64      47.20       0.05 Force30_OpenCondition1=971; MaxOrders=0; MaxOrdersPerType=0;
+        9   -37.10            7          0.00           -5.30      68.80       0.07 Force30_OpenCondition1=874; MaxOrders=0; MaxOrdersPerType=0;
+        6   -99.42          172          0.88           -0.58     448.89       0.45 Force30_OpenCondition1=583; MaxOrders=0; MaxOrdersPerType=0;
+        8  -183.57           37          0.27           -4.96     270.97       0.27 Force30_OpenCondition1=777; MaxOrders=0; MaxOrdersPerType=0;
+        3  -356.08          260          0.75           -1.37     768.95       0.77 Force30_OpenCondition1=195; MaxOrders=0; MaxOrdersPerType=0;
+        7  -568.50           71          0.00           -8.01     588.00       0.59 Force30_OpenCondition1=680; MaxOrders=0; MaxOrdersPerType=0;
+        2  -761.82          180          0.59           -4.23    1686.12       1.68  Force30_OpenCondition1=98; MaxOrders=0; MaxOrdersPerType=0;
+        5 -1190.62          133          0.30           -8.95    1969.92       1.97 Force30_OpenCondition1=486; MaxOrders=0; MaxOrdersPerType=0;
+        4 -5019.86        11215          0.92           -0.45   11255.02      11.04 Force30_OpenCondition1=389; MaxOrders=0; MaxOrdersPerType=0;
+        1 -5904.49        13665          0.92           -0.43   13711.37      13.46   Force30_OpenCondition1=1; MaxOrders=0; MaxOrdersPerType=0;

@@ -1,0 +1,30 @@
+
+
+
+                                                                 Optimization Report
+                                                             EA31337-Advanced-v1.080-dev
+                                                                     (Build 1260)
+
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
+                                                                 [Optimization Graph]
+        Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           6  380.31          188          1.80            2.02     125.81       0.13  Envelopes_Active_Tf=5; MaxOrders=0; MaxOrdersPerType=0;
+          16  370.35          787          1.16            0.47     487.25       0.48 Envelopes_Active_Tf=15; MaxOrders=0; MaxOrdersPerType=0;
+           8  368.30          524          1.23            0.70     347.92       0.35  Envelopes_Active_Tf=7; MaxOrders=0; MaxOrdersPerType=0;
+          14  335.42          459          1.31            0.73     279.61       0.28 Envelopes_Active_Tf=13; MaxOrders=0; MaxOrdersPerType=0;
+           2  223.06          150          1.53            1.49     119.20       0.12  Envelopes_Active_Tf=1; MaxOrders=0; MaxOrdersPerType=0;
+           4  214.82          496          1.14            0.43     345.42       0.34  Envelopes_Active_Tf=3; MaxOrders=0; MaxOrdersPerType=0;
+          12  190.27          766          1.08            0.25     477.74       0.48 Envelopes_Active_Tf=11; MaxOrders=0; MaxOrdersPerType=0;
+          10  187.37          427          1.18            0.44     281.81       0.28  Envelopes_Active_Tf=9; MaxOrders=0; MaxOrdersPerType=0;
+           5  142.88           38          2.72            3.76      43.80       0.04  Envelopes_Active_Tf=4; MaxOrders=0; MaxOrdersPerType=0;
+          13   62.90          308          1.08            0.20     250.71       0.25 Envelopes_Active_Tf=12; MaxOrders=0; MaxOrdersPerType=0;
+          15   31.41          652          1.02            0.05     476.69       0.48 Envelopes_Active_Tf=14; MaxOrders=0; MaxOrdersPerType=0;
+           7    3.49          382          1.00            0.01     351.44       0.35  Envelopes_Active_Tf=6; MaxOrders=0; MaxOrdersPerType=0;
+           1    0.00            0          0.00            0.00       0.00       0.00  Envelopes_Active_Tf=0; MaxOrders=0; MaxOrdersPerType=0;
+           9  -98.59          277          0.86           -0.36     289.34       0.29  Envelopes_Active_Tf=8; MaxOrders=0; MaxOrdersPerType=0;
+          11 -146.37          623          0.92           -0.23     473.29       0.47 Envelopes_Active_Tf=10; MaxOrders=0; MaxOrdersPerType=0;
+           3 -169.59          351          0.85           -0.48     359.73       0.36  Envelopes_Active_Tf=2; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
       Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-         1 -12.90            2          0.25           -6.45      19.90       0.02   Force15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-         2 -12.90            2          0.25           -6.45      19.90       0.02  Force15_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-         3 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-         4 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-         5 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-         6 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-         7 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-         8 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         9 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-        10 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-        11 -12.90            2          0.25           -6.45      19.90       0.02 Force15_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+         1  19.10            1          0.00           19.10       9.20       0.01   Force15_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+         2  19.10            1          0.00           19.10       9.20       0.01  Force15_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         3  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+         4  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+         5  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+         6  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         7  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         8  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+         9  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+        10  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+        11  19.10            1          0.00           19.10       9.20       0.01 Force15_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;

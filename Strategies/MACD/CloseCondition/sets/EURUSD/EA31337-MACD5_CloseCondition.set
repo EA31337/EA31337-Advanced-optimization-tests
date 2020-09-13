@@ -28,7 +28,7 @@ MACD5_SignalMethod=0
 CloseConditionOnlyProfitable=0
 MACD5_OpenCondition2=0
 # Optimization params.
-MACD5_CloseCondition=1
+MACD5_CloseCondition=2
 MACD5_CloseCondition,F=1
 MACD5_CloseCondition,1=1
 MACD5_CloseCondition,2=1

@@ -29,7 +29,7 @@ MFI15_SignalMethod=0
 MFI15_OpenCondition2=0
 MFI15_CloseCondition=0
 # Optimization params.
-MFI15_OpenCondition1=292
+MFI15_OpenCondition1=1
 MFI15_OpenCondition1,F=1
 MFI15_OpenCondition1,1=1
 MFI15_OpenCondition1,2=97

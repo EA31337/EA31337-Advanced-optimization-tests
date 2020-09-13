@@ -5,7 +5,7 @@ Account_Conditions_Active=0
 ProfitFactorMinToTrade=0
 ProfitFactorMaxToTrade=0
 # Optimization params.
-TrendPeriod=30
+TrendPeriod=1440
 TrendPeriod,F=1
 TrendPeriod,1=5
 TrendPeriod,2=0

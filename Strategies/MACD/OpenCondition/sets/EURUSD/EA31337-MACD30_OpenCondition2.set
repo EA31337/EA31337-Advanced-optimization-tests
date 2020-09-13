@@ -29,7 +29,7 @@ MACD30_SignalMethod=0
 MACD30_OpenCondition1=0
 MACD30_CloseCondition=0
 # Optimization params.
-MACD30_OpenCondition2=195
+MACD30_OpenCondition2=971
 MACD30_OpenCondition2,F=1
 MACD30_OpenCondition2,1=1
 MACD30_OpenCondition2,2=97

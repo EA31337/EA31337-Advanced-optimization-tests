@@ -2,24 +2,24 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
-                            Symbol          EURUSD (Euro vs US Dollar)
-                            Period          30 Minutes (M30) 2019.08.01 00:00 - 2019.12.30 23:30 (2019.08.01 - 2019.12.31)
-                            Model           Every tick (the most precise method based on all available least timeframes)
-                            Initial deposit 100000.00
-                            Spread          10
+                             Symbol          EURUSD (Euro vs US Dollar)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
+                             Model           Every tick (the most precise method based on all available least timeframes)
+                             Initial deposit 100000.00
+                             Spread          10
                                                                  [Optimization Graph]
-        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-           1  59.50            8          7.61            7.44      15.00       0.01   RSI5_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
-           2   0.00            0          0.00            0.00       0.00       0.00  RSI5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-           3   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-           4   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-           5   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-           6   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-           7   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-           8   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-          10   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-          11   0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-           9  -9.00            5          0.00           -1.80       9.30       0.01 RSI5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+       Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+          4   418.63          477          1.30            0.88     726.27       0.72 RSI5_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+          9     8.30           18          1.28            0.46      58.10       0.06 RSI5_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+          6     4.40           46          1.03            0.10     374.00       0.37 RSI5_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         10     0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+         11     0.00            0          0.00            0.00       0.00       0.00 RSI5_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+          3   -37.58           65          0.78           -0.58     162.71       0.16 RSI5_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+          5   -62.31          307          0.90           -0.20     276.80       0.28 RSI5_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+          7  -103.37           78          0.33           -1.33     156.10       0.16 RSI5_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+          8  -190.37          104          0.65           -1.83     704.90       0.70 RSI5_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+          2  -404.83          259          0.69           -1.56     749.80       0.75  RSI5_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+          1 -1103.25         1837          0.77           -0.60    1115.45       1.12   RSI5_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;

@@ -2,45 +2,45 @@
 
 
                                                                  Optimization Report
-                                                             EA31337-Advanced-v1.079-dev
+                                                             EA31337-Advanced-v1.080-dev
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-     Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-       20   19.05           27          1.16            0.71      68.13       0.07 Alligator1_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
-       29   19.05           27          1.16            0.71      68.13       0.07 Alligator1_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
-        1   12.95           27          1.10            0.48      68.13       0.07  Alligator1_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
-        5   12.95           27          1.10            0.48      68.13       0.07  Alligator1_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
-       14   12.95           27          1.10            0.48      68.13       0.07 Alligator1_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
-       26   12.95           27          1.10            0.48      68.13       0.07 Alligator1_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
-        2    0.00            0          0.00            0.00       0.00       0.00  Alligator1_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
-        4    0.00            0          0.00            0.00       0.00       0.00  Alligator1_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
-        6    0.00            0          0.00            0.00       0.00       0.00  Alligator1_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
-        8    0.00            0          0.00            0.00       0.00       0.00  Alligator1_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
-        9    0.00            0          0.00            0.00       0.00       0.00  Alligator1_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
-       10    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
-       11    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
-       15    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
-       16    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
-       17    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
-       21    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
-       22    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
-       23    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
-       25    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
-       27    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
-       28    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;
-       30    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
-       31    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
-       32    0.00            0          0.00            0.00       0.00       0.00 Alligator1_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
-       13   -9.30            7          0.00           -1.33      61.40       0.06 Alligator1_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
-        3  -30.60           14          0.06           -2.19      78.30       0.08  Alligator1_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
-       19  -56.59           45          0.76           -1.26      97.56       0.10 Alligator1_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
-       18 -153.78          196          0.73           -0.78     227.59       0.23 Alligator1_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
-       24 -153.78          196          0.73           -0.78     227.59       0.23 Alligator1_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
-        7 -172.98          197          0.71           -0.88     246.79       0.25  Alligator1_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
-       12 -217.86          182          0.57           -1.20     281.63       0.28 Alligator1_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+     Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+        1 752.81          304          1.57            2.48     278.64       0.28  Alligator1_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+       14 752.81          304          1.57            2.48     278.64       0.28 Alligator1_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+       24 736.12          157          1.83            4.69     252.24       0.25 Alligator1_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=0;
+       19 717.72          157          1.82            4.57     259.54       0.26 Alligator1_CloseCondition=19; MaxOrders=0; MaxOrdersPerType=0;
+        2 705.72          157          1.80            4.50     277.04       0.28  Alligator1_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+        7 703.42          157          1.80            4.48     273.64       0.27  Alligator1_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+       20 700.12          157          1.79            4.46     281.44       0.28 Alligator1_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
+       15 698.82          157          1.79            4.45     278.74       0.28 Alligator1_CloseCondition=15; MaxOrders=0; MaxOrdersPerType=0;
+       13 690.31          158          1.75            4.37     252.24       0.25 Alligator1_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=0;
+       26 689.02          157          1.77            4.39     284.14       0.28 Alligator1_CloseCondition=26; MaxOrders=0; MaxOrdersPerType=0;
+        3 689.02          157          1.77            4.39     282.34       0.28  Alligator1_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+       11 681.81          157          1.74            4.34     252.24       0.25 Alligator1_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=0;
+       12 681.81          157          1.74            4.34     252.24       0.25 Alligator1_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=0;
+       29 681.81          157          1.74            4.34     252.24       0.25 Alligator1_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=0;
+       30  -8.30            5          0.33           -1.66      19.60       0.02 Alligator1_CloseCondition=30; MaxOrders=0; MaxOrdersPerType=0;
+       31  -8.30            5          0.33           -1.66      19.60       0.02 Alligator1_CloseCondition=31; MaxOrders=0; MaxOrdersPerType=0;
+       32 -10.70            5          0.15           -2.14      28.00       0.03 Alligator1_CloseCondition=32; MaxOrders=0; MaxOrdersPerType=0;
+        4 -26.61            5          0.47           -5.32      70.60       0.07  Alligator1_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=0;
+        5 -26.61            5          0.47           -5.32      70.60       0.07  Alligator1_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+        6 -26.61            5          0.47           -5.32      70.60       0.07  Alligator1_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+        8 -26.61            5          0.47           -5.32      70.60       0.07  Alligator1_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+        9 -26.61            5          0.47           -5.32      70.60       0.07  Alligator1_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+       10 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+       16 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+       17 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+       18 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+       21 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+       22 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+       23 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+       25 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+       27 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+       28 -26.61            5          0.47           -5.32      70.60       0.07 Alligator1_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;

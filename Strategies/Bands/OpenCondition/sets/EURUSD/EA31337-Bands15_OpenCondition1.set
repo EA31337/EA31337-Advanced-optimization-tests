@@ -29,7 +29,7 @@ Bands15_SignalMethod=0
 Bands15_OpenCondition2=0
 Bands15_CloseCondition=0
 # Optimization params.
-Bands15_OpenCondition1=389
+Bands15_OpenCondition1=486
 Bands15_OpenCondition1,F=1
 Bands15_OpenCondition1,1=1
 Bands15_OpenCondition1,2=97

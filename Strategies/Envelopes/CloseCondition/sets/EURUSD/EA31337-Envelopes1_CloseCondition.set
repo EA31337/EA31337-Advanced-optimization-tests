@@ -28,7 +28,7 @@ Envelopes1_SignalMethod=0
 CloseConditionOnlyProfitable=0
 Envelopes1_OpenCondition2=0
 # Optimization params.
-Envelopes1_CloseCondition=13
+Envelopes1_CloseCondition=1
 Envelopes1_CloseCondition,F=1
 Envelopes1_CloseCondition,1=1
 Envelopes1_CloseCondition,2=1

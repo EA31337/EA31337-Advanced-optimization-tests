@@ -14,7 +14,7 @@ BoostTrendFactor=1.0
 ConWinsIncreaseFactor=1.0
 ConLossesIncreaseFactor=1.0
 # Optimization params.
-WorseMonthlyStrategyMultiplierFactor=0.1
+WorseMonthlyStrategyMultiplierFactor=0.4
 WorseMonthlyStrategyMultiplierFactor,F=0
 WorseMonthlyStrategyMultiplierFactor,1=0
 WorseMonthlyStrategyMultiplierFactor,2=0
