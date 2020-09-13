@@ -6,11 +6,11 @@
                                                                      (Build 1260)
 
                              Symbol          EURUSD (Euro vs US Dollar)
-                             Period          1 Minute (M1) 2019.06.02 21:01 - 2019.12.30 23:59 (2019.06.01 - 2019.12.31)
+                             Period          1 Minute (M1) 2019.01.01 23:42 - 2019.12.30 23:59 (2019.01.01 - 2019.12.31)
                              Model           Every tick (the most precise method based on all available least timeframes)
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-          Pass  Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             2   91.64           95          1.07            0.96     602.14       0.60 Boosting_Enabled=1; MaxOrders=0; MaxOrdersPerType=0;
-             1 -428.25          127          0.80           -3.37     638.84       0.64 Boosting_Enabled=0; MaxOrders=0; MaxOrdersPerType=0;
+         Pass   Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+            2 36111.22         1909          1.75           18.92   11399.79       8.28 Boosting_Enabled=1; MaxOrders=0; MaxOrdersPerType=0;
+            1 32039.78         2618          1.47           12.24   10524.27       7.81 Boosting_Enabled=0; MaxOrders=0; MaxOrdersPerType=0;
