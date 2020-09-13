@@ -21,7 +21,7 @@ RSI_Active_Tf=0
 SAR_Active_Tf=0
 WPR_Active_Tf=0
 # Optimization params.
-Alligator_Active_Tf=15
+Alligator_Active_Tf=5
 Alligator_Active_Tf,F=1
 Alligator_Active_Tf,1=0
 Alligator_Active_Tf,2=1
