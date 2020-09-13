@@ -29,7 +29,7 @@ ADX5_SignalMethod=0
 ADX5_OpenCondition2=0
 ADX5_CloseCondition=0
 # Optimization params.
-ADX5_OpenCondition1=249
+ADX5_OpenCondition1=652
 ADX5_OpenCondition1,F=1
 ADX5_OpenCondition1,1=1
 ADX5_OpenCondition1,2=31
