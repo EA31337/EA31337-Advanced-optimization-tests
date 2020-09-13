@@ -11,29 +11,24 @@
                              Initial deposit 100000.00
                              Spread          10
                                                                  [Optimization Graph]
-       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-          4      0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=6;
-          5      0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=6;
-          6      0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=6;
-          7      0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=6;
-          8      0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=6;
-          9      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=6;
-         14      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=6;
-         15      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=6;
-         16      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=6;
-         18      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=6;
-         19      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=6;
-         20      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=6;
-         22      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=6;
-         23      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=6;
-         24      0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=6;
-          1  -5473.67         4159          0.73           -1.32    6441.96       6.40  MA15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=6;
-          2  -5473.67         4159          0.73           -1.32    6441.96       6.40  MA15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=6;
-         10  -5473.67         4159          0.73           -1.32    6441.96       6.40 MA15_CloseCondition=11; MaxOrders=0; MaxOrdersPerType=6;
-         12  -5473.67         4159          0.73           -1.32    6441.96       6.40 MA15_CloseCondition=13; MaxOrders=0; MaxOrdersPerType=6;
-         13  -5473.67         4159          0.73           -1.32    6441.96       6.40 MA15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=6;
-         17  -5473.67         4159          0.73           -1.32    6441.96       6.40 MA15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=6;
-         11  -6658.31         9691          0.80           -0.69    7289.71       7.26 MA15_CloseCondition=12; MaxOrders=0; MaxOrdersPerType=6;
-          3  -9787.87        12057          0.81           -0.81   10374.65      10.32  MA15_CloseCondition=4; MaxOrders=0; MaxOrdersPerType=6;
-         21 -10220.72        14995          0.74           -0.68   10826.67      10.79 MA15_CloseCondition=24; MaxOrders=0; MaxOrdersPerType=6;
-         25 -11524.14        14335          0.76           -0.80   12413.59      12.31 MA15_CloseCondition=29; MaxOrders=0; MaxOrdersPerType=6;
+        Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
+           1   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=1; MaxOrders=0; MaxOrdersPerType=0;
+           2   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=2; MaxOrders=0; MaxOrdersPerType=0;
+           3   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=3; MaxOrders=0; MaxOrdersPerType=0;
+           4   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=5; MaxOrders=0; MaxOrdersPerType=0;
+           5   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=6; MaxOrders=0; MaxOrdersPerType=0;
+           6   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=7; MaxOrders=0; MaxOrdersPerType=0;
+           7   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=8; MaxOrders=0; MaxOrdersPerType=0;
+           8   0.00            0          0.00            0.00       0.00       0.00  MA15_CloseCondition=9; MaxOrders=0; MaxOrdersPerType=0;
+           9   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=10; MaxOrders=0; MaxOrdersPerType=0;
+          10   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=14; MaxOrders=0; MaxOrdersPerType=0;
+          11   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=16; MaxOrders=0; MaxOrdersPerType=0;
+          12   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=17; MaxOrders=0; MaxOrdersPerType=0;
+          13   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=18; MaxOrders=0; MaxOrdersPerType=0;
+          14   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=20; MaxOrders=0; MaxOrdersPerType=0;
+          15   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=21; MaxOrders=0; MaxOrdersPerType=0;
+          16   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=22; MaxOrders=0; MaxOrdersPerType=0;
+          17   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=23; MaxOrders=0; MaxOrdersPerType=0;
+          18   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=25; MaxOrders=0; MaxOrdersPerType=0;
+          19   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=27; MaxOrders=0; MaxOrdersPerType=0;
+          20   0.00            0          0.00            0.00       0.00       0.00 MA15_CloseCondition=28; MaxOrders=0; MaxOrdersPerType=0;

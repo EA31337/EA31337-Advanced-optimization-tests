@@ -31,7 +31,7 @@ AC5_SignalMethod=0
 AC15_SignalMethod=0
 AC30_SignalMethod=0
 # Optimization params.
-AC5_CloseCondition=31
+AC5_CloseCondition=12
 AC5_CloseCondition,F=1
 AC5_CloseCondition,1=1
 AC5_CloseCondition,2=1
