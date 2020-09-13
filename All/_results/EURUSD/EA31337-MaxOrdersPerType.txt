@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
           Pass Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-             1  91.80           96          1.13            0.96     177.04       0.18  MaxOrdersPerType=0; MaxOrders=0; MaxOrdersPerDay=0;
-             2  91.80           96          1.13            0.96     177.04       0.18  MaxOrdersPerType=2; MaxOrders=0; MaxOrdersPerDay=0;
-             3  91.80           96          1.13            0.96     177.04       0.18  MaxOrdersPerType=4; MaxOrders=0; MaxOrdersPerDay=0;
-             4  91.80           96          1.13            0.96     177.04       0.18  MaxOrdersPerType=6; MaxOrders=0; MaxOrdersPerDay=0;
-             5  91.80           96          1.13            0.96     177.04       0.18  MaxOrdersPerType=8; MaxOrders=0; MaxOrdersPerDay=0;
-             6  91.80           96          1.13            0.96     177.04       0.18 MaxOrdersPerType=10; MaxOrders=0; MaxOrdersPerDay=0;
-             7  91.80           96          1.13            0.96     177.04       0.18 MaxOrdersPerType=12; MaxOrders=0; MaxOrdersPerDay=0;
-             8  91.80           96          1.13            0.96     177.04       0.18 MaxOrdersPerType=14; MaxOrders=0; MaxOrdersPerDay=0;
-             9  91.80           96          1.13            0.96     177.04       0.18 MaxOrdersPerType=16; MaxOrders=0; MaxOrdersPerDay=0;
-            10  91.80           96          1.13            0.96     177.04       0.18 MaxOrdersPerType=18; MaxOrders=0; MaxOrdersPerDay=0;
-            11  91.80           96          1.13            0.96     177.04       0.18 MaxOrdersPerType=20; MaxOrders=0; MaxOrdersPerDay=0;
+             1 478.98          385          1.41            1.24     220.42       0.22  MaxOrdersPerType=0; MaxOrders=0; MaxOrdersPerDay=0;
+             3 478.98          385          1.41            1.24     220.42       0.22  MaxOrdersPerType=4; MaxOrders=0; MaxOrdersPerDay=0;
+             4 478.98          385          1.41            1.24     220.42       0.22  MaxOrdersPerType=6; MaxOrders=0; MaxOrdersPerDay=0;
+             5 478.98          385          1.41            1.24     220.42       0.22  MaxOrdersPerType=8; MaxOrders=0; MaxOrdersPerDay=0;
+             6 478.98          385          1.41            1.24     220.42       0.22 MaxOrdersPerType=10; MaxOrders=0; MaxOrdersPerDay=0;
+             7 478.98          385          1.41            1.24     220.42       0.22 MaxOrdersPerType=12; MaxOrders=0; MaxOrdersPerDay=0;
+             8 478.98          385          1.41            1.24     220.42       0.22 MaxOrdersPerType=14; MaxOrders=0; MaxOrdersPerDay=0;
+             9 478.98          385          1.41            1.24     220.42       0.22 MaxOrdersPerType=16; MaxOrders=0; MaxOrdersPerDay=0;
+            10 478.98          385          1.41            1.24     220.42       0.22 MaxOrdersPerType=18; MaxOrders=0; MaxOrdersPerDay=0;
+            11 478.98          385          1.41            1.24     220.42       0.22 MaxOrdersPerType=20; MaxOrders=0; MaxOrdersPerDay=0;
+             2 458.98          384          1.40            1.20     220.42       0.22  MaxOrdersPerType=2; MaxOrders=0; MaxOrdersPerDay=0;
