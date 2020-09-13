@@ -12,14 +12,14 @@
                              Spread          10
                                                                  [Optimization Graph]
       Pass    Profit Total trades Profit factor Expected Payoff Drawdown $ Drawdown %
-        11    -96.47          125          0.64           -0.77     133.30       0.13 MACD1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
-        10   -416.00          374          0.55           -1.11     520.60       0.52 MACD1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
-         3  -1082.57         1168          0.69           -0.93    1464.70       1.46 MACD1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
-         8  -1312.34         1719          0.63           -0.76    1613.34       1.61 MACD1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
-         9  -1433.16          862          0.48           -1.66    1469.79       1.47 MACD1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
-         6  -1584.90         1145          0.44           -1.38    1601.94       1.60 MACD1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
-         7  -3866.85         2339          0.53           -1.65    4065.04       4.06 MACD1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
-         2  -3956.30         3440          0.49           -1.15    4038.50       4.04  MACD1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
-         5 -10182.30         8472          0.63           -1.20   10272.00      10.26 MACD1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
-         4 -15539.55        12919          0.50           -1.20   15805.42      15.80 MACD1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
-         1 -30355.58        25926          0.65           -1.17   31325.81      31.04   MACD1_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
+        11    -79.60           61          0.45           -1.30     117.60       0.12 MACD1_OpenCondition2=971; MaxOrders=0; MaxOrdersPerType=0;
+        10   -396.00          263          0.42           -1.51     448.30       0.45 MACD1_OpenCondition2=874; MaxOrders=0; MaxOrdersPerType=0;
+         9   -659.30          332          0.34           -1.99     662.70       0.66 MACD1_OpenCondition2=777; MaxOrders=0; MaxOrdersPerType=0;
+         6   -887.00          573          0.38           -1.55     896.70       0.90 MACD1_OpenCondition2=486; MaxOrders=0; MaxOrdersPerType=0;
+         3  -1692.20         1279          0.61           -1.32    1899.50       1.90 MACD1_OpenCondition2=195; MaxOrders=0; MaxOrdersPerType=0;
+         2  -2062.60         2203          0.60           -0.94    2351.80       2.35  MACD1_OpenCondition2=98; MaxOrders=0; MaxOrdersPerType=0;
+         7  -2346.80         2026          0.68           -1.16    2410.30       2.41 MACD1_OpenCondition2=583; MaxOrders=0; MaxOrdersPerType=0;
+         8  -3136.03         2232          0.48           -1.41    3294.23       3.29 MACD1_OpenCondition2=680; MaxOrders=0; MaxOrdersPerType=0;
+         4  -5402.67         4821          0.57           -1.12    5477.07       5.48 MACD1_OpenCondition2=292; MaxOrders=0; MaxOrdersPerType=0;
+         5  -7487.08         4399          0.57           -1.70    7763.88       7.74 MACD1_OpenCondition2=389; MaxOrders=0; MaxOrdersPerType=0;
+         1 -17841.28        15779          0.65           -1.13   18523.55      18.40   MACD1_OpenCondition2=1; MaxOrders=0; MaxOrdersPerType=0;
